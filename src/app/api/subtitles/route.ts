@@ -44,10 +44,11 @@ export async function GET(request: NextRequest) {
 
 async function getCaptionUrlFromPage(videoId: string, lang: string): Promise<string | null> {
   try {
-    const resp = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
+    const resp = await fetch(`https://www.youtube.com/watch?v=${videoId}&hl=en`, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept-Language': 'en-US,en;q=0.9',
+        'Cookie': 'CONSENT=PENDING+987; SOCS=CAESEwgDEgk2ODE4MTAyNjQaAmVuIAEaBgiA_LyaBg',
       },
     });
 
