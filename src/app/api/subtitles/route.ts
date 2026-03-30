@@ -9,43 +9,30 @@ interface SubtitleSegment {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const videoId = searchParams.get('videoId');
+  const captionUrl = searchParams.get('captionUrl');
   const lang = searchParams.get('lang') || 'en';
 
+  // Mode 1: Proxy a known caption URL (from client-side innertube call)
+  if (captionUrl) {
+    return await fetchAndParseSubtitles(captionUrl);
+  }
+
+  // Mode 2: Server-side caption discovery (fallback)
   if (!videoId) {
-    return NextResponse.json({ error: 'videoId is required' }, { status: 400 });
+    return NextResponse.json({ error: 'videoId or captionUrl is required' }, { status: 400 });
   }
 
   try {
-    // Strategy 1: Scrape YouTube watch page for caption URLs
-    // More reliable from cloud IPs than innertube API
-    const captionUrl = await getCaptionUrlFromPage(videoId, lang);
-
-    if (!captionUrl) {
-      // Strategy 2: Fallback to innertube API with multiple clients
-      const captionUrlFallback = await getCaptionUrlFromInnertube(videoId, lang);
-      if (!captionUrlFallback) {
-        // Debug: check what YouTube returns
-        const debugResp = await fetch(`https://www.youtube.com/watch?v=${videoId}&hl=en`, {
-          headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Cookie': 'CONSENT=PENDING+987; SOCS=CAESEwgDEgk2ODE4MTAyNjQaAmVuIAEaBgiA_LyaBg',
-          },
-        });
-        const debugHtml = await debugResp.text();
-        const hasPlayer = debugHtml.includes('ytInitialPlayerResponse');
-        const hasCaptions = debugHtml.includes('captionTracks');
-        const htmlLen = debugHtml.length;
-
-        return NextResponse.json(
-          { error: 'No captions available for this video', debug: { htmlLen, hasPlayer, hasCaptions, status: debugResp.status } },
-          { status: 404 }
-        );
-      }
-      return await fetchAndParseSubtitles(captionUrlFallback);
+    // Try innertube API from server
+    const url = await getCaptionUrlFromInnertube(videoId, lang);
+    if (url) {
+      return await fetchAndParseSubtitles(url);
     }
 
-    return await fetchAndParseSubtitles(captionUrl);
+    return NextResponse.json(
+      { error: 'No captions available for this video. Try refreshing the page.' },
+      { status: 404 }
+    );
   } catch (err) {
     console.error('Subtitle fetch error:', err);
     return NextResponse.json(
@@ -55,92 +42,30 @@ export async function GET(request: NextRequest) {
   }
 }
 
-async function getCaptionUrlFromPage(videoId: string, lang: string): Promise<string | null> {
-  try {
-    const resp = await fetch(`https://www.youtube.com/watch?v=${videoId}&hl=en`, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Cookie': 'CONSENT=PENDING+987; SOCS=CAESEwgDEgk2ODE4MTAyNjQaAmVuIAEaBgiA_LyaBg',
-      },
-    });
-
-    if (!resp.ok) return null;
-
-    const html = await resp.text();
-
-    // Extract ytInitialPlayerResponse JSON — use greedy match up to the closing pattern
-    const match = html.match(/ytInitialPlayerResponse\s*=\s*(\{.+\});\s*(?:var\s|<\/script)/);
-    if (!match) {
-      // Fallback: try to find "captionTracks" directly
-      const captionMatch = html.match(/"captionTracks":\s*(\[.*?\])/);
-      if (captionMatch) {
-        try {
-          const tracks = JSON.parse(captionMatch[1]);
-          return pickCaptionTrackUrl(tracks, lang);
-        } catch { /* continue */ }
-      }
-      return null;
-    }
-
-    let playerData;
-    try {
-      playerData = JSON.parse(match[1]);
-    } catch {
-      // JSON may be malformed from greedy match, try to find captionTracks directly
-      const captionMatch = html.match(/"captionTracks":\s*(\[.*?\])/);
-      if (captionMatch) {
-        try {
-          const tracks = JSON.parse(captionMatch[1]);
-          return pickCaptionTrackUrl(tracks, lang);
-        } catch { /* continue */ }
-      }
-      return null;
-    }
-    const captionTracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
-
-    if (!captionTracks || captionTracks.length === 0) return null;
-
-    return pickCaptionTrackUrl(captionTracks, lang);
-  } catch {
-    return null;
-  }
-}
-
 async function getCaptionUrlFromInnertube(videoId: string, lang: string): Promise<string | null> {
   const clients = [
     { clientName: 'WEB', clientVersion: '2.20240313.05.00', ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' },
     { clientName: 'ANDROID', clientVersion: '20.10.38', ua: 'com.google.android.youtube/20.10.38 (Linux; U; Android 14)' },
-    { clientName: 'IOS', clientVersion: '19.29.1', ua: 'com.google.ios.youtube/19.29.1' },
   ];
 
   for (const { clientName, clientVersion, ua } of clients) {
     try {
       const playerResp = await fetch('https://www.youtube.com/youtubei/v1/player', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'User-Agent': ua,
-        },
+        headers: { 'Content-Type': 'application/json', 'User-Agent': ua },
         body: JSON.stringify({
           videoId,
-          context: {
-            client: { clientName, clientVersion, hl: lang },
-          },
+          context: { client: { clientName, clientVersion, hl: lang } },
         }),
       });
-
       if (!playerResp.ok) continue;
 
       const playerData = await playerResp.json();
       const tracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
-      if (tracks && tracks.length > 0) {
-        const url = pickCaptionTrackUrl(tracks, lang);
-        if (url) return url;
+      if (tracks?.length > 0) {
+        return pickCaptionTrackUrl(tracks, lang);
       }
-    } catch {
-      continue;
-    }
+    } catch { continue; }
   }
   return null;
 }
@@ -150,15 +75,10 @@ function pickCaptionTrackUrl(
   lang: string
 ): string | null {
   let track = captionTracks.find((t) => t.languageCode === lang);
-  if (!track && lang !== 'en') {
-    track = captionTracks.find((t) => t.languageCode === 'en');
-  }
-  if (!track) {
-    track = captionTracks[0];
-  }
+  if (!track && lang !== 'en') track = captionTracks.find((t) => t.languageCode === 'en');
+  if (!track) track = captionTracks[0];
   if (!track) return null;
 
-  // Request srv3 format for word-level timing
   const url = track.baseUrl;
   return url + (url.includes('?') ? '&' : '?') + 'fmt=srv3';
 }
@@ -166,51 +86,34 @@ function pickCaptionTrackUrl(
 async function fetchAndParseSubtitles(captionUrl: string) {
   const captionResp = await fetch(captionUrl);
   if (!captionResp.ok) {
-    return NextResponse.json(
-      { error: 'Failed to fetch caption track' },
-      { status: 502 }
-    );
+    return NextResponse.json({ error: 'Failed to fetch caption track' }, { status: 502 });
   }
-
   const captionXml = await captionResp.text();
-  const subtitles = parseSubtitleXml(captionXml);
-  return NextResponse.json(subtitles);
+  return NextResponse.json(parseSubtitleXml(captionXml));
 }
 
 function parseSubtitleXml(xml: string): SubtitleSegment[] {
   const segments: SubtitleSegment[] = [];
-
-  // Try srv3 format: <p t="ms" d="ms"><s>word</s>...</p>
-  const pRegex = /<p\s+t="(\d+)"\s+d="(\d+)"[^>]*>([\s\S]*?)<\/p>/g;
   let match;
 
+  // srv3 format: <p t="ms" d="ms">...</p>
+  const pRegex = /<p\s+t="(\d+)"\s+d="(\d+)"[^>]*>([\s\S]*?)<\/p>/g;
   while ((match = pRegex.exec(xml)) !== null) {
-    const startMs = parseInt(match[1]);
-    const durationMs = parseInt(match[2]);
-
-    let text = match[3];
-    text = text.replace(/<s[^>]*>/g, '').replace(/<\/s>/g, ' ');
-    text = decodeEntities(text).trim();
-
+    const text = decodeEntities(
+      match[3].replace(/<s[^>]*>/g, '').replace(/<\/s>/g, ' ')
+    ).trim();
     if (text) {
-      segments.push({
-        start: startMs / 1000,
-        duration: durationMs / 1000,
-        text,
-      });
+      segments.push({ start: parseInt(match[1]) / 1000, duration: parseInt(match[2]) / 1000, text });
     }
   }
 
-  // Fallback: try srv1 format <text start="s" dur="s">text</text>
+  // srv1 fallback: <text start="s" dur="s">text</text>
   if (segments.length === 0) {
     const textRegex = /<text\s+start="([^"]+)"\s+dur="([^"]+)"[^>]*>([\s\S]*?)<\/text>/g;
     while ((match = textRegex.exec(xml)) !== null) {
-      const start = parseFloat(match[1]);
-      const duration = parseFloat(match[2]);
       const text = decodeEntities(match[3].replace(/<[^>]+>/g, '')).trim();
-
       if (text) {
-        segments.push({ start, duration, text });
+        segments.push({ start: parseFloat(match[1]), duration: parseFloat(match[2]), text });
       }
     }
   }
@@ -220,13 +123,8 @@ function parseSubtitleXml(xml: string): SubtitleSegment[] {
 
 function decodeEntities(text: string): string {
   return text
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&apos;/g, "'")
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code)))
-    .replace(/\n/g, ' ')
-    .replace(/\s+/g, ' ');
+    .replace(/\n/g, ' ').replace(/\s+/g, ' ');
 }
