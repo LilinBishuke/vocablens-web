@@ -1,0 +1,2360 @@
+{
+  "gonna": {
+    "formal": "going to",
+    "type": "contraction",
+    "meaning_ja": "〜するつもり",
+    "explanation": "Casual spoken contraction of 'going to'. Very common in everyday speech.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm gonna go now.", "It's gonna rain tomorrow."]
+  },
+  "wanna": {
+    "formal": "want to",
+    "type": "contraction",
+    "meaning_ja": "〜したい",
+    "explanation": "Casual contraction of 'want to'. Extremely common in spoken English.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I wanna eat pizza.", "Do you wanna come with us?"]
+  },
+  "gotta": {
+    "formal": "got to / have to",
+    "type": "contraction",
+    "meaning_ja": "〜しなければならない",
+    "explanation": "Casual contraction of 'got to' or 'have got to'. Expresses necessity.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I gotta go.", "You gotta try this!"]
+  },
+  "kinda": {
+    "formal": "kind of",
+    "type": "contraction",
+    "meaning_ja": "ちょっと、なんとなく",
+    "explanation": "Casual contraction of 'kind of'. Used to soften statements or express uncertainty.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm kinda tired.", "It's kinda weird, don't you think?"]
+  },
+  "sorta": {
+    "formal": "sort of",
+    "type": "contraction",
+    "meaning_ja": "ちょっと、まあまあ",
+    "explanation": "Casual contraction of 'sort of'. Similar to 'kinda'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I sorta understand.", "It's sorta like that."]
+  },
+  "lemme": {
+    "formal": "let me",
+    "type": "contraction",
+    "meaning_ja": "〜させて",
+    "explanation": "Casual contraction of 'let me'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Lemme see that.", "Lemme think about it."]
+  },
+  "gimme": {
+    "formal": "give me",
+    "type": "contraction",
+    "meaning_ja": "〜をちょうだい",
+    "explanation": "Casual contraction of 'give me'. Can sound demanding.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["Gimme a break!", "Gimme five minutes."]
+  },
+  "dunno": {
+    "formal": "don't know",
+    "type": "contraction",
+    "meaning_ja": "わからない",
+    "explanation": "Casual contraction of 'don't know' or 'I don't know'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I dunno what to do.", "Dunno, maybe later."]
+  },
+  "ain't": {
+    "formal": "am not / is not / are not / has not / have not",
+    "type": "contraction",
+    "meaning_ja": "〜ではない",
+    "explanation": "Non-standard contraction that can replace various negative forms of 'be' and 'have'. Widely used but considered grammatically incorrect.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["That ain't right.", "I ain't going anywhere."]
+  },
+  "y'all": {
+    "formal": "you all",
+    "type": "contraction",
+    "meaning_ja": "あなたたち、みんな",
+    "explanation": "Contraction of 'you all'. Originally Southern US dialect but now widely used.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Y'all coming to the party?", "See y'all later!"]
+  },
+  "tryna": {
+    "formal": "trying to",
+    "type": "contraction",
+    "meaning_ja": "〜しようとしている",
+    "explanation": "Very casual contraction of 'trying to'. Common in spoken English and texting.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm tryna study.", "What are you tryna say?"]
+  },
+  "finna": {
+    "formal": "fixing to / about to",
+    "type": "contraction",
+    "meaning_ja": "〜するところ",
+    "explanation": "Contraction of 'fixing to', meaning 'about to'. Originally from African American Vernacular English (AAVE).",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm finna leave.", "She finna be mad."]
+  },
+  "boutta": {
+    "formal": "about to",
+    "type": "contraction",
+    "meaning_ja": "〜するところ",
+    "explanation": "Very casual contraction of 'about to'. Common in texting and casual speech.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm boutta head out.", "We boutta eat."]
+  },
+  "shoulda": {
+    "formal": "should have",
+    "type": "contraction",
+    "meaning_ja": "〜すべきだった",
+    "explanation": "Casual contraction of 'should have'. Often mistakenly written as 'should of'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I shoulda known.", "You shoulda told me earlier."]
+  },
+  "coulda": {
+    "formal": "could have",
+    "type": "contraction",
+    "meaning_ja": "〜できたはず",
+    "explanation": "Casual contraction of 'could have'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I coulda been there.", "You coulda warned me."]
+  },
+  "woulda": {
+    "formal": "would have",
+    "type": "contraction",
+    "meaning_ja": "〜しただろう",
+    "explanation": "Casual contraction of 'would have'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I woulda helped if I knew.", "She woulda loved it."]
+  },
+  "oughta": {
+    "formal": "ought to",
+    "type": "contraction",
+    "meaning_ja": "〜すべき",
+    "explanation": "Casual contraction of 'ought to'.",
+    "formality": 2,
+    "contexts": ["casual"],
+    "examples": ["You oughta see a doctor.", "They oughta fix that."]
+  },
+  "hafta": {
+    "formal": "have to",
+    "type": "contraction",
+    "meaning_ja": "〜しなければならない",
+    "explanation": "Casual contraction of 'have to'.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["I hafta work tomorrow.", "Do we hafta go?"]
+  },
+  "gotcha": {
+    "formal": "got you / I understand",
+    "type": "contraction",
+    "meaning_ja": "わかった、了解",
+    "explanation": "Casual contraction of 'got you'. Can mean 'I understand' or 'I caught you'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Gotcha, I'll do it.", "Haha, gotcha!"]
+  },
+  "whatcha": {
+    "formal": "what are you",
+    "type": "contraction",
+    "meaning_ja": "何してるの",
+    "explanation": "Casual contraction of 'what are you' or 'what have you'.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["Whatcha doing?", "Whatcha got there?"]
+  },
+  "lit": {
+    "formal": "exciting / amazing",
+    "type": "slang",
+    "meaning_ja": "最高、盛り上がっている",
+    "explanation": "Used to describe something exciting, fun, or excellent. Originally meant intoxicated.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That party was lit!", "This song is lit."]
+  },
+  "salty": {
+    "formal": "bitter / upset",
+    "type": "slang",
+    "meaning_ja": "イライラしている、根に持っている",
+    "explanation": "Describes someone who is bitter, upset, or resentful about something.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Why are you so salty?", "She's still salty about losing."]
+  },
+  "flex": {
+    "formal": "show off / boast",
+    "type": "slang",
+    "meaning_ja": "自慢する、見せびらかす",
+    "explanation": "To show off or boast about something. Can be used as noun or verb.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's always flexing on Instagram.", "Nice car — that's a flex."]
+  },
+  "cap": {
+    "formal": "lie / falsehood",
+    "type": "slang",
+    "meaning_ja": "嘘",
+    "explanation": "Means a lie or to lie. 'That's cap' means 'that's a lie'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's cap.", "Stop capping."]
+  },
+  "no cap": {
+    "formal": "no lie / seriously",
+    "type": "slang",
+    "meaning_ja": "マジで、嘘じゃなく",
+    "explanation": "Means 'no lie' or 'for real'. Used to emphasize that you're being truthful.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["No cap, that was the best movie ever.", "She's talented, no cap."]
+  },
+  "sus": {
+    "formal": "suspicious / suspect",
+    "type": "slang",
+    "meaning_ja": "怪しい、疑わしい",
+    "explanation": "Short for 'suspicious' or 'suspect'. Popularized by the game Among Us.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's kinda sus.", "He's acting real sus today."]
+  },
+  "slay": {
+    "formal": "to do exceptionally well",
+    "type": "slang",
+    "meaning_ja": "最高にキメている、かっこいい",
+    "explanation": "To do something exceptionally well or to look amazing. Originally from drag culture.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["You slay, queen!", "She slayed that presentation."]
+  },
+  "vibe": {
+    "formal": "feeling / atmosphere",
+    "type": "slang",
+    "meaning_ja": "雰囲気、フィーリング",
+    "explanation": "A feeling or atmosphere. Can also be a verb meaning to relax or enjoy something.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I love the vibe here.", "We're just vibing."]
+  },
+  "ghost": {
+    "formal": "to suddenly stop communicating",
+    "type": "slang",
+    "meaning_ja": "突然連絡を絶つ",
+    "explanation": "To suddenly cut off all communication with someone without explanation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He ghosted me after two dates.", "Don't ghost your friends."]
+  },
+  "lowkey": {
+    "formal": "somewhat / secretly",
+    "type": "slang",
+    "meaning_ja": "実はちょっと、密かに",
+    "explanation": "Used to express something in a subtle or understated way. Can mean 'secretly' or 'somewhat'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I lowkey want to go.", "That's lowkey impressive."]
+  },
+  "highkey": {
+    "formal": "very much / openly",
+    "type": "slang",
+    "meaning_ja": "めっちゃ、堂々と",
+    "explanation": "The opposite of lowkey. Used to express something openly and intensely.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I highkey love this song.", "She highkey crushed it."]
+  },
+  "bet": {
+    "formal": "okay / sure / I agree",
+    "type": "slang",
+    "meaning_ja": "了解、いいよ、賛成",
+    "explanation": "Used as an affirmation meaning 'okay', 'sure', or 'sounds good'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["'Wanna grab lunch?' 'Bet.'", "Bet, I'll be there at 8."]
+  },
+  "fire": {
+    "formal": "excellent / amazing",
+    "type": "slang",
+    "meaning_ja": "最高、すごい",
+    "explanation": "Describes something that is extremely good or impressive.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["This pizza is fire.", "Your outfit is fire!"]
+  },
+  "sick": {
+    "formal": "cool / amazing",
+    "type": "slang",
+    "meaning_ja": "かっこいい、すごい",
+    "explanation": "Used to describe something impressive or cool. Opposite of its literal meaning.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That trick was sick!", "Sick beats, bro."]
+  },
+  "dope": {
+    "formal": "cool / excellent",
+    "type": "slang",
+    "meaning_ja": "かっこいい、イケてる",
+    "explanation": "Means cool, excellent, or impressive.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's a dope jacket.", "The concert was dope."]
+  },
+  "tight": {
+    "formal": "cool / close (friendship)",
+    "type": "slang",
+    "meaning_ja": "かっこいい、仲が良い",
+    "explanation": "Can mean 'cool/great' or describe a close friendship.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["That's tight!", "We're really tight."]
+  },
+  "chill": {
+    "formal": "relax / relaxed / cool",
+    "type": "informal",
+    "meaning_ja": "リラックスする、落ち着いた",
+    "explanation": "Can mean to relax, or describe someone/something as calm and easygoing.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Let's just chill tonight.", "She's really chill."]
+  },
+  "bro": {
+    "formal": "brother / friend",
+    "type": "slang",
+    "meaning_ja": "兄弟、友達（男性への呼びかけ）",
+    "explanation": "Term of address for a male friend. Short for 'brother'. Now used regardless of gender sometimes.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["What's up, bro?", "Bro, you won't believe this."]
+  },
+  "dude": {
+    "formal": "person / friend",
+    "type": "informal",
+    "meaning_ja": "やつ、おまえ（親しい呼びかけ）",
+    "explanation": "Casual term of address, originally for males but now used for anyone.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Dude, that's awesome.", "Hey dude, what's up?"]
+  },
+  "fam": {
+    "formal": "family / close friends",
+    "type": "slang",
+    "meaning_ja": "家族、仲間",
+    "explanation": "Short for 'family'. Used to refer to close friends or a group you belong to.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["What's good, fam?", "She's fam."]
+  },
+  "bruh": {
+    "formal": "brother / friend (exclamation)",
+    "type": "slang",
+    "meaning_ja": "おい（驚きや呆れ）",
+    "explanation": "Variant of 'bro'. Often used as an exclamation of disbelief or exasperation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Bruh, are you serious?", "Bruh moment."]
+  },
+  "nah": {
+    "formal": "no",
+    "type": "informal",
+    "meaning_ja": "いや、いいえ",
+    "explanation": "Casual way of saying 'no'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Nah, I'm good.", "Nah, that's not true."]
+  },
+  "yep": {
+    "formal": "yes",
+    "type": "informal",
+    "meaning_ja": "うん、はい",
+    "explanation": "Casual affirmative. Slightly more casual than 'yes'.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Yep, I'll be there.", "'Did you finish?' 'Yep.'"]
+  },
+  "yeah": {
+    "formal": "yes",
+    "type": "informal",
+    "meaning_ja": "うん、はい",
+    "explanation": "Very common casual form of 'yes'. Widely accepted in most situations.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Yeah, that sounds good.", "Yeah, I know."]
+  },
+  "nope": {
+    "formal": "no",
+    "type": "informal",
+    "meaning_ja": "いいえ、ダメ",
+    "explanation": "Emphatic casual form of 'no'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Nope, not gonna happen.", "'Did you eat?' 'Nope.'"]
+  },
+  "stuff": {
+    "formal": "things / items",
+    "type": "informal",
+    "meaning_ja": "もの、こと",
+    "explanation": "Vague word for things or items. Very common in casual speech.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I have a lot of stuff to do.", "What's all this stuff?"]
+  },
+  "cool": {
+    "formal": "good / acceptable / impressive",
+    "type": "informal",
+    "meaning_ja": "いいね、かっこいい、了解",
+    "explanation": "One of the most versatile informal words. Can mean good, acceptable, impressive, or 'I understand'.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That's cool with me.", "Cool, let's do it."]
+  },
+  "awesome": {
+    "formal": "excellent / wonderful",
+    "type": "informal",
+    "meaning_ja": "すごい、素晴らしい",
+    "explanation": "Expresses enthusiasm or approval. Very widely used.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That's awesome!", "You did an awesome job."]
+  },
+  "legit": {
+    "formal": "legitimate / genuinely",
+    "type": "slang",
+    "meaning_ja": "本物の、マジで",
+    "explanation": "Short for 'legitimate'. Can mean genuine/real or be used as an adverb meaning 'truly'.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Is this legit?", "I'm legit scared."]
+  },
+  "binge": {
+    "formal": "to consume excessively",
+    "type": "informal",
+    "meaning_ja": "一気に見る・食べる",
+    "explanation": "To consume a large amount of something in a short period. Often used with watching shows or eating.",
+    "formality": 3,
+    "contexts": ["casual", "sns"],
+    "examples": ["I binged the whole series.", "Let's binge some snacks."]
+  },
+  "hang out": {
+    "formal": "spend time together",
+    "type": "informal",
+    "meaning_ja": "遊ぶ、一緒に過ごす",
+    "explanation": "To spend time casually with someone.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Want to hang out later?", "We hung out all weekend."]
+  },
+  "check out": {
+    "formal": "look at / examine",
+    "type": "informal",
+    "meaning_ja": "見てみる、チェックする",
+    "explanation": "To look at or examine something. Also means to leave or pay at a store.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Check out this video.", "Let me check out what's available."]
+  },
+  "figure out": {
+    "formal": "determine / solve",
+    "type": "informal",
+    "meaning_ja": "解決する、理解する",
+    "explanation": "To solve a problem or understand something.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["I'll figure it out.", "We need to figure out what went wrong."]
+  },
+  "mess up": {
+    "formal": "make a mistake / ruin",
+    "type": "informal",
+    "meaning_ja": "失敗する、台無しにする",
+    "explanation": "To make a mistake or cause something to go wrong.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I really messed up.", "Don't mess this up."]
+  },
+  "screw up": {
+    "formal": "make a serious mistake",
+    "type": "informal",
+    "meaning_ja": "大失敗する、やらかす",
+    "explanation": "To make a significant mistake. Slightly stronger than 'mess up'.",
+    "formality": 2,
+    "contexts": ["casual"],
+    "examples": ["I screwed up the presentation.", "Don't screw this up!"]
+  },
+  "freak out": {
+    "formal": "panic / become very upset or excited",
+    "type": "informal",
+    "meaning_ja": "パニくる、大騒ぎする",
+    "explanation": "To panic or become extremely upset, excited, or scared.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't freak out, but...", "She freaked out when she heard the news."]
+  },
+  "chill out": {
+    "formal": "calm down / relax",
+    "type": "informal",
+    "meaning_ja": "落ち着く、リラックスする",
+    "explanation": "To calm down or relax. Can be a gentle command.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Chill out, it's not that serious.", "I just want to chill out tonight."]
+  },
+  "work out": {
+    "formal": "exercise / resolve",
+    "type": "informal",
+    "meaning_ja": "運動する、うまくいく",
+    "explanation": "Can mean to exercise or for something to be resolved successfully.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I work out every morning.", "Things will work out."]
+  },
+  "show up": {
+    "formal": "arrive / appear",
+    "type": "informal",
+    "meaning_ja": "現れる、来る",
+    "explanation": "To arrive or appear somewhere.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["He didn't show up.", "Thanks for showing up."]
+  },
+  "blow up": {
+    "formal": "become very popular / explode in anger",
+    "type": "informal",
+    "meaning_ja": "バズる、爆発的に人気になる、キレる",
+    "explanation": "Can mean to suddenly become very popular or famous, or to become very angry.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That video blew up overnight.", "My phone is blowing up with messages."]
+  },
+  "hook up": {
+    "formal": "connect / have a casual romantic encounter",
+    "type": "slang",
+    "meaning_ja": "つなげる、（恋愛的に）会う",
+    "explanation": "Can mean to connect or set up something, or to have a casual romantic/sexual encounter.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Can you hook up the speakers?", "They hooked up at the party."]
+  },
+  "make up": {
+    "formal": "reconcile / invent",
+    "type": "informal",
+    "meaning_ja": "仲直りする、でっち上げる",
+    "explanation": "Can mean to reconcile after an argument, or to invent/fabricate something.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Let's make up.", "Don't make up excuses."]
+  },
+  "break up": {
+    "formal": "end a relationship",
+    "type": "informal",
+    "meaning_ja": "別れる、解散する",
+    "explanation": "To end a romantic relationship. Can also mean to separate or disperse.",
+    "formality": 3,
+    "contexts": ["casual", "sns"],
+    "examples": ["They broke up last month.", "The band broke up."]
+  },
+  "come on": {
+    "formal": "hurry / please / you can't be serious",
+    "type": "informal",
+    "meaning_ja": "さあ、頼むよ、勘弁してよ",
+    "explanation": "Versatile phrase expressing encouragement, impatience, disbelief, or a plea.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Come on, let's go!", "Oh come on, that's not fair."]
+  },
+  "what's up": {
+    "formal": "hello / what's happening",
+    "type": "informal",
+    "meaning_ja": "やあ、調子はどう、何かあった？",
+    "explanation": "Very common casual greeting or way to ask what's happening.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Hey, what's up?", "What's up with that?"]
+  },
+  "no way": {
+    "formal": "absolutely not / I can't believe it",
+    "type": "informal",
+    "meaning_ja": "まさか、ありえない、絶対ダメ",
+    "explanation": "Expression of disbelief or strong refusal.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["No way, that's amazing!", "No way am I doing that."]
+  },
+  "big deal": {
+    "formal": "something important",
+    "type": "informal",
+    "meaning_ja": "大したこと、重要なこと",
+    "explanation": "Something important or significant. Often used sarcastically in 'it's no big deal'.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["It's no big deal.", "Getting that job was a big deal."]
+  },
+  "kind of": {
+    "formal": "somewhat / rather",
+    "type": "informal",
+    "meaning_ja": "ちょっと、まあまあ",
+    "explanation": "Used to soften statements or express something partially true.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I kind of agree.", "It's kind of expensive."]
+  },
+  "sort of": {
+    "formal": "somewhat / in a way",
+    "type": "informal",
+    "meaning_ja": "ある意味、なんとなく",
+    "explanation": "Similar to 'kind of'. Used to express something approximately or partially.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I sort of understand.", "It's sort of like a game."]
+  },
+  "a lot": {
+    "formal": "very much / many",
+    "type": "informal",
+    "meaning_ja": "たくさん、とても",
+    "explanation": "Common informal way to express a large amount or degree.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I like it a lot.", "There are a lot of people here."]
+  },
+  "stan": {
+    "formal": "obsessive fan / to be a devoted fan",
+    "type": "slang",
+    "meaning_ja": "熱狂的なファン、推す",
+    "explanation": "An extremely devoted fan. From Eminem's song 'Stan'. Can be a verb meaning to be a devoted fan of someone.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I stan Taylor Swift.", "The stans went crazy on Twitter."]
+  },
+  "simp": {
+    "formal": "someone overly devoted to another person",
+    "type": "slang",
+    "meaning_ja": "（好きな人に）媚びる人",
+    "explanation": "Someone who does way too much for a person they like, often without reciprocation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Stop simping for her.", "He's such a simp."]
+  },
+  "clap back": {
+    "formal": "respond sharply to criticism",
+    "type": "slang",
+    "meaning_ja": "言い返す、反撃する",
+    "explanation": "To respond to an insult or criticism with a sharp, witty comeback.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She clapped back at the haters.", "That was the best clap back ever."]
+  },
+  "tea": {
+    "formal": "gossip / inside information",
+    "type": "slang",
+    "meaning_ja": "ゴシップ、内部情報",
+    "explanation": "Gossip or juicy information. Originally from drag culture.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["What's the tea?", "She always has the tea."]
+  },
+  "spill the tea": {
+    "formal": "share gossip",
+    "type": "slang",
+    "meaning_ja": "ゴシップを話す",
+    "explanation": "To share gossip or reveal inside information.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Spill the tea, what happened?", "She spilled all the tea."]
+  },
+  "snatched": {
+    "formal": "looking extremely good",
+    "type": "slang",
+    "meaning_ja": "完璧に決まっている、イケてる",
+    "explanation": "Describes someone or something that looks extremely good or stylish. From drag culture.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Your outfit is snatched!", "Her makeup is snatched."]
+  },
+  "basic": {
+    "formal": "mainstream / unoriginal",
+    "type": "slang",
+    "meaning_ja": "ありきたりな、個性のない",
+    "explanation": "Describes someone or something that is mainstream and unoriginal.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Pumpkin spice latte? That's so basic.", "Don't be basic."]
+  },
+  "extra": {
+    "formal": "over the top / dramatic",
+    "type": "slang",
+    "meaning_ja": "やりすぎ、大げさ",
+    "explanation": "Describes someone or something that is excessive, dramatic, or over the top.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's so extra.", "That reaction was extra."]
+  },
+  "GOAT": {
+    "formal": "Greatest of All Time",
+    "type": "abbreviation",
+    "meaning_ja": "史上最高",
+    "explanation": "Acronym for 'Greatest of All Time'. Used to praise someone as the best ever in their field.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Jordan is the GOAT.", "She's the GOAT of tennis."]
+  },
+  "FOMO": {
+    "formal": "Fear of Missing Out",
+    "type": "abbreviation",
+    "meaning_ja": "取り残される不安",
+    "explanation": "Acronym for 'Fear of Missing Out'. The anxiety of missing out on fun or important events.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I have serious FOMO right now.", "FOMO is real."]
+  },
+  "ghosting": {
+    "formal": "suddenly ceasing all communication",
+    "type": "slang",
+    "meaning_ja": "突然連絡を絶つこと",
+    "explanation": "The act of suddenly stopping all communication with someone without explanation.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Ghosting is so rude.", "I can't believe he's ghosting me."]
+  },
+  "catfish": {
+    "formal": "someone using a fake online identity",
+    "type": "slang",
+    "meaning_ja": "ネット上でなりすます人",
+    "explanation": "A person who creates a fake identity online, especially on dating apps, to deceive others.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I think I got catfished.", "That profile is a catfish."]
+  },
+  "troll": {
+    "formal": "someone who provokes others online",
+    "type": "slang",
+    "meaning_ja": "荒らし、わざと煽る人",
+    "explanation": "A person who posts provocative or offensive content online to upset others.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't feed the trolls.", "He's just trolling."]
+  },
+  "clickbait": {
+    "formal": "sensationalized content designed to attract clicks",
+    "type": "slang",
+    "meaning_ja": "釣りタイトル、クリック誘導",
+    "explanation": "Online content with a misleading or sensationalized headline designed to get clicks.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That article is total clickbait.", "Stop posting clickbait."]
+  },
+  "binge-watch": {
+    "formal": "watch many episodes in succession",
+    "type": "informal",
+    "meaning_ja": "一気見する",
+    "explanation": "To watch multiple episodes of a TV series in rapid succession.",
+    "formality": 3,
+    "contexts": ["casual", "sns"],
+    "examples": ["I binge-watched the entire season.", "Let's binge-watch something tonight."]
+  },
+  "like": {
+    "formal": "(no direct formal equivalent)",
+    "type": "filler",
+    "meaning_ja": "（口癖的に）なんか、みたいな",
+    "explanation": "Extremely common filler word in spoken English. Used for hesitation, approximation, or quoting.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["It was, like, really cold.", "And she was like, 'No way!'"]
+  },
+  "you know": {
+    "formal": "(no direct formal equivalent)",
+    "type": "filler",
+    "meaning_ja": "（口癖的に）ほら、わかるでしょ",
+    "explanation": "Common filler phrase used to seek agreement or fill pauses.",
+    "formality": 2,
+    "contexts": ["casual"],
+    "examples": ["It's just, you know, complicated.", "You know what I mean?"]
+  },
+  "basically": {
+    "formal": "fundamentally / in essence",
+    "type": "filler",
+    "meaning_ja": "基本的に、要するに",
+    "explanation": "Often used as a filler to simplify or summarize. Sometimes overused.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["It's basically the same thing.", "Basically, we need more time."]
+  },
+  "literally": {
+    "formal": "in a literal sense",
+    "type": "filler",
+    "meaning_ja": "文字通り（強調として「マジで」）",
+    "explanation": "Originally means 'in a literal sense' but now commonly used as an intensifier meaning 'very' or 'truly'.",
+    "formality": 3,
+    "contexts": ["casual", "sns"],
+    "examples": ["I literally can't even.", "She literally just left."]
+  },
+  "actually": {
+    "formal": "in fact / really",
+    "type": "filler",
+    "meaning_ja": "実は、実際に",
+    "explanation": "Used to introduce something surprising or to correct a misconception. Often overused as filler.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["Actually, I changed my mind.", "It's actually pretty good."]
+  },
+  "honestly": {
+    "formal": "to be frank",
+    "type": "filler",
+    "meaning_ja": "正直に言うと",
+    "explanation": "Used to emphasize sincerity or introduce a frank opinion. Often used as a filler.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Honestly, I don't care.", "It was honestly the best meal ever."]
+  },
+  "I mean": {
+    "formal": "what I'm trying to say is",
+    "type": "filler",
+    "meaning_ja": "つまり、というか",
+    "explanation": "Used to clarify, rephrase, or soften a previous statement.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I mean, it's not that bad.", "I mean, what can we do?"]
+  },
+  "right": {
+    "formal": "correct / isn't that so",
+    "type": "filler",
+    "meaning_ja": "でしょ、だよね",
+    "explanation": "Used as a filler to seek confirmation or agreement from the listener.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["So we're meeting at 5, right?", "Right, let's move on."]
+  },
+  "so": {
+    "formal": "therefore / well then",
+    "type": "filler",
+    "meaning_ja": "それで、じゃあ",
+    "explanation": "Very common filler used to begin sentences, transition topics, or introduce conclusions.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["So, what do you think?", "So anyway, I was saying..."]
+  },
+  "well": {
+    "formal": "(hesitation marker)",
+    "type": "filler",
+    "meaning_ja": "えーと、まあ",
+    "explanation": "Common filler used when thinking, hesitating, or transitioning in conversation.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business", "interview"],
+    "examples": ["Well, it depends.", "Well, that's one way to look at it."]
+  },
+  "um": {
+    "formal": "(hesitation sound)",
+    "type": "filler",
+    "meaning_ja": "えーと、うーん",
+    "explanation": "Common hesitation sound used while thinking. Natural in speech but should be minimized in formal settings.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["Um, I'm not sure.", "It was, um, interesting."]
+  },
+  "uh": {
+    "formal": "(hesitation sound)",
+    "type": "filler",
+    "meaning_ja": "えー、あー",
+    "explanation": "Hesitation sound similar to 'um'. Very common in natural speech.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["Uh, let me think.", "I was, uh, busy."]
+  },
+  "LOL": {
+    "formal": "that's funny",
+    "type": "abbreviation",
+    "meaning_ja": "（笑）、ウケる",
+    "explanation": "Acronym for 'Laughing Out Loud'. Used to indicate amusement in text communication.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's hilarious LOL", "LOL I can't believe that happened"]
+  },
+  "LMAO": {
+    "formal": "(strong amusement)",
+    "type": "abbreviation",
+    "meaning_ja": "爆笑",
+    "explanation": "Acronym for 'Laughing My A** Off'. Stronger than LOL.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["LMAO that's so funny", "I'm dead LMAO"]
+  },
+  "OMG": {
+    "formal": "oh my goodness",
+    "type": "abbreviation",
+    "meaning_ja": "なんてこと、マジで",
+    "explanation": "Acronym for 'Oh My God/Goodness'. Expresses surprise, excitement, or shock.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["OMG that's amazing!", "OMG I forgot!"]
+  },
+  "ASAP": {
+    "formal": "as soon as possible",
+    "type": "abbreviation",
+    "meaning_ja": "できるだけ早く",
+    "explanation": "Acronym for 'As Soon As Possible'. Widely used even in professional contexts.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Please reply ASAP.", "I need this done ASAP."]
+  },
+  "FYI": {
+    "formal": "for your information",
+    "type": "abbreviation",
+    "meaning_ja": "ご参考までに",
+    "explanation": "Acronym for 'For Your Information'. Common in both casual and professional communication.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["FYI, the meeting is at 3.", "Just FYI, the deadline changed."]
+  },
+  "DM": {
+    "formal": "direct message / private message",
+    "type": "abbreviation",
+    "meaning_ja": "ダイレクトメッセージ",
+    "explanation": "Short for 'Direct Message'. A private message on social media platforms.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["DM me the details.", "I'll send you a DM."]
+  },
+  "TBH": {
+    "formal": "to be honest",
+    "type": "abbreviation",
+    "meaning_ja": "正直に言うと",
+    "explanation": "Acronym for 'To Be Honest'. Used to preface a frank statement.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["TBH, I didn't like it.", "That's pretty good TBH."]
+  },
+  "IMO": {
+    "formal": "in my opinion",
+    "type": "abbreviation",
+    "meaning_ja": "私の意見では",
+    "explanation": "Acronym for 'In My Opinion'. Used to express a personal view.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["IMO, we should wait.", "The best one IMO."]
+  },
+  "IMHO": {
+    "formal": "in my humble opinion",
+    "type": "abbreviation",
+    "meaning_ja": "私の拙い意見では",
+    "explanation": "Acronym for 'In My Humble Opinion'. A more modest version of IMO.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["IMHO, that's not the right approach.", "Best restaurant in town, IMHO."]
+  },
+  "IRL": {
+    "formal": "in real life",
+    "type": "abbreviation",
+    "meaning_ja": "現実では、リアルでは",
+    "explanation": "Acronym for 'In Real Life'. Distinguishes real-world experiences from online ones.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Have you met IRL?", "He's nicer IRL."]
+  },
+  "TLDR": {
+    "formal": "summary / too long, didn't read",
+    "type": "abbreviation",
+    "meaning_ja": "要約すると、長すぎて読めない",
+    "explanation": "Acronym for 'Too Long, Didn't Read'. Used to preface a brief summary of longer content.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["TLDR: the project was cancelled.", "That article needs a TLDR."]
+  },
+  "SMH": {
+    "formal": "I'm disappointed",
+    "type": "abbreviation",
+    "meaning_ja": "あきれた、がっかり",
+    "explanation": "Acronym for 'Shaking My Head'. Expresses disappointment or disapproval.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He forgot again, SMH.", "People are wild, SMH."]
+  },
+  "ROFL": {
+    "formal": "(extreme amusement)",
+    "type": "abbreviation",
+    "meaning_ja": "大爆笑",
+    "explanation": "Acronym for 'Rolling On the Floor Laughing'. Expresses extreme amusement.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That video had me ROFL.", "ROFL you can't be serious."]
+  },
+  "BRB": {
+    "formal": "I'll return shortly",
+    "type": "abbreviation",
+    "meaning_ja": "すぐ戻る",
+    "explanation": "Acronym for 'Be Right Back'. Used when temporarily leaving a conversation.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["BRB, getting coffee.", "BRB in 5 minutes."]
+  },
+  "BTW": {
+    "formal": "by the way",
+    "type": "abbreviation",
+    "meaning_ja": "ところで",
+    "explanation": "Acronym for 'By The Way'. Used to introduce a side topic or additional information.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["BTW, did you see the email?", "Great work BTW."]
+  },
+  "IDK": {
+    "formal": "I don't know",
+    "type": "abbreviation",
+    "meaning_ja": "わからない",
+    "explanation": "Acronym for 'I Don't Know'. Common in texting.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["IDK what to wear.", "IDK, ask someone else."]
+  },
+  "NVM": {
+    "formal": "never mind",
+    "type": "abbreviation",
+    "meaning_ja": "気にしないで",
+    "explanation": "Abbreviation of 'Never Mind'. Used to dismiss a previous statement.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["NVM, I found it.", "NVM, forget I asked."]
+  },
+  "YOLO": {
+    "formal": "you only live once",
+    "type": "abbreviation",
+    "meaning_ja": "人生一度きり",
+    "explanation": "Acronym for 'You Only Live Once'. Used to justify doing something risky or spontaneous.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["YOLO, let's do it!", "Bought the ticket — YOLO."]
+  },
+  "AFK": {
+    "formal": "away from keyboard",
+    "type": "abbreviation",
+    "meaning_ja": "離席中",
+    "explanation": "Acronym for 'Away From Keyboard'. Originally from gaming/chat culture.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Going AFK for a bit.", "Sorry, I was AFK."]
+  },
+  "ETA": {
+    "formal": "estimated time of arrival",
+    "type": "abbreviation",
+    "meaning_ja": "到着予定時刻",
+    "explanation": "Acronym for 'Estimated Time of Arrival'. Used both casually and professionally.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["What's your ETA?", "ETA 10 minutes."]
+  },
+  "TBA": {
+    "formal": "to be announced",
+    "type": "abbreviation",
+    "meaning_ja": "後日発表",
+    "explanation": "Acronym for 'To Be Announced'. Indicates information will be provided later.",
+    "formality": 5,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["Date: TBA", "The speaker is TBA."]
+  },
+  "vibe check": {
+    "formal": "assess the mood or atmosphere",
+    "type": "slang",
+    "meaning_ja": "雰囲気チェック",
+    "explanation": "An assessment of someone's mood or the general atmosphere of a situation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Vibe check — how's everyone feeling?", "He did not pass the vibe check."]
+  },
+  "rent free": {
+    "formal": "constantly thinking about",
+    "type": "slang",
+    "meaning_ja": "頭から離れない",
+    "explanation": "When something or someone occupies your thoughts without you wanting it to.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That song lives rent free in my head.", "He's living rent free in your mind."]
+  },
+  "main character": {
+    "formal": "someone acting as if they're the center of attention",
+    "type": "slang",
+    "meaning_ja": "主人公（気取り）",
+    "explanation": "Someone who acts as if they are the protagonist of a movie. Can be positive or negative.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's giving main character energy.", "Everyone wants to be the main character."]
+  },
+  "bussin": {
+    "formal": "delicious / really good",
+    "type": "slang",
+    "meaning_ja": "めちゃくちゃ美味しい、最高",
+    "explanation": "Describes something that is really good, especially food.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["This food is bussin!", "That beat is bussin."]
+  },
+  "slaps": {
+    "formal": "is really good (especially music)",
+    "type": "slang",
+    "meaning_ja": "（特に音楽が）最高",
+    "explanation": "Used to say something is really good, especially music.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["This song slaps.", "The new album absolutely slaps."]
+  },
+  "hits different": {
+    "formal": "feels uniquely impactful",
+    "type": "slang",
+    "meaning_ja": "格別に感じる",
+    "explanation": "Describes something that feels especially impactful or resonant in a particular context.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Coffee on a rainy morning hits different.", "That song hits different at night."]
+  },
+  "understood the assignment": {
+    "formal": "performed excellently",
+    "type": "slang",
+    "meaning_ja": "完璧にこなした",
+    "explanation": "Means someone did exactly what was needed and did it well.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She understood the assignment.", "The chef really understood the assignment."]
+  },
+  "it's giving": {
+    "formal": "it resembles / it conveys",
+    "type": "slang",
+    "meaning_ja": "〜っぽい、〜の雰囲気",
+    "explanation": "Used to describe the vibe or impression something gives off.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That outfit is giving 90s vibes.", "It's giving boss energy."]
+  },
+  "mid": {
+    "formal": "mediocre / average",
+    "type": "slang",
+    "meaning_ja": "普通、微妙",
+    "explanation": "Describes something as mediocre or unimpressive.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That movie was mid.", "The food was kinda mid."]
+  },
+  "W": {
+    "formal": "win / success",
+    "type": "slang",
+    "meaning_ja": "勝利、成功",
+    "explanation": "Short for 'win'. Used to celebrate a success or positive outcome.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's a huge W.", "W for getting the job!"]
+  },
+  "L": {
+    "formal": "loss / failure",
+    "type": "slang",
+    "meaning_ja": "負け、失敗",
+    "explanation": "Short for 'loss'. Used to describe a failure or bad outcome.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's an L.", "Take the L and move on."]
+  },
+  "based": {
+    "formal": "admirable for being true to oneself",
+    "type": "slang",
+    "meaning_ja": "自分を貫いている、かっこいい",
+    "explanation": "Describes someone who is unapologetically themselves, expressing opinions without caring about others' judgment.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's a based opinion.", "So based."]
+  },
+  "cringe": {
+    "formal": "embarrassing / awkward",
+    "type": "slang",
+    "meaning_ja": "痛い、恥ずかしい",
+    "explanation": "Describes something embarrassing, awkward, or uncomfortable to witness.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That video was so cringe.", "Stop being cringe."]
+  },
+  "ratio": {
+    "formal": "to receive more negative responses than support",
+    "type": "slang",
+    "meaning_ja": "（SNSで）批判の方が多い状態",
+    "explanation": "When a reply gets more likes than the original post, indicating the original was unpopular. Also used as a verb.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["You got ratioed.", "Ratio + L + cringe"]
+  },
+  "cope": {
+    "formal": "dealing with disappointment through denial",
+    "type": "slang",
+    "meaning_ja": "負け惜しみ、現実逃避",
+    "explanation": "Used to dismiss someone's argument as a way of dealing with an uncomfortable reality.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's pure cope.", "Cope harder."]
+  },
+  "seethe": {
+    "formal": "be extremely angry",
+    "type": "slang",
+    "meaning_ja": "めちゃくちゃ怒る",
+    "explanation": "To be extremely angry or resentful. Often paired with 'cope'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Cope and seethe.", "He's seething right now."]
+  },
+  "touch grass": {
+    "formal": "go outside / reconnect with reality",
+    "type": "slang",
+    "meaning_ja": "外に出ろ、現実に戻れ",
+    "explanation": "Telling someone to go outside and get off the internet. Implies they are too online.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["You need to touch grass.", "Go touch grass, bro."]
+  },
+  "ate": {
+    "formal": "performed excellently",
+    "type": "slang",
+    "meaning_ja": "完璧にやった",
+    "explanation": "Past tense of 'eat' used as slang meaning to do something extremely well. From drag culture.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She ate that performance.", "Ate and left no crumbs."]
+  },
+  "period": {
+    "formal": "that's final / end of discussion",
+    "type": "slang",
+    "meaning_ja": "以上、それが全て",
+    "explanation": "Used to emphasize that a statement is final and not up for debate.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's the best. Period.", "That's just facts, period."]
+  },
+  "ick": {
+    "formal": "a sudden feeling of disgust or turn-off",
+    "type": "slang",
+    "meaning_ja": "ドン引き、急に冷める感じ",
+    "explanation": "A sudden feeling of being turned off or disgusted by someone, especially in dating.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That gave me the ick.", "What's your biggest ick?"]
+  },
+  "red flag": {
+    "formal": "warning sign",
+    "type": "informal",
+    "meaning_ja": "危険信号、要注意サイン",
+    "explanation": "A warning sign in a person's behavior or a situation, especially in relationships.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That's a major red flag.", "So many red flags."]
+  },
+  "green flag": {
+    "formal": "positive sign",
+    "type": "informal",
+    "meaning_ja": "良いサイン、好印象ポイント",
+    "explanation": "A positive sign in a person's behavior or a situation. Opposite of red flag.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Apologizing is a green flag.", "That's such a green flag."]
+  },
+  "beige flag": {
+    "formal": "a bland or uninteresting trait",
+    "type": "slang",
+    "meaning_ja": "つまらない特徴",
+    "explanation": "A trait that is neither bad nor good, just boring or uninteresting.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["His bio is a beige flag.", "Listing 'food lover' is such a beige flag."]
+  },
+  "toxic": {
+    "formal": "harmful / negative",
+    "type": "informal",
+    "meaning_ja": "有害な、ネガティブな",
+    "explanation": "Describes harmful behavior or relationships. Originally a chemistry term, now widely used socially.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That relationship is toxic.", "Toxic work environment."]
+  },
+  "savage": {
+    "formal": "brutally honest / fierce",
+    "type": "slang",
+    "meaning_ja": "容赦ない、かっこいい",
+    "explanation": "Describes someone or something that is brutally honest, fierce, or impressively bold.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That comeback was savage.", "She's a savage."]
+  },
+  "shook": {
+    "formal": "shocked / surprised",
+    "type": "slang",
+    "meaning_ja": "衝撃を受けた、ビックリした",
+    "explanation": "Extremely shocked or surprised.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm shook.", "We were all shook when we heard."]
+  },
+  "dead": {
+    "formal": "finding something extremely funny",
+    "type": "slang",
+    "meaning_ja": "（面白すぎて）死んだ",
+    "explanation": "Used to express that something is so funny you metaphorically died laughing.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm dead, that's hilarious.", "She said what?! I'm dead."]
+  },
+  "I can't even": {
+    "formal": "I'm overwhelmed (by emotion)",
+    "type": "slang",
+    "meaning_ja": "もう無理、信じられない",
+    "explanation": "Expresses being so overwhelmed by emotion (usually amusement or frustration) that you can't finish the sentence.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I can't even right now.", "She wore what? I can't even."]
+  },
+  "shade": {
+    "formal": "subtle disrespect or criticism",
+    "type": "slang",
+    "meaning_ja": "遠回しな悪口",
+    "explanation": "Subtle, indirect insults or disrespect. 'Throwing shade' means to subtly disrespect someone.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She was throwing shade all night.", "No shade, but that outfit is weird."]
+  },
+  "drag": {
+    "formal": "to criticize harshly",
+    "type": "slang",
+    "meaning_ja": "厳しく批判する",
+    "explanation": "To criticize or insult someone, often publicly.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Twitter dragged him.", "She got dragged for that comment."]
+  },
+  "glow up": {
+    "formal": "a significant positive transformation",
+    "type": "slang",
+    "meaning_ja": "劇的に良くなること、変身",
+    "explanation": "A significant positive transformation in appearance, confidence, or life circumstances.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["What a glow up!", "She had the biggest glow up."]
+  },
+  "sleep on": {
+    "formal": "to underestimate or ignore",
+    "type": "slang",
+    "meaning_ja": "過小評価する、見逃す",
+    "explanation": "To fail to appreciate or pay attention to something or someone good.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't sleep on that album.", "Y'all are sleeping on this restaurant."]
+  },
+  "mood": {
+    "formal": "relatable / that reflects my feelings",
+    "type": "slang",
+    "meaning_ja": "わかる、共感",
+    "explanation": "Used to say that something is very relatable to your current feelings.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That meme is such a mood.", "'I want to nap all day.' Mood."]
+  },
+  "same": {
+    "formal": "I agree / I relate",
+    "type": "slang",
+    "meaning_ja": "わかる、同じく",
+    "explanation": "Used to express strong agreement or that you relate to something.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["'I'm so tired.' 'Same.'", "Same, honestly."]
+  },
+  "receipts": {
+    "formal": "evidence / proof",
+    "type": "slang",
+    "meaning_ja": "証拠",
+    "explanation": "Evidence or proof, especially screenshots or records of what someone said.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Show me the receipts.", "I have receipts of everything she said."]
+  },
+  "swerve": {
+    "formal": "to avoid / go away",
+    "type": "slang",
+    "meaning_ja": "避ける、あっち行け",
+    "explanation": "To avoid something or tell someone to go away.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Boy, swerve.", "I swerved that conversation."]
+  },
+  "bounce": {
+    "formal": "to leave",
+    "type": "slang",
+    "meaning_ja": "帰る、出る",
+    "explanation": "To leave a place.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["I'm gonna bounce.", "Let's bounce."]
+  },
+  "bail": {
+    "formal": "to leave or cancel plans",
+    "type": "informal",
+    "meaning_ja": "ドタキャンする、帰る",
+    "explanation": "To leave abruptly or cancel plans.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["She bailed on us last minute.", "I had to bail early."]
+  },
+  "flake": {
+    "formal": "unreliable person / to cancel plans",
+    "type": "informal",
+    "meaning_ja": "ドタキャンする人、約束を破る",
+    "explanation": "Someone who frequently cancels plans, or the act of cancelling plans unreliably.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's such a flake.", "Don't flake on me again."]
+  },
+  "sketchy": {
+    "formal": "suspicious / unreliable",
+    "type": "informal",
+    "meaning_ja": "怪しい、信用できない",
+    "explanation": "Describes something or someone that seems suspicious, unsafe, or untrustworthy.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That neighborhood is sketchy.", "The deal sounds sketchy."]
+  },
+  "shady": {
+    "formal": "dishonest / suspicious",
+    "type": "informal",
+    "meaning_ja": "怪しい、不正な",
+    "explanation": "Describes dishonest or suspicious behavior or people.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That company is shady.", "He's being shady about it."]
+  },
+  "lowball": {
+    "formal": "to offer an unreasonably low price",
+    "type": "informal",
+    "meaning_ja": "安すぎる値段を提示する",
+    "explanation": "To offer much less than something is worth.",
+    "formality": 3,
+    "contexts": ["casual", "business"],
+    "examples": ["Don't lowball me.", "That offer is a lowball."]
+  },
+  "rip off": {
+    "formal": "to overcharge / a scam",
+    "type": "informal",
+    "meaning_ja": "ぼったくり、詐欺",
+    "explanation": "To charge too much or to be scammed. Can be a noun or verb.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's a total rip off.", "They ripped us off."]
+  },
+  "heads up": {
+    "formal": "advance warning / notice",
+    "type": "informal",
+    "meaning_ja": "前もっての知らせ",
+    "explanation": "An advance warning or notice about something.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Just a heads up, the boss is coming.", "Thanks for the heads up."]
+  },
+  "my bad": {
+    "formal": "my mistake / I'm sorry",
+    "type": "informal",
+    "meaning_ja": "ごめん、私のミス",
+    "explanation": "Casual way of acknowledging a mistake and apologizing.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Oh, my bad!", "My bad, I forgot to tell you."]
+  },
+  "no worries": {
+    "formal": "it's okay / don't worry about it",
+    "type": "informal",
+    "meaning_ja": "大丈夫、気にしないで",
+    "explanation": "Casual way of saying 'it's fine' or 'don't worry'. Very common in Australian English.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["No worries, I'll handle it.", "'Sorry I'm late.' 'No worries.'"]
+  },
+  "for real": {
+    "formal": "seriously / genuinely",
+    "type": "informal",
+    "meaning_ja": "マジで、本当に",
+    "explanation": "Used to emphasize that something is true or to express surprise.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["For real? That's crazy.", "I'm done for real this time."]
+  },
+  "on point": {
+    "formal": "exactly right / perfect",
+    "type": "informal",
+    "meaning_ja": "完璧、ばっちり",
+    "explanation": "Describes something that is exactly right or done perfectly.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Your makeup is on point.", "That analysis was on point."]
+  },
+  "on fleek": {
+    "formal": "perfectly done / looking great",
+    "type": "slang",
+    "meaning_ja": "完璧、バッチリ決まっている",
+    "explanation": "Means perfectly done or looking great. Popularized around 2014.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Eyebrows on fleek.", "Her style is on fleek."]
+  },
+  "squad": {
+    "formal": "friend group",
+    "type": "slang",
+    "meaning_ja": "仲間、グループ",
+    "explanation": "A close group of friends.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["The whole squad is coming.", "Squad goals!"]
+  },
+  "JOMO": {
+    "formal": "Joy of Missing Out",
+    "type": "abbreviation",
+    "meaning_ja": "参加しない喜び",
+    "explanation": "Acronym for 'Joy of Missing Out'. The opposite of FOMO - contentment with missing events.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Staying home tonight. JOMO is real.", "Embracing that JOMO life."]
+  },
+  "IYKYK": {
+    "formal": "if you know, you know",
+    "type": "abbreviation",
+    "meaning_ja": "わかる人にはわかる",
+    "explanation": "Acronym for 'If You Know, You Know'. References inside knowledge or shared experience.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Best ramen spot in town. IYKYK.", "IYKYK."]
+  },
+  "CEO": {
+    "formal": "the best at something",
+    "type": "slang",
+    "meaning_ja": "（何かの）達人、第一人者",
+    "explanation": "Slang use: calling someone the 'CEO of' something means they are the best at it.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's the CEO of fashion.", "CEO of bad takes."]
+  },
+  "catch feelings": {
+    "formal": "develop romantic feelings",
+    "type": "slang",
+    "meaning_ja": "恋愛感情を持ってしまう",
+    "explanation": "To develop romantic feelings for someone, often unintentionally.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm trying not to catch feelings.", "She caught feelings fast."]
+  },
+  "slide into DMs": {
+    "formal": "send a private message (often with romantic intent)",
+    "type": "slang",
+    "meaning_ja": "DMを送る（特に恋愛目的で）",
+    "explanation": "To send someone a direct message, usually with romantic or flirtatious intent.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He slid into her DMs.", "Don't just slide into random people's DMs."]
+  },
+  "left on read": {
+    "formal": "message was seen but not replied to",
+    "type": "slang",
+    "meaning_ja": "既読スルーされた",
+    "explanation": "When someone reads your message but doesn't respond.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She left me on read.", "Being left on read hurts."]
+  },
+  "flex on": {
+    "formal": "to show off to",
+    "type": "slang",
+    "meaning_ja": "〜に見せびらかす",
+    "explanation": "To show off to someone or make them feel inferior.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Stop flexing on us.", "He loves to flex on social media."]
+  },
+  "clout": {
+    "formal": "influence / social power",
+    "type": "slang",
+    "meaning_ja": "影響力、ネット上の人気",
+    "explanation": "Social influence or fame, especially on social media.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's just doing it for clout.", "She has mad clout online."]
+  },
+  "woke": {
+    "formal": "socially aware / politically conscious",
+    "type": "slang",
+    "meaning_ja": "社会的に意識が高い",
+    "explanation": "Being aware of social injustices. Originally from AAVE, now used broadly and sometimes pejoratively.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Stay woke.", "That's a pretty woke take."]
+  },
+  "cancel": {
+    "formal": "to boycott or reject publicly",
+    "type": "slang",
+    "meaning_ja": "（SNS上で）批判して排除する",
+    "explanation": "To publicly reject or boycott someone, usually a public figure, due to objectionable behavior.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["They tried to cancel him.", "Cancel culture is real."]
+  },
+  "gaslighting": {
+    "formal": "psychological manipulation to make someone doubt reality",
+    "type": "informal",
+    "meaning_ja": "心理的操作で現実認識を歪ませること",
+    "explanation": "Manipulating someone into questioning their own perception of reality.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "academic"],
+    "examples": ["Stop gaslighting me.", "That's textbook gaslighting."]
+  },
+  "gatekeep": {
+    "formal": "to control access to something",
+    "type": "slang",
+    "meaning_ja": "（情報や文化を）独占する",
+    "explanation": "To restrict access to information, communities, or cultural items.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't gatekeep, share the recipe!", "Gaslight, gatekeep, girlboss."]
+  },
+  "girlboss": {
+    "formal": "an ambitious, successful woman",
+    "type": "slang",
+    "meaning_ja": "やり手の女性",
+    "explanation": "Originally a positive term for ambitious women, now often used ironically.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Girlboss energy.", "She's such a girlboss."]
+  },
+  "pick me": {
+    "formal": "someone who seeks approval by being different",
+    "type": "slang",
+    "meaning_ja": "他の人と違うアピールをする人",
+    "explanation": "Someone who tries to stand out by putting others down or being excessively agreeable to gain approval.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's such a pick me thing to say.", "Don't be a pick me."]
+  },
+  "cheugy": {
+    "formal": "outdated / trying too hard",
+    "type": "slang",
+    "meaning_ja": "ダサい、時代遅れ",
+    "explanation": "Describes something that is slightly outdated or trying too hard to be trendy.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Live, laugh, love is so cheugy.", "That trend is cheugy now."]
+  },
+  "sus": {
+    "formal": "suspicious",
+    "type": "slang",
+    "meaning_ja": "怪しい",
+    "explanation": "Short for 'suspicious'. Massively popularized by the game Among Us.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's pretty sus.", "He's acting sus."]
+  },
+  "Karen": {
+    "formal": "an entitled, demanding person",
+    "type": "slang",
+    "meaning_ja": "クレーマー、傲慢な人",
+    "explanation": "A pejorative term for someone (typically a middle-aged woman) who is entitled and demands special treatment.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't be a Karen.", "She went full Karen on the manager."]
+  },
+  "NPC": {
+    "formal": "someone who seems to lack independent thought",
+    "type": "slang",
+    "meaning_ja": "自分で考えない人（ゲーム用語から）",
+    "explanation": "From 'Non-Player Character' in video games. Describes someone who seems to act without independent thought.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's such an NPC.", "NPC behavior."]
+  },
+  "sigma": {
+    "formal": "independent / lone-wolf personality",
+    "type": "slang",
+    "meaning_ja": "一匹狼タイプ",
+    "explanation": "From 'sigma male'. Describes someone who is independent and doesn't follow social hierarchies. Often used ironically.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Sigma grindset.", "He thinks he's a sigma."]
+  },
+  "rizz": {
+    "formal": "charm / charisma (in romantic contexts)",
+    "type": "slang",
+    "meaning_ja": "口説く力、魅力",
+    "explanation": "Charm or ability to attract romantic interest through communication. Short for 'charisma'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's got rizz.", "Unspoken rizz."]
+  },
+  "delulu": {
+    "formal": "delusional",
+    "type": "slang",
+    "meaning_ja": "妄想的、現実離れしている",
+    "explanation": "Cute/playful form of 'delusional'. Used to describe unrealistic expectations or beliefs.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's being delulu.", "Delulu is the solulu (solution)."]
+  },
+  "situationship": {
+    "formal": "an undefined romantic relationship",
+    "type": "slang",
+    "meaning_ja": "曖昧な関係",
+    "explanation": "A romantic relationship that is not clearly defined or labeled.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["We're in a situationship.", "Situationships are exhausting."]
+  },
+  "ship": {
+    "formal": "to want two people to be in a relationship",
+    "type": "slang",
+    "meaning_ja": "（二人を）カップルとして応援する",
+    "explanation": "Short for 'relationship'. To support or wish for two people to be in a romantic relationship.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I ship them so hard.", "Who do you ship?"]
+  },
+  "sus out": {
+    "formal": "to figure out / investigate",
+    "type": "informal",
+    "meaning_ja": "調べる、探り出す",
+    "explanation": "To investigate or figure something out. British informal.",
+    "formality": 2,
+    "contexts": ["casual"],
+    "examples": ["Let me sus out the situation.", "I'm trying to sus out what happened."]
+  },
+  "hype": {
+    "formal": "excitement / to promote enthusiastically",
+    "type": "informal",
+    "meaning_ja": "盛り上がり、興奮",
+    "explanation": "Excitement or enthusiasm about something. As a verb, to promote or build excitement.",
+    "formality": 2,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["The hype is real.", "Don't believe the hype."]
+  },
+  "GOATED": {
+    "formal": "being the greatest",
+    "type": "slang",
+    "meaning_ja": "史上最高の",
+    "explanation": "Adjective form of GOAT. Means someone is among the greatest ever.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That performance was GOATED.", "He's GOATED with the sauce."]
+  },
+  "down bad": {
+    "formal": "desperately attracted to someone",
+    "type": "slang",
+    "meaning_ja": "誰かに夢中すぎる",
+    "explanation": "Being desperately attracted to someone or in a very unfortunate situation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He's down bad for her.", "You're down bad, bro."]
+  },
+  "living for": {
+    "formal": "absolutely loving",
+    "type": "slang",
+    "meaning_ja": "大好き、ハマっている",
+    "explanation": "To absolutely love or be obsessed with something.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm living for this show.", "Living for that outfit."]
+  },
+  "snack": {
+    "formal": "an attractive person",
+    "type": "slang",
+    "meaning_ja": "イケてる人、魅力的な人",
+    "explanation": "Used to describe someone who is very attractive.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's a whole snack.", "Looking like a snack today."]
+  },
+  "thirsty": {
+    "formal": "desperate for attention or validation",
+    "type": "slang",
+    "meaning_ja": "（注目や異性に）飢えている",
+    "explanation": "Desperately seeking attention, approval, or romantic interest.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Stop being so thirsty.", "That comment was thirsty."]
+  },
+  "the struggle is real": {
+    "formal": "this difficulty is genuine",
+    "type": "slang",
+    "meaning_ja": "本当に大変",
+    "explanation": "Acknowledges a difficulty, often used humorously for minor inconveniences.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Monday mornings... the struggle is real.", "Can't find parking. The struggle is real."]
+  },
+  "adulting": {
+    "formal": "behaving like a responsible adult",
+    "type": "slang",
+    "meaning_ja": "大人らしいことをする",
+    "explanation": "The practice of doing responsible adult things, especially when it feels challenging.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm adulting today — paid all my bills.", "Adulting is hard."]
+  },
+  "ICYMI": {
+    "formal": "in case you missed it",
+    "type": "abbreviation",
+    "meaning_ja": "見逃した人のために",
+    "explanation": "Acronym for 'In Case You Missed It'. Used when sharing information that may have been overlooked.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["ICYMI, the schedule changed.", "ICYMI: here's the recording."]
+  },
+  "IIRC": {
+    "formal": "if I recall correctly",
+    "type": "abbreviation",
+    "meaning_ja": "確か、記憶が正しければ",
+    "explanation": "Acronym for 'If I Recall Correctly'. Used when sharing information from memory.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["IIRC, it was last Tuesday.", "The deadline is Friday, IIRC."]
+  },
+  "TIL": {
+    "formal": "today I learned",
+    "type": "abbreviation",
+    "meaning_ja": "今日知ったこと",
+    "explanation": "Acronym for 'Today I Learned'. Used when sharing a new piece of information.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["TIL that octopuses have three hearts.", "TIL about this neat trick."]
+  },
+  "LGTM": {
+    "formal": "looks good to me",
+    "type": "abbreviation",
+    "meaning_ja": "問題なさそう",
+    "explanation": "Acronym for 'Looks Good To Me'. Common in tech and business for approvals.",
+    "formality": 4,
+    "contexts": ["business", "casual", "sns"],
+    "examples": ["LGTM, ship it.", "Code review: LGTM."]
+  },
+  "AFAIK": {
+    "formal": "as far as I know",
+    "type": "abbreviation",
+    "meaning_ja": "私の知る限り",
+    "explanation": "Acronym for 'As Far As I Know'. Used when sharing information you're not 100% certain about.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["AFAIK, the deal is still on.", "She's still in Tokyo, AFAIK."]
+  },
+  "TGIF": {
+    "formal": "Thank God It's Friday",
+    "type": "abbreviation",
+    "meaning_ja": "やっと金曜日だ",
+    "explanation": "Acronym for 'Thank God It's Friday'. Expresses relief that the work week is ending.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["TGIF! What a week.", "TGIF vibes."]
+  },
+  "RN": {
+    "formal": "right now",
+    "type": "abbreviation",
+    "meaning_ja": "今",
+    "explanation": "Abbreviation for 'Right Now'. Common in texting.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I need coffee RN.", "Can't talk RN."]
+  },
+  "TBD": {
+    "formal": "to be determined",
+    "type": "abbreviation",
+    "meaning_ja": "未定",
+    "explanation": "Acronym for 'To Be Determined'. Indicates a decision hasn't been made yet.",
+    "formality": 5,
+    "contexts": ["casual", "sns", "business", "academic"],
+    "examples": ["Location: TBD", "The time is still TBD."]
+  },
+  "WFH": {
+    "formal": "work from home",
+    "type": "abbreviation",
+    "meaning_ja": "在宅勤務",
+    "explanation": "Acronym for 'Work From Home'. Became extremely common during the pandemic.",
+    "formality": 4,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I'm WFH today.", "WFH Fridays are the best."]
+  },
+  "OOO": {
+    "formal": "out of office",
+    "type": "abbreviation",
+    "meaning_ja": "不在",
+    "explanation": "Acronym for 'Out of Office'. Used in professional settings.",
+    "formality": 5,
+    "contexts": ["business", "casual"],
+    "examples": ["I'll be OOO next week.", "Set up an OOO message."]
+  },
+  "EOD": {
+    "formal": "end of day",
+    "type": "abbreviation",
+    "meaning_ja": "今日中に",
+    "explanation": "Acronym for 'End of Day'. Common in business communication.",
+    "formality": 5,
+    "contexts": ["business"],
+    "examples": ["Please send the report by EOD.", "EOD deadline."]
+  },
+  "ping": {
+    "formal": "send a quick message",
+    "type": "informal",
+    "meaning_ja": "連絡する、メッセージを送る",
+    "explanation": "To send someone a quick message or reminder. Originally a tech term.",
+    "formality": 3,
+    "contexts": ["casual", "business"],
+    "examples": ["Ping me when you're ready.", "I'll ping the team."]
+  },
+  "circle back": {
+    "formal": "return to discuss later",
+    "type": "informal",
+    "meaning_ja": "後で改めて話す",
+    "explanation": "To return to a topic or discussion at a later time. Common in business settings.",
+    "formality": 4,
+    "contexts": ["business", "casual"],
+    "examples": ["Let's circle back on this tomorrow.", "I'll circle back with an update."]
+  },
+  "deep dive": {
+    "formal": "thorough analysis",
+    "type": "informal",
+    "meaning_ja": "深掘り、徹底的な分析",
+    "explanation": "A thorough examination or analysis of a topic.",
+    "formality": 4,
+    "contexts": ["business", "casual", "academic"],
+    "examples": ["Let's do a deep dive into the data.", "This article is a deep dive on AI."]
+  },
+  "move the needle": {
+    "formal": "make significant progress",
+    "type": "informal",
+    "meaning_ja": "目に見える成果を出す",
+    "explanation": "To make noticeable progress or have a significant impact.",
+    "formality": 4,
+    "contexts": ["business"],
+    "examples": ["Will this really move the needle?", "We need ideas that move the needle."]
+  },
+  "low-hanging fruit": {
+    "formal": "easy wins / simple tasks",
+    "type": "informal",
+    "meaning_ja": "簡単に達成できること",
+    "explanation": "Tasks or goals that are easy to accomplish.",
+    "formality": 4,
+    "contexts": ["business"],
+    "examples": ["Let's start with the low-hanging fruit.", "That's low-hanging fruit."]
+  },
+  "on the same page": {
+    "formal": "in agreement / sharing understanding",
+    "type": "informal",
+    "meaning_ja": "同じ認識を持っている",
+    "explanation": "To have the same understanding or be in agreement about something.",
+    "formality": 4,
+    "contexts": ["business", "casual"],
+    "examples": ["Are we on the same page?", "Let's make sure everyone is on the same page."]
+  },
+  "keep me in the loop": {
+    "formal": "keep me informed",
+    "type": "informal",
+    "meaning_ja": "情報を共有してね",
+    "explanation": "To continue providing someone with updates or information.",
+    "formality": 4,
+    "contexts": ["business", "casual"],
+    "examples": ["Keep me in the loop on this project.", "Please keep us in the loop."]
+  },
+  "take it offline": {
+    "formal": "discuss privately / outside the current meeting",
+    "type": "informal",
+    "meaning_ja": "別途話し合う",
+    "explanation": "To discuss something outside of the current group meeting, usually one-on-one.",
+    "formality": 4,
+    "contexts": ["business"],
+    "examples": ["Let's take this offline.", "We should take that discussion offline."]
+  },
+  "sync up": {
+    "formal": "coordinate / align",
+    "type": "informal",
+    "meaning_ja": "情報を合わせる、打ち合わせする",
+    "explanation": "To coordinate or align on information with someone.",
+    "formality": 4,
+    "contexts": ["business", "casual"],
+    "examples": ["Let's sync up tomorrow morning.", "I need to sync up with the team."]
+  },
+  "game changer": {
+    "formal": "something that significantly changes the situation",
+    "type": "informal",
+    "meaning_ja": "画期的なもの",
+    "explanation": "Something that fundamentally changes the way things are done or perceived.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["This tool is a game changer.", "AI has been a game changer."]
+  },
+  "dumpster fire": {
+    "formal": "a chaotic disaster",
+    "type": "slang",
+    "meaning_ja": "大惨事、めちゃくちゃな状態",
+    "explanation": "A situation that is chaotic and hopelessly out of control.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That meeting was a dumpster fire.", "The whole project is a dumpster fire."]
+  },
+  "throw shade": {
+    "formal": "to subtly disrespect",
+    "type": "slang",
+    "meaning_ja": "遠回しに悪口を言う",
+    "explanation": "To make a subtle, often indirect insult or show of disrespect.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Did she just throw shade at me?", "He's always throwing shade."]
+  },
+  "sip tea": {
+    "formal": "to observe drama without getting involved",
+    "type": "slang",
+    "meaning_ja": "傍観する、ゴシップを楽しむ",
+    "explanation": "To observe drama or gossip without participating. Often paired with the frog/tea emoji.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I'm just here sipping tea.", "She sat there sipping tea while they argued."]
+  },
+  "understood the read": {
+    "formal": "recognized the insult",
+    "type": "slang",
+    "meaning_ja": "皮肉を理解した",
+    "explanation": "A 'read' is a pointed insult or critique. Understanding the read means recognizing it.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She read him for filth.", "That was a read."]
+  },
+  "CEO of": {
+    "formal": "the best at / most associated with",
+    "type": "slang",
+    "meaning_ja": "〜の達人",
+    "explanation": "Calling someone the 'CEO of' something means they epitomize it.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's the CEO of procrastination.", "CEO of not texting back."]
+  },
+  "unalive": {
+    "formal": "to die / to end one's life",
+    "type": "slang",
+    "meaning_ja": "死ぬ（SNSの検閲回避表現）",
+    "explanation": "A euphemism used on social media to avoid content moderation filters when discussing death.",
+    "formality": 1,
+    "contexts": ["sns"],
+    "examples": ["This is used as a workaround for content filters.", "The character got unalived in the movie."]
+  },
+  "ngl": {
+    "formal": "not going to lie",
+    "type": "abbreviation",
+    "meaning_ja": "正直に言うと",
+    "explanation": "Abbreviation for 'Not Gonna Lie'. Used to preface an honest opinion.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["NGL, that was amazing.", "I'm kinda nervous NGL."]
+  },
+  "fr": {
+    "formal": "for real",
+    "type": "abbreviation",
+    "meaning_ja": "マジで",
+    "explanation": "Abbreviation for 'For Real'. Used to emphasize sincerity.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["FR FR that was good.", "You're leaving? FR?"]
+  },
+  "ong": {
+    "formal": "on God / I swear",
+    "type": "abbreviation",
+    "meaning_ja": "神に誓って、マジで",
+    "explanation": "Abbreviation for 'On God'. Used to swear something is true.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["ONG that's facts.", "Best pizza ever ONG."]
+  },
+  "pov": {
+    "formal": "point of view",
+    "type": "abbreviation",
+    "meaning_ja": "視点",
+    "explanation": "Acronym for 'Point of View'. Very popular on TikTok for scenario-based content.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["POV: you just woke up late.", "POV: you're the main character."]
+  },
+  "fyi": {
+    "formal": "for your information",
+    "type": "abbreviation",
+    "meaning_ja": "ちなみに、参考までに",
+    "explanation": "Lowercase version commonly used in casual texting.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["fyi the store closes at 9", "just fyi, I won't be there"]
+  },
+  "tea time": {
+    "formal": "time to share gossip",
+    "type": "slang",
+    "meaning_ja": "ゴシップタイム",
+    "explanation": "An invitation to share or listen to gossip.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["It's tea time, gather round.", "Tea time! You won't believe what happened."]
+  },
+  "hard pass": {
+    "formal": "definite refusal",
+    "type": "informal",
+    "meaning_ja": "絶対にお断り",
+    "explanation": "A firm, emphatic refusal.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Skydiving? Hard pass.", "That's a hard pass for me."]
+  },
+  "catch up": {
+    "formal": "to update each other / meet to talk",
+    "type": "informal",
+    "meaning_ja": "近況報告する、久しぶりに会う",
+    "explanation": "To exchange news or updates with someone, usually after not seeing them for a while.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["Let's catch up over coffee.", "We need to catch up!"]
+  },
+  "burn out": {
+    "formal": "to become exhausted from overwork",
+    "type": "informal",
+    "meaning_ja": "燃え尽きる",
+    "explanation": "To become physically or mentally exhausted from excessive work or stress.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["I'm completely burned out.", "Be careful not to burn out."]
+  },
+  "zone out": {
+    "formal": "to lose focus / daydream",
+    "type": "informal",
+    "meaning_ja": "ぼーっとする",
+    "explanation": "To lose concentration or start daydreaming.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Sorry, I totally zoned out.", "I keep zoning out in meetings."]
+  },
+  "pig out": {
+    "formal": "to eat excessively",
+    "type": "informal",
+    "meaning_ja": "がつがつ食べる",
+    "explanation": "To eat a large amount of food.",
+    "formality": 1,
+    "contexts": ["casual"],
+    "examples": ["We pigged out on pizza.", "I'm going to pig out tonight."]
+  },
+  "geek out": {
+    "formal": "to be enthusiastically nerdy about something",
+    "type": "informal",
+    "meaning_ja": "オタク的に熱中する",
+    "explanation": "To be very enthusiastic and nerdy about a particular topic.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["I totally geeked out about the new game.", "Let's geek out over this."]
+  },
+  "diss": {
+    "formal": "to disrespect / insult",
+    "type": "slang",
+    "meaning_ja": "ディスる、侮辱する",
+    "explanation": "To show disrespect or insult someone. Short for 'disrespect'.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Don't diss my music taste.", "That was a total diss."]
+  },
+  "spill": {
+    "formal": "to reveal / share information",
+    "type": "slang",
+    "meaning_ja": "暴露する、話す",
+    "explanation": "To reveal or share gossip or information.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Spill! What happened?", "She spilled everything."]
+  },
+  "suss": {
+    "formal": "to figure out / investigate",
+    "type": "informal",
+    "meaning_ja": "見抜く、調べる",
+    "explanation": "To figure out or investigate something. Can also mean suspicious.",
+    "formality": 2,
+    "contexts": ["casual"],
+    "examples": ["I need to suss this out.", "Something about him seems suss."]
+  },
+  "epic": {
+    "formal": "extremely impressive",
+    "type": "informal",
+    "meaning_ja": "壮大な、すごい",
+    "explanation": "Describes something impressively great or memorable.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That was epic!", "Epic fail."]
+  },
+  "epic fail": {
+    "formal": "a spectacular failure",
+    "type": "slang",
+    "meaning_ja": "大失敗",
+    "explanation": "A failure that is so bad it becomes noteworthy or humorous.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Trying to cook was an epic fail.", "Epic fail moment."]
+  },
+  "facepalm": {
+    "formal": "expression of frustration or embarrassment",
+    "type": "informal",
+    "meaning_ja": "呆れ、恥ずかしさ（顔に手を当てる仕草）",
+    "explanation": "The gesture of putting your palm to your face in frustration, embarrassment, or disbelief.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["Total facepalm moment.", "I facepalmed so hard."]
+  },
+  "swerve": {
+    "formal": "to dodge / avoid",
+    "type": "slang",
+    "meaning_ja": "避ける",
+    "explanation": "To dodge or avoid something or someone.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["I swerved that question.", "Swerve, I'm not interested."]
+  },
+  "spicy": {
+    "formal": "provocative / controversial / exciting",
+    "type": "slang",
+    "meaning_ja": "刺激的な、物議を醸す",
+    "explanation": "Describes something provocative, controversial, or excitingly bold.",
+    "formality": 2,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's a spicy take.", "Things are getting spicy."]
+  },
+  "clown": {
+    "formal": "to make fun of / a foolish person",
+    "type": "slang",
+    "meaning_ja": "バカにする、ピエロ",
+    "explanation": "To mock someone or describe someone who is acting foolishly.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["They clowned him for that outfit.", "I'm a clown for believing that."]
+  },
+  "that's a wrap": {
+    "formal": "that's finished / concluded",
+    "type": "informal",
+    "meaning_ja": "これで終わり",
+    "explanation": "Indicates something is finished. Originally from film production.",
+    "formality": 3,
+    "contexts": ["casual", "sns", "business"],
+    "examples": ["That's a wrap on this project.", "And that's a wrap for today!"]
+  },
+  "the tea is hot": {
+    "formal": "the gossip is juicy",
+    "type": "slang",
+    "meaning_ja": "ゴシップが熱い",
+    "explanation": "The gossip or drama is particularly interesting or scandalous.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["The tea is hot today.", "Oh, the tea is HOT."]
+  },
+  "it slaps": {
+    "formal": "it's excellent",
+    "type": "slang",
+    "meaning_ja": "最高、めちゃくちゃいい",
+    "explanation": "Used to say something is extremely good, especially music or food.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["This ramen? It slaps.", "The new album — it slaps."]
+  },
+  "brainrot": {
+    "formal": "content that dulls the mind",
+    "type": "slang",
+    "meaning_ja": "脳が腐るようなコンテンツ",
+    "explanation": "Internet content that is mindless or so niche that consuming too much of it feels like it's rotting your brain.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's pure brainrot.", "I've been watching brainrot all day."]
+  },
+  "aura": {
+    "formal": "personal energy or presence",
+    "type": "slang",
+    "meaning_ja": "オーラ、存在感",
+    "explanation": "The distinctive energy or vibe a person gives off. Used to quantify coolness or reputation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["His aura is unmatched.", "That's a +1000 aura moment."]
+  },
+  "cooked": {
+    "formal": "in big trouble / ruined",
+    "type": "slang",
+    "meaning_ja": "終わった、やばい",
+    "explanation": "To be in serious trouble or a hopeless situation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["If the teacher finds out, we're cooked.", "He's absolutely cooked."]
+  },
+  "yeet": {
+    "formal": "to throw forcefully",
+    "type": "slang",
+    "meaning_ja": "勢いよく投げる",
+    "explanation": "To throw something with great force. Also used as an exclamation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["He yeeted the ball across the room.", "Yeet!"]
+  },
+  "sus": {
+    "formal": "suspicious",
+    "type": "slang",
+    "meaning_ja": "怪しい、疑わしい",
+    "explanation": "Short for 'suspicious'. Popularized by the game Among Us.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That's kinda sus.", "He's acting sus."]
+  },
+  "bestie": {
+    "formal": "best friend",
+    "type": "informal",
+    "meaning_ja": "親友",
+    "explanation": "A term of endearment for a close friend.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["Love you, bestie!", "She's my bestie."]
+  },
+  "main": {
+    "formal": "primary partner / most important person",
+    "type": "slang",
+    "meaning_ja": "一番大事な人",
+    "explanation": "Your primary romantic partner or the most important person in your life.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's my main.", "Don't mess with my main."]
+  },
+  "do the most": {
+    "formal": "to go overboard / try too hard",
+    "type": "slang",
+    "meaning_ja": "やりすぎる、張り切りすぎる",
+    "explanation": "To go overboard or put in excessive effort, often unnecessarily.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["She's always doing the most.", "Don't do the most."]
+  },
+  "feel some type of way": {
+    "formal": "to have a strong emotional reaction",
+    "type": "slang",
+    "meaning_ja": "複雑な感情を抱く",
+    "explanation": "To have a strong, often hard-to-describe emotional reaction to something.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That made me feel some type of way.", "I'm feeling some type of way about it."]
+  },
+  "snatched my wig": {
+    "formal": "I was amazed / blown away",
+    "type": "slang",
+    "meaning_ja": "衝撃を受けた、感動した",
+    "explanation": "To be so amazed or shocked that your wig (metaphorically) flew off. From drag culture.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["That performance snatched my wig.", "Her voice snatched everyone's wigs."]
+  },
+  "understood the vibe": {
+    "formal": "grasped the atmosphere or intention",
+    "type": "slang",
+    "meaning_ja": "雰囲気を理解した",
+    "explanation": "Recognized and matched the mood or intention of a situation.",
+    "formality": 1,
+    "contexts": ["casual", "sns"],
+    "examples": ["The DJ understood the vibe.", "She walked in and immediately understood the vibe."]
+  }
+}
