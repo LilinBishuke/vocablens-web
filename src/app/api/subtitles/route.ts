@@ -56,11 +56,34 @@ async function getCaptionUrlFromPage(videoId: string, lang: string): Promise<str
 
     const html = await resp.text();
 
-    // Extract ytInitialPlayerResponse JSON
-    const match = html.match(/ytInitialPlayerResponse\s*=\s*(\{.+?\});\s*(?:var|<\/script)/);
-    if (!match) return null;
+    // Extract ytInitialPlayerResponse JSON — use greedy match up to the closing pattern
+    const match = html.match(/ytInitialPlayerResponse\s*=\s*(\{.+\});\s*(?:var\s|<\/script)/);
+    if (!match) {
+      // Fallback: try to find "captionTracks" directly
+      const captionMatch = html.match(/"captionTracks":\s*(\[.*?\])/);
+      if (captionMatch) {
+        try {
+          const tracks = JSON.parse(captionMatch[1]);
+          return pickCaptionTrackUrl(tracks, lang);
+        } catch { /* continue */ }
+      }
+      return null;
+    }
 
-    const playerData = JSON.parse(match[1]);
+    let playerData;
+    try {
+      playerData = JSON.parse(match[1]);
+    } catch {
+      // JSON may be malformed from greedy match, try to find captionTracks directly
+      const captionMatch = html.match(/"captionTracks":\s*(\[.*?\])/);
+      if (captionMatch) {
+        try {
+          const tracks = JSON.parse(captionMatch[1]);
+          return pickCaptionTrackUrl(tracks, lang);
+        } catch { /* continue */ }
+      }
+      return null;
+    }
     const captionTracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
 
     if (!captionTracks || captionTracks.length === 0) return null;
