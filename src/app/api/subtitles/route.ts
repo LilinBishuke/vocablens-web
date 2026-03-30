@@ -16,31 +16,50 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    // Step 1: Get caption track URLs via innertube ANDROID client
-    const playerResp = await fetch('https://www.youtube.com/youtubei/v1/player', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        videoId,
-        context: {
-          client: {
-            clientName: 'ANDROID',
-            clientVersion: '20.10.38',
-            hl: lang,
+    // Step 1: Get caption track URLs via innertube API
+    // Try multiple client types — cloud IPs may be blocked by some
+    const clients = [
+      { clientName: 'WEB', clientVersion: '2.20240313.05.00' },
+      { clientName: 'ANDROID', clientVersion: '20.10.38' },
+      { clientName: 'IOS', clientVersion: '19.29.1' },
+    ];
+
+    let captionTracks = null;
+
+    for (const client of clients) {
+      try {
+        const playerResp = await fetch('https://www.youtube.com/youtubei/v1/player', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'User-Agent': client.clientName === 'WEB'
+              ? 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+              : `com.google.android.youtube/${client.clientVersion} (Linux; U; Android 14)`,
           },
-        },
-      }),
-    });
+          body: JSON.stringify({
+            videoId,
+            context: {
+              client: {
+                ...client,
+                hl: lang,
+              },
+            },
+          }),
+        });
 
-    if (!playerResp.ok) {
-      return NextResponse.json(
-        { error: 'Failed to fetch video info from YouTube' },
-        { status: 502 }
-      );
+        if (!playerResp.ok) continue;
+
+        const playerData = await playerResp.json();
+        const tracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+
+        if (tracks && tracks.length > 0) {
+          captionTracks = tracks;
+          break;
+        }
+      } catch {
+        continue;
+      }
     }
-
-    const playerData = await playerResp.json();
-    const captionTracks = playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
 
     if (!captionTracks || captionTracks.length === 0) {
       return NextResponse.json(
