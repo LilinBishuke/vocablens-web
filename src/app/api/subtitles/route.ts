@@ -24,8 +24,21 @@ export async function GET(request: NextRequest) {
       // Strategy 2: Fallback to innertube API with multiple clients
       const captionUrlFallback = await getCaptionUrlFromInnertube(videoId, lang);
       if (!captionUrlFallback) {
+        // Debug: check what YouTube returns
+        const debugResp = await fetch(`https://www.youtube.com/watch?v=${videoId}&hl=en`, {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Cookie': 'CONSENT=PENDING+987; SOCS=CAESEwgDEgk2ODE4MTAyNjQaAmVuIAEaBgiA_LyaBg',
+          },
+        });
+        const debugHtml = await debugResp.text();
+        const hasPlayer = debugHtml.includes('ytInitialPlayerResponse');
+        const hasCaptions = debugHtml.includes('captionTracks');
+        const htmlLen = debugHtml.length;
+
         return NextResponse.json(
-          { error: 'No captions available for this video' },
+          { error: 'No captions available for this video', debug: { htmlLen, hasPlayer, hasCaptions, status: debugResp.status } },
           { status: 404 }
         );
       }
