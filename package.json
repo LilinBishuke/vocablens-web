@@ -5,10 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "npx @opennextjs/cloudflare build",
+    "preview:cloudflare": "npx wrangler pages dev",
+    "deploy:cloudflare": "npx wrangler pages deploy",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.18.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",

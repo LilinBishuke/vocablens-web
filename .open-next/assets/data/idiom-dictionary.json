@@ -1,0 +1,2753 @@
+{
+  "break the ice": {
+    "meaning": "to initiate conversation in an awkward social situation",
+    "meaning_ja": "場の雰囲気を和らげる、打ち解ける",
+    "explanation": "Dates back to the era of trade ships that would need icebreaker vessels to clear paths. Now means easing tension in a social setting.",
+    "formality": 3,
+    "examples": ["He told a joke to break the ice at the meeting.", "Playing a game is a great way to break the ice at parties."]
+  },
+  "piece of cake": {
+    "meaning": "something very easy to do",
+    "meaning_ja": "朝飯前、とても簡単なこと",
+    "explanation": "Originated in the 1930s. Cake is pleasant and effortless to eat, so something easy became a 'piece of cake.'",
+    "formality": 2,
+    "examples": ["The exam was a piece of cake.", "Don't worry, fixing this will be a piece of cake."]
+  },
+  "hit the nail on the head": {
+    "meaning": "to be exactly right about something",
+    "meaning_ja": "的を射る、まさにその通り",
+    "explanation": "From carpentry—hitting a nail precisely on its head drives it in correctly. Means identifying something accurately.",
+    "formality": 3,
+    "examples": ["You hit the nail on the head with that analysis.", "She really hit the nail on the head when she described the problem."]
+  },
+  "under the weather": {
+    "meaning": "feeling ill or sick",
+    "meaning_ja": "体調が悪い、気分がすぐれない",
+    "explanation": "From sailing—when sailors felt seasick, they would go below deck to escape the weather. Now means feeling unwell.",
+    "formality": 3,
+    "examples": ["I'm feeling a bit under the weather today.", "He stayed home because he was under the weather."]
+  },
+  "break a leg": {
+    "meaning": "good luck (especially before a performance)",
+    "meaning_ja": "頑張って、幸運を祈る",
+    "explanation": "Theater superstition holds that wishing someone good luck is bad luck, so performers say 'break a leg' instead.",
+    "formality": 2,
+    "examples": ["Break a leg at your audition tomorrow!", "You're going to do great—break a leg!"]
+  },
+  "once in a blue moon": {
+    "meaning": "very rarely; almost never",
+    "meaning_ja": "めったにない、ごくまれに",
+    "explanation": "A blue moon is a rare astronomical event (second full moon in a calendar month). Used to describe extreme rarity.",
+    "formality": 3,
+    "examples": ["He only visits once in a blue moon.", "Once in a blue moon, we get a day off on a weekday."]
+  },
+  "cost an arm and a leg": {
+    "meaning": "to be extremely expensive",
+    "meaning_ja": "法外に高い、目が飛び出るほど高い",
+    "explanation": "Implies something is so expensive it's as if you'd have to give up your limbs to pay for it.",
+    "formality": 2,
+    "examples": ["That designer bag costs an arm and a leg.", "Repairs to the car cost an arm and a leg."]
+  },
+  "let the cat out of the bag": {
+    "meaning": "to reveal a secret accidentally",
+    "meaning_ja": "秘密をうっかり漏らす",
+    "explanation": "Possibly from medieval markets where sellers would substitute a cat for a piglet; opening the bag revealed the fraud.",
+    "formality": 3,
+    "examples": ["Don't let the cat out of the bag about the surprise party.", "She let the cat out of the bag when she mentioned the promotion."]
+  },
+  "beat around the bush": {
+    "meaning": "to avoid talking about the main topic directly",
+    "meaning_ja": "遠回しに言う、回りくどい",
+    "explanation": "From hunting—beaters would hit around bushes to flush out birds rather than going directly into the bush.",
+    "formality": 3,
+    "examples": ["Stop beating around the bush and tell me what happened.", "He kept beating around the bush instead of answering the question."]
+  },
+  "bite the bullet": {
+    "meaning": "to endure a painful or difficult situation bravely",
+    "meaning_ja": "歯を食いしばって耐える、覚悟を決める",
+    "explanation": "From battlefield surgery before anesthesia—patients would bite on a bullet to cope with pain.",
+    "formality": 3,
+    "examples": ["I decided to bite the bullet and ask for a raise.", "We just have to bite the bullet and get through this deadline."]
+  },
+  "burn the midnight oil": {
+    "meaning": "to work or study late into the night",
+    "meaning_ja": "夜遅くまで働く・勉強する",
+    "explanation": "Before electricity, working late meant burning oil lamps past midnight.",
+    "formality": 3,
+    "examples": ["She's been burning the midnight oil to finish the project.", "Students often burn the midnight oil before exams."]
+  },
+  "call it a day": {
+    "meaning": "to stop working; to decide that enough has been done",
+    "meaning_ja": "今日はここまでにする、切り上げる",
+    "explanation": "Declaring the working day over. Used when you decide to stop an activity for the time being.",
+    "formality": 3,
+    "examples": ["We've done enough—let's call it a day.", "After three hours of painting, I called it a day."]
+  },
+  "get out of hand": {
+    "meaning": "to become uncontrollable",
+    "meaning_ja": "手に負えなくなる、収拾がつかなくなる",
+    "explanation": "Originally referred to a horse that a rider could no longer control by hand. Now means any situation spiraling out of control.",
+    "formality": 3,
+    "examples": ["The party got out of hand when too many people showed up.", "Costs are getting out of hand on this project."]
+  },
+  "go the extra mile": {
+    "meaning": "to make more effort than is expected",
+    "meaning_ja": "期待以上の努力をする",
+    "explanation": "Biblical origin from the Sermon on the Mount. Means putting in additional effort beyond what is required.",
+    "formality": 3,
+    "examples": ["She always goes the extra mile for her clients.", "If you want to succeed, you need to go the extra mile."]
+  },
+  "in the same boat": {
+    "meaning": "in the same difficult situation as others",
+    "meaning_ja": "同じ境遇にある、同じ立場",
+    "explanation": "If you're in the same boat, you face the same conditions and dangers as everyone else aboard.",
+    "formality": 3,
+    "examples": ["We're all in the same boat when it comes to the new regulations.", "Don't worry—everyone in the class is in the same boat."]
+  },
+  "keep an eye on": {
+    "meaning": "to watch carefully; to monitor",
+    "meaning_ja": "目を光らせる、注意して見る",
+    "explanation": "Literally keeping your eye directed at something to ensure it stays safe or behaves properly.",
+    "formality": 3,
+    "examples": ["Can you keep an eye on my bag while I'm gone?", "Keep an eye on the stock prices this week."]
+  },
+  "miss the boat": {
+    "meaning": "to miss an opportunity; to be too late",
+    "meaning_ja": "チャンスを逃す、機会を逸する",
+    "explanation": "If you miss the boat, it's already departed and you can't get on. Means failing to act in time.",
+    "formality": 3,
+    "examples": ["If you don't apply soon, you'll miss the boat.", "We missed the boat on that investment opportunity."]
+  },
+  "pull someone's leg": {
+    "meaning": "to joke with someone; to tease playfully",
+    "meaning_ja": "からかう、冗談を言う",
+    "explanation": "Origin debated, but means teasing someone in a good-natured way by telling them something untrue.",
+    "formality": 2,
+    "examples": ["Are you pulling my leg, or did that really happen?", "He loves pulling people's legs with ridiculous stories."]
+  },
+  "see eye to eye": {
+    "meaning": "to agree completely with someone",
+    "meaning_ja": "意見が一致する、同じ考えである",
+    "explanation": "When two people literally look each other in the eye at the same level, they are on equal footing and in agreement.",
+    "formality": 3,
+    "examples": ["We don't always see eye to eye on politics.", "The two managers finally see eye to eye on the budget."]
+  },
+  "spill the beans": {
+    "meaning": "to reveal secret information",
+    "meaning_ja": "秘密をばらす",
+    "explanation": "Possibly from ancient Greek voting with beans—spilling them revealed the vote count prematurely.",
+    "formality": 2,
+    "examples": ["Come on, spill the beans! What's the surprise?", "Someone spilled the beans about the merger."]
+  },
+  "take it easy": {
+    "meaning": "to relax; to not worry",
+    "meaning_ja": "のんびりする、落ち着いて",
+    "explanation": "A common expression encouraging someone to relax or not overexert themselves.",
+    "formality": 2,
+    "examples": ["Take it easy this weekend—you've earned it.", "Take it easy, there's no rush."]
+  },
+  "the last straw": {
+    "meaning": "the final problem in a series that makes the situation unbearable",
+    "meaning_ja": "最後の一撃、堪忍袋の緒が切れる原因",
+    "explanation": "From 'the straw that broke the camel's back'—one final small burden that causes total collapse.",
+    "formality": 3,
+    "examples": ["Being late again was the last straw for his boss.", "That rude comment was the last straw—I'm done."]
+  },
+  "tip of the iceberg": {
+    "meaning": "a small visible part of a much larger problem",
+    "meaning_ja": "氷山の一角",
+    "explanation": "Only about 10% of an iceberg is visible above water. The phrase means a problem is much bigger than it appears.",
+    "formality": 3,
+    "examples": ["These complaints are just the tip of the iceberg.", "The accounting errors we found were only the tip of the iceberg."]
+  },
+  "on the fly": {
+    "meaning": "improvised; without preparation",
+    "meaning_ja": "その場で、即興で",
+    "explanation": "Originally from aviation—making repairs while in flight. Now means doing something quickly without planning.",
+    "formality": 3,
+    "examples": ["We had to make changes on the fly.", "She can cook on the fly with whatever's in the fridge."]
+  },
+  "back to square one": {
+    "meaning": "back to the beginning after a failed attempt",
+    "meaning_ja": "振り出しに戻る",
+    "explanation": "Possibly from board games or early BBC football commentary using a numbered grid. Means starting over.",
+    "formality": 3,
+    "examples": ["The experiment failed, so it's back to square one.", "After the deal fell through, we were back to square one."]
+  },
+  "ballpark figure": {
+    "meaning": "a rough numerical estimate",
+    "meaning_ja": "おおよその数字、概算",
+    "explanation": "From baseball—a ballpark is a large area, so a ballpark figure is one that's in the general range but not precise.",
+    "formality": 3,
+    "examples": ["Can you give me a ballpark figure for the project cost?", "As a ballpark figure, we're looking at about $50,000."]
+  },
+  "bottom line": {
+    "meaning": "the most important factor; the final result",
+    "meaning_ja": "最終的な結論、肝心なこと",
+    "explanation": "From accounting—the bottom line of a financial statement shows net profit or loss. Now means the essential point.",
+    "formality": 3,
+    "examples": ["The bottom line is that we need more funding.", "What's the bottom line on this quarter's sales?"]
+  },
+  "bring to the table": {
+    "meaning": "to contribute something of value",
+    "meaning_ja": "提供する、もたらす",
+    "explanation": "Imagining a meeting table where everyone brings their contributions. Means offering skills or ideas.",
+    "formality": 3,
+    "examples": ["What do you bring to the table as a candidate?", "Each team member brings something unique to the table."]
+  },
+  "cut corners": {
+    "meaning": "to do something in the cheapest or easiest way, often sacrificing quality",
+    "meaning_ja": "手を抜く、経費を削る",
+    "explanation": "From literally cutting corners on a path to save time, but risking a worse result.",
+    "formality": 3,
+    "examples": ["They cut corners on construction and the building has problems.", "Don't cut corners on safety procedures."]
+  },
+  "get the ball rolling": {
+    "meaning": "to start a process or activity",
+    "meaning_ja": "物事を始める、軌道に乗せる",
+    "explanation": "Once a ball starts rolling, it gains momentum. Means initiating something so it can proceed.",
+    "formality": 3,
+    "examples": ["Let's get the ball rolling on this project.", "Who wants to get the ball rolling with the first presentation?"]
+  },
+  "in a nutshell": {
+    "meaning": "in the fewest possible words; briefly summarized",
+    "meaning_ja": "一言で言えば、要するに",
+    "explanation": "From the idea of fitting something into a space as small as a nutshell. Means giving a concise summary.",
+    "formality": 3,
+    "examples": ["In a nutshell, the plan is to expand overseas.", "That's the situation in a nutshell."]
+  },
+  "keep someone in the loop": {
+    "meaning": "to keep someone informed about developments",
+    "meaning_ja": "情報を共有し続ける、逐一知らせる",
+    "explanation": "Being 'in the loop' means being part of the information chain. Keeping someone there means updating them regularly.",
+    "formality": 3,
+    "examples": ["Please keep me in the loop about any changes.", "Make sure to keep the client in the loop."]
+  },
+  "on the same page": {
+    "meaning": "in agreement; having the same understanding",
+    "meaning_ja": "同じ認識を持っている、意見が一致している",
+    "explanation": "Like everyone reading from the same page of a document. Means having a shared understanding.",
+    "formality": 3,
+    "examples": ["Let's make sure we're all on the same page before we proceed.", "Are we on the same page about the deadline?"]
+  },
+  "push the envelope": {
+    "meaning": "to go beyond established limits; to innovate",
+    "meaning_ja": "限界に挑戦する、常識を超える",
+    "explanation": "From aviation—the flight envelope defines safe operating limits. Pushing it means testing those boundaries.",
+    "formality": 3,
+    "examples": ["This company constantly pushes the envelope with new technology.", "Artists who push the envelope often face criticism at first."]
+  },
+  "raise the bar": {
+    "meaning": "to set a higher standard",
+    "meaning_ja": "基準を上げる、ハードルを高くする",
+    "explanation": "From high jump and pole vault—literally raising the bar means requiring a higher jump to succeed.",
+    "formality": 3,
+    "examples": ["Her performance raised the bar for the entire team.", "We need to raise the bar on customer service."]
+  },
+  "step up to the plate": {
+    "meaning": "to take responsibility; to take action when needed",
+    "meaning_ja": "責任を引き受ける、立ち上がる",
+    "explanation": "From baseball—stepping up to home plate to take your turn at bat. Means volunteering or accepting a challenge.",
+    "formality": 3,
+    "examples": ["It's time for someone to step up to the plate and lead this project.", "When no one else would, she stepped up to the plate."]
+  },
+  "think outside the box": {
+    "meaning": "to think creatively; to approach problems in new ways",
+    "meaning_ja": "型にはまらない発想をする、枠を超えて考える",
+    "explanation": "From a puzzle involving nine dots that requires drawing lines outside the box to solve. Means creative problem-solving.",
+    "formality": 3,
+    "examples": ["We need to think outside the box to solve this problem.", "The best innovators think outside the box."]
+  },
+  "touch base": {
+    "meaning": "to briefly make contact with someone",
+    "meaning_ja": "連絡を取る、軽く打ち合わせをする",
+    "explanation": "From baseball—runners must touch each base. In business, it means briefly checking in with someone.",
+    "formality": 3,
+    "examples": ["Let's touch base next week about the proposal.", "I just wanted to touch base with you on the project status."]
+  },
+  "up to speed": {
+    "meaning": "fully informed; at the expected level of knowledge or performance",
+    "meaning_ja": "最新の状況を把握している、追いついている",
+    "explanation": "Like a machine reaching its operating speed. Means someone has all the current information they need.",
+    "formality": 3,
+    "examples": ["It took a few weeks to get up to speed at my new job.", "Let me bring you up to speed on recent developments."]
+  },
+  "win-win situation": {
+    "meaning": "a situation where all parties benefit",
+    "meaning_ja": "双方にとって有利な状況",
+    "explanation": "From game theory and negotiation. A win-win means no one loses—everyone gains something.",
+    "formality": 3,
+    "examples": ["This partnership is a win-win situation for both companies.", "We should look for a win-win situation in these negotiations."]
+  },
+  "blow off steam": {
+    "meaning": "to release built-up anger or stress",
+    "meaning_ja": "ストレスを発散する、憂さを晴らす",
+    "explanation": "From steam engines that must release excess pressure to avoid explosion. Means relieving emotional pressure.",
+    "formality": 2,
+    "examples": ["I went for a run to blow off steam after the argument.", "Everyone needs to blow off steam sometimes."]
+  },
+  "butterflies in my stomach": {
+    "meaning": "a nervous, fluttery feeling in the stomach",
+    "meaning_ja": "緊張でそわそわする、胸がドキドキする",
+    "explanation": "The sensation of anxiety or excitement can feel like fluttering butterflies in the abdomen.",
+    "formality": 2,
+    "examples": ["I had butterflies in my stomach before the interview.", "She always gets butterflies in her stomach before performing."]
+  },
+  "cold feet": {
+    "meaning": "nervousness or hesitation about a decision",
+    "meaning_ja": "おじけづく、怖気づく",
+    "explanation": "Possibly military in origin—soldiers with cold feet couldn't march into battle. Now means losing nerve before a big decision.",
+    "formality": 3,
+    "examples": ["He got cold feet and cancelled the wedding.", "Don't get cold feet now—we've come too far."]
+  },
+  "cry over spilt milk": {
+    "meaning": "to be upset about something that cannot be undone",
+    "meaning_ja": "覆水盆に返らず、済んだことを嘆く",
+    "explanation": "Once milk is spilled, it cannot be put back. Means there's no point being upset about irreversible events.",
+    "formality": 3,
+    "examples": ["There's no use crying over spilt milk—let's focus on what's next.", "What's done is done. No point crying over spilt milk."]
+  },
+  "down in the dumps": {
+    "meaning": "feeling sad or depressed",
+    "meaning_ja": "落ち込んでいる、意気消沈している",
+    "explanation": "'Dumps' is an old word for a state of melancholy or depression.",
+    "formality": 2,
+    "examples": ["She's been down in the dumps since she lost her job.", "Don't be down in the dumps—things will get better."]
+  },
+  "feel blue": {
+    "meaning": "to feel sad or melancholy",
+    "meaning_ja": "悲しい気持ちになる、憂鬱になる",
+    "explanation": "Blue has been associated with sadness since the 1300s. Possibly from sailors' custom of flying blue flags when a captain died.",
+    "formality": 2,
+    "examples": ["I've been feeling blue all week.", "Rainy days make me feel blue."]
+  },
+  "fly off the handle": {
+    "meaning": "to suddenly become very angry",
+    "meaning_ja": "カッとなる、逆上する",
+    "explanation": "From an axe head flying off its handle when swung—dangerous and uncontrolled. Means losing temper suddenly.",
+    "formality": 2,
+    "examples": ["He flew off the handle when he heard the news.", "Try not to fly off the handle over small things."]
+  },
+  "get cold feet": {
+    "meaning": "to become too nervous to proceed with something planned",
+    "meaning_ja": "怖気づく、尻込みする",
+    "explanation": "Same origin as 'cold feet.' Emphasizes the moment of losing courage before an important event.",
+    "formality": 3,
+    "examples": ["She got cold feet about the skydiving trip.", "Many people get cold feet before public speaking."]
+  },
+  "heart of gold": {
+    "meaning": "a very kind and generous nature",
+    "meaning_ja": "心が優しい、黄金の心",
+    "explanation": "Gold symbolizes something precious and valuable. A heart of gold means someone whose kindness is their most valuable quality.",
+    "formality": 3,
+    "examples": ["My grandmother has a heart of gold.", "Despite his tough exterior, he has a heart of gold."]
+  },
+  "keep a stiff upper lip": {
+    "meaning": "to remain brave and unemotional in difficult situations",
+    "meaning_ja": "感情を表に出さない、毅然としている",
+    "explanation": "A trembling lip shows emotion. Keeping it stiff means maintaining composure. Strongly associated with British culture.",
+    "formality": 4,
+    "examples": ["The British are known for keeping a stiff upper lip.", "She kept a stiff upper lip during the funeral."]
+  },
+  "lose your cool": {
+    "meaning": "to lose your temper; to become agitated",
+    "meaning_ja": "冷静さを失う、取り乱す",
+    "explanation": "'Cool' means composure. Losing it means becoming emotional or angry.",
+    "formality": 2,
+    "examples": ["He lost his cool during the argument.", "Try not to lose your cool in the negotiation."]
+  },
+  "on cloud nine": {
+    "meaning": "extremely happy; elated",
+    "meaning_ja": "天にも昇る気持ち、有頂天",
+    "explanation": "Possibly from the US Weather Bureau classification where cloud nine (cumulonimbus) is the highest cloud type.",
+    "formality": 2,
+    "examples": ["She's been on cloud nine since she got the promotion.", "Winning the award put him on cloud nine."]
+  },
+  "over the moon": {
+    "meaning": "extremely happy and excited",
+    "meaning_ja": "大喜びで、有頂天で",
+    "explanation": "From the nursery rhyme 'the cow jumped over the moon.' Means being so happy you could jump that high.",
+    "formality": 2,
+    "examples": ["They were over the moon when they found out about the baby.", "I'm over the moon about the test results."]
+  },
+  "sick and tired": {
+    "meaning": "extremely annoyed; completely fed up",
+    "meaning_ja": "うんざりしている、もう嫌だ",
+    "explanation": "A double emphasis on being exhausted by something. Means having absolutely no more patience for something.",
+    "formality": 2,
+    "examples": ["I'm sick and tired of these delays.", "She's sick and tired of making excuses for him."]
+  },
+  "wear your heart on your sleeve": {
+    "meaning": "to openly show your emotions",
+    "meaning_ja": "感情をあらわにする、心の内を隠さない",
+    "explanation": "Possibly from medieval jousting where knights wore a lady's favor on their sleeve, showing their affection publicly.",
+    "formality": 3,
+    "examples": ["She wears her heart on her sleeve—you always know how she feels.", "It's brave to wear your heart on your sleeve."]
+  },
+  "against the clock": {
+    "meaning": "in a great hurry; with very little time remaining",
+    "meaning_ja": "時間との戦いで",
+    "explanation": "Racing against the clock rather than competitors. Means working under extreme time pressure.",
+    "formality": 3,
+    "examples": ["They were working against the clock to meet the deadline.", "It was a race against the clock to save the patient."]
+  },
+  "at the eleventh hour": {
+    "meaning": "at the very last possible moment",
+    "meaning_ja": "土壇場で、ぎりぎりのところで",
+    "explanation": "From the Bible (Matthew 20:9)—workers hired at the eleventh hour of a twelve-hour day. Means the very last minute.",
+    "formality": 4,
+    "examples": ["The agreement was reached at the eleventh hour.", "At the eleventh hour, they found a solution."]
+  },
+  "better late than never": {
+    "meaning": "it's better to do something late than not do it at all",
+    "meaning_ja": "遅くてもやらないよりはまし",
+    "explanation": "A proverb dating back to Chaucer. Encourages action even when it's overdue.",
+    "formality": 3,
+    "examples": ["You finally finished the report? Better late than never.", "He started exercising at 60—better late than never."]
+  },
+  "day in day out": {
+    "meaning": "every single day; continuously and monotonously",
+    "meaning_ja": "来る日も来る日も、毎日毎日",
+    "explanation": "Emphasizes the repetitive and relentless nature of something that happens every day without change.",
+    "formality": 3,
+    "examples": ["She works at the same desk day in day out.", "Day in day out, the routine never changes."]
+  },
+  "from time to time": {
+    "meaning": "occasionally; sometimes",
+    "meaning_ja": "時々、たまに",
+    "explanation": "A straightforward expression meaning at irregular intervals, not constantly but not rarely either.",
+    "formality": 3,
+    "examples": ["From time to time, I like to visit the countryside.", "We meet up from time to time for coffee."]
+  },
+  "in the nick of time": {
+    "meaning": "just barely in time; at the very last moment",
+    "meaning_ja": "間一髪で、ぎりぎり間に合って",
+    "explanation": "'Nick' once meant a precise notch or mark. Arriving at that exact point means cutting it extremely close.",
+    "formality": 3,
+    "examples": ["The firefighters arrived in the nick of time.", "We caught the train in the nick of time."]
+  },
+  "kill time": {
+    "meaning": "to do something unimportant while waiting",
+    "meaning_ja": "時間をつぶす、暇つぶしをする",
+    "explanation": "To 'kill' time is to make it pass faster by occupying yourself with something trivial.",
+    "formality": 2,
+    "examples": ["I was just killing time at the bookstore.", "We played cards to kill time before the flight."]
+  },
+  "once in a while": {
+    "meaning": "sometimes; occasionally",
+    "meaning_ja": "たまに、時折",
+    "explanation": "A simple idiom meaning at infrequent but somewhat regular intervals.",
+    "formality": 3,
+    "examples": ["Once in a while, I treat myself to a fancy dinner.", "It's okay to take a break once in a while."]
+  },
+  "time flies": {
+    "meaning": "time seems to pass very quickly",
+    "meaning_ja": "時が経つのは早い、光陰矢の如し",
+    "explanation": "From the Latin 'tempus fugit.' Often said when you realize a long period has passed without noticing.",
+    "formality": 3,
+    "examples": ["Time flies when you're having fun.", "I can't believe it's December already—time flies!"]
+  },
+  "around the clock": {
+    "meaning": "24 hours a day; continuously",
+    "meaning_ja": "24時間休みなく、昼夜を問わず",
+    "explanation": "The hands of a clock go all the way around in 24 hours. Means nonstop, without interruption.",
+    "formality": 3,
+    "examples": ["Nurses work around the clock at the hospital.", "The factory operates around the clock."]
+  },
+  "break the bank": {
+    "meaning": "to be very expensive; to use up all one's money",
+    "meaning_ja": "大金を使う、財布を空にする",
+    "explanation": "From gambling—winning so much that the casino (bank) runs out of money. Now often used negatively to mean something is too expensive.",
+    "formality": 2,
+    "examples": ["A vacation doesn't have to break the bank.", "That new phone will break the bank."]
+  },
+  "cash cow": {
+    "meaning": "a business or product that generates consistent, reliable profit",
+    "meaning_ja": "ドル箱、安定して利益を生むもの",
+    "explanation": "Like a cow that reliably produces milk, a cash cow reliably produces income with little additional investment.",
+    "formality": 3,
+    "examples": ["The software subscription service is the company's cash cow.", "That product line has been a cash cow for years."]
+  },
+  "foot the bill": {
+    "meaning": "to pay for something, especially a large expense",
+    "meaning_ja": "支払いを負担する、勘定を持つ",
+    "explanation": "'Foot' means to add up figures at the foot (bottom) of a bill. Now means taking responsibility for payment.",
+    "formality": 3,
+    "examples": ["My parents footed the bill for the wedding.", "Who's going to foot the bill for the repairs?"]
+  },
+  "make ends meet": {
+    "meaning": "to earn just enough money to cover basic expenses",
+    "meaning_ja": "何とか生計を立てる、やりくりする",
+    "explanation": "The 'ends' are income and expenses—making them meet means having just enough income to cover costs.",
+    "formality": 3,
+    "examples": ["It's hard to make ends meet on a single income.", "Many families struggle to make ends meet."]
+  },
+  "penny for your thoughts": {
+    "meaning": "a way of asking someone what they're thinking about",
+    "meaning_ja": "何を考えているの？",
+    "explanation": "An old English expression offering a small coin in exchange for hearing someone's thoughts. A gentle way to ask what's on someone's mind.",
+    "formality": 3,
+    "examples": ["You look deep in thought—penny for your thoughts?", "A penny for your thoughts? You've been quiet all evening."]
+  },
+  "rain check": {
+    "meaning": "a polite way to decline now but accept later",
+    "meaning_ja": "また今度にする、延期する",
+    "explanation": "From baseball—when a game was rained out, fans got a 'rain check' ticket for a future game.",
+    "formality": 3,
+    "examples": ["Can I take a rain check on dinner? I'm not feeling well.", "I'll have to take a rain check—maybe next week?"]
+  },
+  "worth its weight in gold": {
+    "meaning": "extremely valuable or useful",
+    "meaning_ja": "非常に価値がある、金の価値がある",
+    "explanation": "Gold is one of the most valuable materials by weight. If something is worth its weight in gold, it's extremely precious.",
+    "formality": 3,
+    "examples": ["A good mentor is worth their weight in gold.", "That advice was worth its weight in gold."]
+  },
+  "break the news": {
+    "meaning": "to tell someone about something important, often bad",
+    "meaning_ja": "知らせを伝える（特に悪い知らせ）",
+    "explanation": "'Breaking' suggests delivering something sudden or impactful. Usually refers to sharing significant or unwelcome information.",
+    "formality": 3,
+    "examples": ["I had to break the news to her about the layoffs.", "Who's going to break the news to the team?"]
+  },
+  "get to the point": {
+    "meaning": "to say what is important directly without unnecessary details",
+    "meaning_ja": "要点を言う、本題に入る",
+    "explanation": "The 'point' is the main idea. Getting to it means skipping preamble and stating the essential information.",
+    "formality": 3,
+    "examples": ["Please get to the point—I don't have much time.", "He spent twenty minutes talking before finally getting to the point."]
+  },
+  "give someone the cold shoulder": {
+    "meaning": "to deliberately ignore or be unfriendly to someone",
+    "meaning_ja": "冷たい態度をとる、無視する",
+    "explanation": "Possibly from serving cold shoulder of meat to unwelcome guests. Means treating someone with deliberate coldness.",
+    "formality": 3,
+    "examples": ["She gave him the cold shoulder after their argument.", "I don't know why he's giving me the cold shoulder."]
+  },
+  "hear it through the grapevine": {
+    "meaning": "to learn about something through informal gossip or rumors",
+    "meaning_ja": "人づてに聞く、噂で聞く",
+    "explanation": "From the Civil War era when telegraph wires strung through trees resembled grapevines. Informal information spread this way.",
+    "formality": 2,
+    "examples": ["I heard through the grapevine that you're moving.", "Word got around through the grapevine."]
+  },
+  "read between the lines": {
+    "meaning": "to understand a hidden meaning that is not directly stated",
+    "meaning_ja": "行間を読む、言外の意味を汲み取る",
+    "explanation": "As if a secret message were written between the visible lines of text. Means understanding implied meaning.",
+    "formality": 3,
+    "examples": ["If you read between the lines, you can tell she's unhappy.", "Politicians speak carefully, so you need to read between the lines."]
+  },
+  "speak of the devil": {
+    "meaning": "said when someone you were just talking about appears",
+    "meaning_ja": "噂をすれば影、噂の人が来た",
+    "explanation": "Short for 'speak of the devil and he shall appear.' An old superstition that speaking the devil's name would summon him.",
+    "formality": 2,
+    "examples": ["We were just talking about you—speak of the devil!", "Speak of the devil, here comes Tom now."]
+  },
+  "the elephant in the room": {
+    "meaning": "an obvious problem that everyone is ignoring",
+    "meaning_ja": "誰もが気づいているのに触れない問題",
+    "explanation": "An elephant in a room would be impossible to overlook, yet people pretend it's not there. Means an uncomfortable truth no one addresses.",
+    "formality": 3,
+    "examples": ["The budget deficit is the elephant in the room.", "Let's address the elephant in the room—our sales are dropping."]
+  },
+  "word of mouth": {
+    "meaning": "information passed by people talking to each other",
+    "meaning_ja": "口コミ、口伝え",
+    "explanation": "Information that spreads through spoken conversation rather than written media or advertising.",
+    "formality": 3,
+    "examples": ["The restaurant became popular through word of mouth.", "Word of mouth is still one of the best forms of advertising."]
+  },
+  "back to the drawing board": {
+    "meaning": "to start over because a plan has failed",
+    "meaning_ja": "最初からやり直す",
+    "explanation": "Designers and architects literally return to their drawing boards to redesign after a failure.",
+    "formality": 3,
+    "examples": ["The design didn't work, so it's back to the drawing board.", "Our proposal was rejected—back to the drawing board."]
+  },
+  "blessing in disguise": {
+    "meaning": "something bad that turns out to have good results",
+    "meaning_ja": "不幸中の幸い、禍を転じて福となす",
+    "explanation": "A good thing that initially appears negative—the blessing is disguised as misfortune.",
+    "formality": 3,
+    "examples": ["Losing that job was a blessing in disguise—I found a better one.", "The delay was a blessing in disguise because it gave us time to prepare."]
+  },
+  "burn bridges": {
+    "meaning": "to destroy relationships or eliminate the possibility of returning",
+    "meaning_ja": "退路を断つ、関係を壊す",
+    "explanation": "From military strategy—burning bridges behind you prevents retreat. Means damaging relationships irreparably.",
+    "formality": 3,
+    "examples": ["Don't burn bridges with your old company.", "He burned bridges when he left without notice."]
+  },
+  "cross that bridge when you come to it": {
+    "meaning": "to deal with a problem only when it actually arises",
+    "meaning_ja": "その時になったら考える、取り越し苦労はしない",
+    "explanation": "No need to worry about crossing a bridge until you reach it. Means not worrying prematurely.",
+    "formality": 3,
+    "examples": ["We'll cross that bridge when we come to it.", "Don't worry about the exam yet—cross that bridge when you come to it."]
+  },
+  "hit rock bottom": {
+    "meaning": "to reach the lowest possible point",
+    "meaning_ja": "どん底に落ちる",
+    "explanation": "Rock bottom is the solid foundation beneath everything. Hitting it means you cannot sink any lower.",
+    "formality": 3,
+    "examples": ["After losing everything, he hit rock bottom.", "The stock price hit rock bottom before recovering."]
+  },
+  "light at the end of the tunnel": {
+    "meaning": "a sign of hope after a difficult period",
+    "meaning_ja": "トンネルの先の光、希望の兆し",
+    "explanation": "When you're in a dark tunnel, seeing light ahead means you're approaching the exit. Means hope that a difficult time is ending.",
+    "formality": 3,
+    "examples": ["After months of treatment, there's finally light at the end of the tunnel.", "We can see the light at the end of the tunnel with this project."]
+  },
+  "make or break": {
+    "meaning": "a situation that will lead to either success or failure",
+    "meaning_ja": "成功か失敗かの分かれ目、のるかそるか",
+    "explanation": "The outcome will either make (create success for) or break (destroy) someone or something.",
+    "formality": 3,
+    "examples": ["This presentation is make or break for the deal.", "The next quarter will be make or break for the startup."]
+  },
+  "turn over a new leaf": {
+    "meaning": "to start behaving in a better way",
+    "meaning_ja": "心を入れ替える、改心する",
+    "explanation": "'Leaf' refers to a page in a book. Turning over a new leaf means starting a fresh, clean page in your life.",
+    "formality": 3,
+    "examples": ["After his arrest, he turned over a new leaf.", "New Year is a good time to turn over a new leaf."]
+  },
+  "a dime a dozen": {
+    "meaning": "very common and therefore not valuable",
+    "meaning_ja": "ありふれた、掃いて捨てるほどある",
+    "explanation": "If you can buy twelve for a dime (10 cents), each one has very little individual value.",
+    "formality": 2,
+    "examples": ["Ideas are a dime a dozen—execution is what matters.", "Coffee shops are a dime a dozen in this neighborhood."]
+  },
+  "add fuel to the fire": {
+    "meaning": "to make a bad situation worse",
+    "meaning_ja": "火に油を注ぐ",
+    "explanation": "Literally adding fuel to flames makes them burn hotter. Means making an already bad situation even worse.",
+    "formality": 3,
+    "examples": ["His sarcastic comment only added fuel to the fire.", "Don't add fuel to the fire by bringing up old arguments."]
+  },
+  "add insult to injury": {
+    "meaning": "to make a bad situation even worse by also being disrespectful",
+    "meaning_ja": "泣きっ面に蜂、傷口に塩を塗る",
+    "explanation": "Not only is someone harmed, but they are also humiliated. The combination makes things doubly painful.",
+    "formality": 3,
+    "examples": ["To add insult to injury, they didn't even apologize.", "He was fired, and to add insult to injury, his replacement was his intern."]
+  },
+  "all ears": {
+    "meaning": "listening with full attention",
+    "meaning_ja": "一心に聞いている、耳をそばだてている",
+    "explanation": "As if your entire body were made of ears, giving complete attention to what someone is saying.",
+    "formality": 2,
+    "examples": ["Tell me what happened—I'm all ears.", "When she started her story, we were all ears."]
+  },
+  "at the drop of a hat": {
+    "meaning": "immediately; without hesitation",
+    "meaning_ja": "すぐに、即座に",
+    "explanation": "From the old custom of dropping a hat as a signal to start a fight or race. Means doing something instantly.",
+    "formality": 3,
+    "examples": ["She'd travel anywhere at the drop of a hat.", "He gets angry at the drop of a hat."]
+  },
+  "back against the wall": {
+    "meaning": "in a desperate situation with no easy options",
+    "meaning_ja": "追い詰められている、窮地に立たされている",
+    "explanation": "With your back against a wall, you cannot retreat. Means being in a position where you must fight or take action.",
+    "formality": 3,
+    "examples": ["With our backs against the wall, we had to innovate.", "The company had its back against the wall during the recession."]
+  },
+  "bark up the wrong tree": {
+    "meaning": "to pursue a mistaken approach; to blame the wrong person",
+    "meaning_ja": "見当違いをする、お門違いである",
+    "explanation": "From hunting dogs that bark at a tree the prey has already left. Means directing efforts in the wrong direction.",
+    "formality": 3,
+    "examples": ["If you think I'm responsible, you're barking up the wrong tree.", "The investigators were barking up the wrong tree for months."]
+  },
+  "bend over backwards": {
+    "meaning": "to make an extraordinary effort to help or please someone",
+    "meaning_ja": "全力を尽くす、無理をしてまで助ける",
+    "explanation": "Bending over backwards is physically difficult and uncomfortable. Doing it for someone shows extreme effort.",
+    "formality": 3,
+    "examples": ["She bends over backwards to accommodate her clients.", "We bent over backwards to make them feel welcome."]
+  },
+  "between a rock and a hard place": {
+    "meaning": "facing two equally difficult choices",
+    "meaning_ja": "板挟みになっている、進退きわまった",
+    "explanation": "Trapped between two unyielding surfaces with no good option. Means having to choose between two bad alternatives.",
+    "formality": 3,
+    "examples": ["I'm between a rock and a hard place—neither option is good.", "The manager was caught between a rock and a hard place."]
+  },
+  "big picture": {
+    "meaning": "the overall situation rather than individual details",
+    "meaning_ja": "全体像、大局",
+    "explanation": "Stepping back to see the full image rather than focusing on small parts. Means considering the broader context.",
+    "formality": 3,
+    "examples": ["Let's not get lost in details—look at the big picture.", "You need to see the big picture before making a decision."]
+  },
+  "bite off more than you can chew": {
+    "meaning": "to take on more responsibility than you can handle",
+    "meaning_ja": "手に余ることをする、力量以上のことを引き受ける",
+    "explanation": "Taking a bite of food too large to chew comfortably. Means overcommitting yourself.",
+    "formality": 3,
+    "examples": ["I bit off more than I could chew with three projects at once.", "Be careful not to bite off more than you can chew."]
+  },
+  "blow it": {
+    "meaning": "to ruin an opportunity through carelessness or mistakes",
+    "meaning_ja": "台無しにする、しくじる",
+    "explanation": "To completely waste or ruin a chance. Informal way of saying you failed when you shouldn't have.",
+    "formality": 1,
+    "examples": ["I had a chance to impress the boss and I blew it.", "Don't blow it—this is your last chance."]
+  },
+  "break new ground": {
+    "meaning": "to do something innovative; to pioneer",
+    "meaning_ja": "新境地を開く、革新的なことをする",
+    "explanation": "From construction—breaking ground means starting to dig for a new building. Now means doing something never done before.",
+    "formality": 3,
+    "examples": ["This research breaks new ground in cancer treatment.", "The company broke new ground with its approach to remote work."]
+  },
+  "by the skin of your teeth": {
+    "meaning": "by a very narrow margin; barely",
+    "meaning_ja": "かろうじて、間一髪で",
+    "explanation": "From the Bible (Job 19:20). Teeth don't have skin, so 'by the skin of your teeth' means by the thinnest possible margin.",
+    "formality": 3,
+    "examples": ["We passed the inspection by the skin of our teeth.", "He escaped by the skin of his teeth."]
+  },
+  "can of worms": {
+    "meaning": "a complicated problem that is difficult to resolve once started",
+    "meaning_ja": "やっかいな問題、パンドラの箱",
+    "explanation": "Opening a can of worms releases many writhing problems that are hard to put back. Means creating complicated issues.",
+    "formality": 3,
+    "examples": ["Investigating that would open a whole can of worms.", "Let's not open that can of worms right now."]
+  },
+  "caught red-handed": {
+    "meaning": "caught in the act of doing something wrong",
+    "meaning_ja": "現行犯で捕まる",
+    "explanation": "Originally referred to being caught with blood on your hands after a crime. Means being caught while committing an offense.",
+    "formality": 3,
+    "examples": ["The thief was caught red-handed.", "He was caught red-handed eating the last cookie."]
+  },
+  "change of heart": {
+    "meaning": "a reversal of one's feelings or decision",
+    "meaning_ja": "気が変わる、心変わり",
+    "explanation": "The heart is seen as the seat of emotions. A change of heart means your feelings or opinions have shifted.",
+    "formality": 3,
+    "examples": ["She had a change of heart and decided to stay.", "After thinking it over, he had a change of heart."]
+  },
+  "chip on your shoulder": {
+    "meaning": "an attitude of resentment or grievance",
+    "meaning_ja": "肩にのしかかる不満、反感を抱いている",
+    "explanation": "From the old practice of placing a wood chip on your shoulder and daring someone to knock it off. Means carrying a grudge.",
+    "formality": 3,
+    "examples": ["He's always had a chip on his shoulder about not going to college.", "Don't go in with a chip on your shoulder."]
+  },
+  "clear the air": {
+    "meaning": "to resolve tension or misunderstandings",
+    "meaning_ja": "わだかまりを解消する、雰囲気を一掃する",
+    "explanation": "Like opening windows to let fresh air in after a storm. Means having an honest conversation to resolve tension.",
+    "formality": 3,
+    "examples": ["We need to clear the air about what happened yesterday.", "A frank discussion helped clear the air."]
+  },
+  "come to grips with": {
+    "meaning": "to begin to understand and deal with something difficult",
+    "meaning_ja": "受け入れて対処する、向き合う",
+    "explanation": "From wrestling—gripping your opponent means engaging with them directly. Means facing and dealing with a challenge.",
+    "formality": 3,
+    "examples": ["She's still coming to grips with the loss.", "You need to come to grips with the reality of the situation."]
+  },
+  "couch potato": {
+    "meaning": "a lazy person who spends a lot of time sitting and watching TV",
+    "meaning_ja": "ごろごろしている人、テレビばかり見ている人",
+    "explanation": "Someone who sits on the couch like a potato—inactive and inert. Coined in the 1970s.",
+    "formality": 1,
+    "examples": ["Don't be a couch potato—go outside and play.", "He turns into a couch potato every weekend."]
+  },
+  "cup of tea": {
+    "meaning": "something one enjoys or does well (usually negative: 'not my cup of tea')",
+    "meaning_ja": "好みのもの（否定形で使うことが多い）",
+    "explanation": "British in origin—tea is a personal preference. 'Not my cup of tea' is a polite way to say you don't enjoy something.",
+    "formality": 3,
+    "examples": ["Horror movies aren't my cup of tea.", "Classical music is really my cup of tea."]
+  },
+  "cut to the chase": {
+    "meaning": "to get to the important point without wasting time",
+    "meaning_ja": "前置きなしに本題に入る",
+    "explanation": "From filmmaking—cutting directly to the exciting chase scene. Means skipping unnecessary preamble.",
+    "formality": 2,
+    "examples": ["Let me cut to the chase—we're over budget.", "Can we cut to the chase? I have a meeting in ten minutes."]
+  },
+  "dead end": {
+    "meaning": "a situation with no further possibilities or progress",
+    "meaning_ja": "行き止まり、これ以上進めない状況",
+    "explanation": "A road with no exit. Metaphorically means a path that leads nowhere productive.",
+    "formality": 3,
+    "examples": ["The investigation reached a dead end.", "This career feels like a dead end."]
+  },
+  "devil's advocate": {
+    "meaning": "someone who argues against a position for the sake of debate",
+    "meaning_ja": "あえて反対意見を述べる人",
+    "explanation": "From the Catholic Church's process of canonization, where someone would argue against sainthood. Means presenting counterarguments to test an idea.",
+    "formality": 3,
+    "examples": ["Let me play devil's advocate for a moment.", "She's always the devil's advocate in our meetings."]
+  },
+  "do a double take": {
+    "meaning": "to look at something again in surprise",
+    "meaning_ja": "二度見する、驚いて見返す",
+    "explanation": "Looking once, then looking again because you couldn't believe what you saw the first time.",
+    "formality": 2,
+    "examples": ["I did a double take when I saw the price.", "She did a double take when she recognized her old friend."]
+  },
+  "draw the line": {
+    "meaning": "to set a limit on what you will accept",
+    "meaning_ja": "一線を引く、限度を設ける",
+    "explanation": "Literally drawing a line that should not be crossed. Means establishing a boundary.",
+    "formality": 3,
+    "examples": ["I draw the line at working on weekends.", "You have to draw the line somewhere."]
+  },
+  "drop the ball": {
+    "meaning": "to make a mistake; to fail to do something expected",
+    "meaning_ja": "ミスをする、へまをする",
+    "explanation": "From sports—dropping the ball loses possession or points. Means failing at a task you were responsible for.",
+    "formality": 2,
+    "examples": ["Someone dropped the ball on the catering for the event.", "I really dropped the ball by forgetting the meeting."]
+  },
+  "easier said than done": {
+    "meaning": "something that sounds simple but is actually very difficult",
+    "meaning_ja": "言うは易く行うは難し",
+    "explanation": "Acknowledges that describing a solution is much simpler than actually implementing it.",
+    "formality": 3,
+    "examples": ["'Just stay calm'—easier said than done.", "Finding a new job is easier said than done."]
+  },
+  "eat humble pie": {
+    "meaning": "to admit you were wrong and apologize",
+    "meaning_ja": "自分の過ちを認めて謝る、恥を忍ぶ",
+    "explanation": "Originally 'umble pie' made from deer organs (umbles), a lowly food. Now means swallowing your pride.",
+    "formality": 3,
+    "examples": ["After his predictions were wrong, he had to eat humble pie.", "The CEO ate humble pie and apologized publicly."]
+  },
+  "face the music": {
+    "meaning": "to accept the unpleasant consequences of your actions",
+    "meaning_ja": "報いを受ける、結果に向き合う",
+    "explanation": "Possibly from theater—actors facing the orchestra pit. Or military—facing the drumroll of punishment. Means accepting consequences.",
+    "formality": 3,
+    "examples": ["It's time to face the music and admit what happened.", "You can't run forever—eventually you have to face the music."]
+  },
+  "fall through the cracks": {
+    "meaning": "to be overlooked or forgotten in a system",
+    "meaning_ja": "見落とされる、抜け落ちる",
+    "explanation": "Like something small enough to slip through gaps in a surface. Means being missed or neglected.",
+    "formality": 3,
+    "examples": ["Some students fall through the cracks in large schools.", "The complaint fell through the cracks and was never addressed."]
+  },
+  "from scratch": {
+    "meaning": "from the very beginning with no prior preparation",
+    "meaning_ja": "ゼロから、一から",
+    "explanation": "From sports where the 'scratch' was the starting line drawn in the dirt. Starting from scratch means no head start.",
+    "formality": 3,
+    "examples": ["She built her business from scratch.", "I made the cake from scratch—no box mix."]
+  },
+  "get off the ground": {
+    "meaning": "to successfully begin or make progress",
+    "meaning_ja": "軌道に乗る、離陸する",
+    "explanation": "Like an airplane taking off. Means getting a project or plan started and moving forward.",
+    "formality": 3,
+    "examples": ["We finally got the project off the ground.", "It took years to get the business off the ground."]
+  },
+  "get your act together": {
+    "meaning": "to organize yourself and start behaving properly",
+    "meaning_ja": "しっかりする、態度を改める",
+    "explanation": "From show business—getting your performance act prepared and polished. Means becoming organized and responsible.",
+    "formality": 2,
+    "examples": ["You need to get your act together before the review.", "He finally got his act together and finished school."]
+  },
+  "give it a shot": {
+    "meaning": "to try something",
+    "meaning_ja": "やってみる、試してみる",
+    "explanation": "Taking a shot at something—attempting it, even if you might miss. Means making an attempt.",
+    "formality": 2,
+    "examples": ["I've never tried sushi, but I'll give it a shot.", "Why not give it a shot? You have nothing to lose."]
+  },
+  "go back on your word": {
+    "meaning": "to break a promise",
+    "meaning_ja": "約束を破る、前言を撤回する",
+    "explanation": "To reverse or retract what you previously promised. Means not keeping your commitment.",
+    "formality": 3,
+    "examples": ["He went back on his word and sold the house to someone else.", "A good leader never goes back on their word."]
+  },
+  "go down the drain": {
+    "meaning": "to be wasted or lost",
+    "meaning_ja": "水の泡になる、台無しになる",
+    "explanation": "Like water or money going down a drain—irretrievably lost. Means efforts or resources being wasted.",
+    "formality": 2,
+    "examples": ["All our hard work went down the drain.", "Don't let your savings go down the drain."]
+  },
+  "go with the flow": {
+    "meaning": "to accept things as they happen without trying to control them",
+    "meaning_ja": "流れに身を任せる、成り行きに任せる",
+    "explanation": "Like floating with a river current rather than swimming against it. Means being relaxed and adaptable.",
+    "formality": 2,
+    "examples": ["I don't have a plan—I'll just go with the flow.", "Sometimes you just have to go with the flow."]
+  },
+  "good riddance": {
+    "meaning": "expressing relief at being free of someone or something unpleasant",
+    "meaning_ja": "せいせいした、いなくなってよかった",
+    "explanation": "Riddance means the act of getting rid of something. Expresses happiness that something unwanted is gone.",
+    "formality": 2,
+    "examples": ["He finally quit? Good riddance!", "Good riddance to that old car—it was always breaking down."]
+  },
+  "hang in there": {
+    "meaning": "to persist during a difficult time; don't give up",
+    "meaning_ja": "頑張って、持ちこたえて",
+    "explanation": "Like holding on to a rope or branch to avoid falling. An encouraging phrase meaning to keep trying.",
+    "formality": 2,
+    "examples": ["Hang in there—things will improve.", "The semester is almost over. Just hang in there."]
+  },
+  "have a lot on your plate": {
+    "meaning": "to have many tasks or responsibilities to deal with",
+    "meaning_ja": "やることがたくさんある、抱えきれない",
+    "explanation": "Like a plate piled high with food. Means being burdened with many tasks.",
+    "formality": 3,
+    "examples": ["I can't take on more work—I already have a lot on my plate.", "She has a lot on her plate with the new baby and her job."]
+  },
+  "head over heels": {
+    "meaning": "deeply and completely in love",
+    "meaning_ja": "すっかり夢中で、首ったけ",
+    "explanation": "So overwhelmed by love that you're tumbling head over heels. Means being completely infatuated.",
+    "formality": 2,
+    "examples": ["He's head over heels for her.", "They fell head over heels in love during college."]
+  },
+  "hit the ground running": {
+    "meaning": "to start something and immediately work hard at it",
+    "meaning_ja": "すぐに全力で取り組む、即戦力となる",
+    "explanation": "Like jumping from a vehicle and running immediately upon landing. Means starting with full energy and effort.",
+    "formality": 3,
+    "examples": ["She hit the ground running in her new role.", "We need someone who can hit the ground running."]
+  },
+  "hit the road": {
+    "meaning": "to leave; to begin a journey",
+    "meaning_ja": "出発する、旅に出る",
+    "explanation": "Literally starting to travel on the road. A casual way of saying it's time to leave.",
+    "formality": 2,
+    "examples": ["We should hit the road before traffic gets bad.", "Let's hit the road—it's a long drive."]
+  },
+  "hold your horses": {
+    "meaning": "to slow down; to be patient",
+    "meaning_ja": "ちょっと待って、焦らないで",
+    "explanation": "From horseback riding—pulling the reins to slow the horses. Means someone should wait and be patient.",
+    "formality": 2,
+    "examples": ["Hold your horses—I'm not finished yet.", "Hold your horses! We need to think this through."]
+  },
+  "in hot water": {
+    "meaning": "in trouble",
+    "meaning_ja": "困った状況にある、まずいことになっている",
+    "explanation": "Being in hot water is uncomfortable and dangerous. Means being in a problematic situation.",
+    "formality": 2,
+    "examples": ["He's in hot water with his boss for missing the deadline.", "If you're not careful, you'll end up in hot water."]
+  },
+  "in over your head": {
+    "meaning": "involved in something too difficult to handle",
+    "meaning_ja": "手に負えない状態、力不足の状態",
+    "explanation": "Like being in water deeper than your height—you can't touch bottom and may drown. Means being out of your depth.",
+    "formality": 3,
+    "examples": ["I realized I was in over my head with this project.", "Ask for help before you get in over your head."]
+  },
+  "it takes two to tango": {
+    "meaning": "both parties are responsible for a situation",
+    "meaning_ja": "両方に責任がある、喧嘩両成敗",
+    "explanation": "Tango requires two dancers. Means both people involved share responsibility, especially in a conflict.",
+    "formality": 3,
+    "examples": ["Don't blame only him—it takes two to tango.", "The argument was their fault equally. It takes two to tango."]
+  },
+  "jump on the bandwagon": {
+    "meaning": "to join others in doing something popular",
+    "meaning_ja": "流行に乗る、便乗する",
+    "explanation": "From political campaigns where a bandwagon (music wagon) would attract supporters. Joining it means following the popular trend.",
+    "formality": 3,
+    "examples": ["Everyone's jumping on the AI bandwagon.", "Don't just jump on the bandwagon—think for yourself."]
+  },
+  "jump the gun": {
+    "meaning": "to act too soon; to start something prematurely",
+    "meaning_ja": "フライングする、早まった行動をとる",
+    "explanation": "From racing—starting before the starting gun fires. Means acting before the appropriate time.",
+    "formality": 3,
+    "examples": ["Let's not jump the gun—we need more data.", "She jumped the gun and announced the results too early."]
+  },
+  "keep your chin up": {
+    "meaning": "to stay cheerful and optimistic in a difficult situation",
+    "meaning_ja": "くよくよしないで、元気を出して",
+    "explanation": "Holding your chin up rather than letting it drop in despair. An encouraging phrase.",
+    "formality": 2,
+    "examples": ["Keep your chin up—you'll find a job soon.", "Things are tough, but keep your chin up."]
+  },
+  "kick the bucket": {
+    "meaning": "to die (informal, humorous)",
+    "meaning_ja": "死ぬ、くたばる",
+    "explanation": "Origin debated—possibly from standing on a bucket to hang oneself, or from the beam (bucket) that pigs were hung from after slaughter.",
+    "formality": 1,
+    "examples": ["He kicked the bucket at the ripe old age of 95.", "I want to travel the world before I kick the bucket."]
+  },
+  "kill two birds with one stone": {
+    "meaning": "to accomplish two things with one action",
+    "meaning_ja": "一石二鳥",
+    "explanation": "Literally hitting two birds with a single thrown stone. Means achieving two goals simultaneously.",
+    "formality": 3,
+    "examples": ["By cycling to work, I kill two birds with one stone—exercise and commuting.", "We can kill two birds with one stone by combining the meetings."]
+  },
+  "know the ropes": {
+    "meaning": "to understand how something works; to be experienced",
+    "meaning_ja": "コツを知っている、要領を心得ている",
+    "explanation": "From sailing—knowing which ropes control which sails was essential. Means being familiar with how things work.",
+    "formality": 3,
+    "examples": ["It takes a few months to know the ropes at a new job.", "She really knows the ropes in this industry."]
+  },
+  "leave no stone unturned": {
+    "meaning": "to search thoroughly; to try everything possible",
+    "meaning_ja": "あらゆる手を尽くす、徹底的に調べる",
+    "explanation": "From an ancient Greek story—turning over every stone to find hidden treasure. Means being extremely thorough.",
+    "formality": 4,
+    "examples": ["The police left no stone unturned in the investigation.", "We'll leave no stone unturned to find a solution."]
+  },
+  "let sleeping dogs lie": {
+    "meaning": "to avoid interfering with a situation that might cause problems",
+    "meaning_ja": "触らぬ神に祟りなし、寝た子を起こすな",
+    "explanation": "Waking a sleeping dog might cause it to bite. Means not disturbing a potentially volatile situation.",
+    "formality": 3,
+    "examples": ["Don't bring up the argument again—let sleeping dogs lie.", "Sometimes it's best to let sleeping dogs lie."]
+  },
+  "long story short": {
+    "meaning": "to summarize without giving all the details",
+    "meaning_ja": "手短に言うと、かいつまんで言えば",
+    "explanation": "Abbreviation of 'to make a long story short.' Signals you're skipping details to get to the point.",
+    "formality": 2,
+    "examples": ["Long story short, we didn't get the contract.", "Long story short, she moved to Tokyo and started a new career."]
+  },
+  "lose track of": {
+    "meaning": "to no longer know where something is or what is happening",
+    "meaning_ja": "見失う、把握できなくなる",
+    "explanation": "Like a hunter losing the animal's tracks. Means no longer being aware of or monitoring something.",
+    "formality": 3,
+    "examples": ["I lost track of time and missed my appointment.", "It's easy to lose track of expenses."]
+  },
+  "make a long story short": {
+    "meaning": "to give a brief summary of something",
+    "meaning_ja": "手短に言えば",
+    "explanation": "Cutting out unnecessary details to deliver the core message quickly.",
+    "formality": 3,
+    "examples": ["To make a long story short, the project was cancelled.", "I'll make a long story short—we won the case."]
+  },
+  "miss the mark": {
+    "meaning": "to fail to achieve what was intended",
+    "meaning_ja": "的外れである、目標を達成できない",
+    "explanation": "From archery—missing the target. Means falling short of expectations or goals.",
+    "formality": 3,
+    "examples": ["The new product missed the mark with consumers.", "His speech missed the mark entirely."]
+  },
+  "neck of the woods": {
+    "meaning": "a particular area or neighborhood",
+    "meaning_ja": "近所、地域",
+    "explanation": "Originally American—'neck' referred to a narrow stretch of woods or land. Now means someone's local area.",
+    "formality": 2,
+    "examples": ["What brings you to my neck of the woods?", "There aren't many restaurants in this neck of the woods."]
+  },
+  "no strings attached": {
+    "meaning": "without any conditions or obligations",
+    "meaning_ja": "条件なしで、ひもつきでなく",
+    "explanation": "Like a puppet with no strings—free to move independently. Means an offer with no hidden requirements.",
+    "formality": 3,
+    "examples": ["The scholarship comes with no strings attached.", "It's a free trial, no strings attached."]
+  },
+  "not rocket science": {
+    "meaning": "not complicated; easy to understand",
+    "meaning_ja": "そんなに難しくない、簡単なこと",
+    "explanation": "Rocket science is considered extremely complex. Saying something isn't rocket science means it's straightforward.",
+    "formality": 2,
+    "examples": ["Following the instructions isn't rocket science.", "Come on, it's not rocket science—just press the button."]
+  },
+  "off the top of my head": {
+    "meaning": "from memory without careful thought or research",
+    "meaning_ja": "ぱっと思いつくのは、今すぐには",
+    "explanation": "As if pulling an answer from the surface of your mind, not from deep thought or research.",
+    "formality": 2,
+    "examples": ["Off the top of my head, I'd say there are about twenty.", "I can't remember the exact number off the top of my head."]
+  },
+  "on the fence": {
+    "meaning": "undecided between two options",
+    "meaning_ja": "どちらとも決めかねている、迷っている",
+    "explanation": "Sitting on a fence between two fields—not committed to either side. Means being undecided.",
+    "formality": 3,
+    "examples": ["I'm still on the fence about whether to accept the offer.", "Many voters are still on the fence."]
+  },
+  "on the tip of my tongue": {
+    "meaning": "almost able to remember something",
+    "meaning_ja": "喉まで出かかっている",
+    "explanation": "The word or memory feels like it's right there on your tongue but you can't quite get it out.",
+    "formality": 2,
+    "examples": ["His name is on the tip of my tongue.", "The answer is on the tip of my tongue—give me a second."]
+  },
+  "on thin ice": {
+    "meaning": "in a risky or precarious situation",
+    "meaning_ja": "危うい立場にある、薄氷を踏む思い",
+    "explanation": "Walking on thin ice risks falling through. Means being in a dangerous position where one more mistake could be catastrophic.",
+    "formality": 3,
+    "examples": ["You're on thin ice after that stunt you pulled.", "The company is on thin ice financially."]
+  },
+  "once bitten, twice shy": {
+    "meaning": "after a bad experience, one is more cautious",
+    "meaning_ja": "羹に懲りて膾を吹く、一度失敗すると慎重になる",
+    "explanation": "If you've been bitten once, you'll be more careful next time. Means learning caution from past mistakes.",
+    "formality": 3,
+    "examples": ["After the last investment loss, I'm cautious—once bitten, twice shy.", "She doesn't trust online shopping anymore. Once bitten, twice shy."]
+  },
+  "out of the blue": {
+    "meaning": "unexpectedly; without warning",
+    "meaning_ja": "突然、前触れもなく",
+    "explanation": "From 'out of the clear blue sky'—like lightning striking on a clear day. Means something completely unexpected.",
+    "formality": 3,
+    "examples": ["Out of the blue, she called after ten years.", "The announcement came completely out of the blue."]
+  },
+  "over your head": {
+    "meaning": "too complex to understand",
+    "meaning_ja": "理解を超えている、ちんぷんかんぷん",
+    "explanation": "Like something flying over your head—you can't reach or grasp it. Means beyond your comprehension.",
+    "formality": 3,
+    "examples": ["The physics lecture was way over my head.", "I'm afraid this technical jargon is over my head."]
+  },
+  "pass the buck": {
+    "meaning": "to shift responsibility to someone else",
+    "meaning_ja": "責任を人に押し付ける",
+    "explanation": "From poker—a buck (marker) was passed to indicate whose turn it was to deal. Passing it means avoiding your turn/responsibility.",
+    "formality": 3,
+    "examples": ["Stop passing the buck and take responsibility.", "The manager kept passing the buck to junior staff."]
+  },
+  "pay through the nose": {
+    "meaning": "to pay an extremely high price",
+    "meaning_ja": "法外な金額を払う",
+    "explanation": "Possibly from a Viking-era nose tax in Ireland. Means paying far more than something is worth.",
+    "formality": 3,
+    "examples": ["We paid through the nose for those concert tickets.", "You'll pay through the nose for repairs at that garage."]
+  },
+  "play it by ear": {
+    "meaning": "to decide what to do as a situation unfolds, without a plan",
+    "meaning_ja": "臨機応変にやる、出たとこ勝負で行く",
+    "explanation": "From music—playing by ear means without sheet music, improvising. Means proceeding without a fixed plan.",
+    "formality": 2,
+    "examples": ["I don't have a plan—let's just play it by ear.", "We'll play it by ear depending on the weather."]
+  },
+  "pull strings": {
+    "meaning": "to use influence or connections to get something done",
+    "meaning_ja": "裏で手を回す、コネを使う",
+    "explanation": "Like a puppeteer pulling strings to control puppets. Means using behind-the-scenes influence.",
+    "formality": 3,
+    "examples": ["He pulled some strings to get the job.", "Can you pull some strings to get us a reservation?"]
+  },
+  "put all your eggs in one basket": {
+    "meaning": "to risk everything on a single venture",
+    "meaning_ja": "一つのことに全てを賭ける",
+    "explanation": "If you carry all eggs in one basket and drop it, you lose everything. Means not diversifying your risks.",
+    "formality": 3,
+    "examples": ["Don't put all your eggs in one basket—diversify your investments.", "Relying on one client is putting all your eggs in one basket."]
+  },
+  "put your foot down": {
+    "meaning": "to firmly assert your authority or opinion",
+    "meaning_ja": "断固として譲らない、毅然とした態度をとる",
+    "explanation": "Planting your foot firmly shows you won't be moved. Means insisting on something decisively.",
+    "formality": 3,
+    "examples": ["She put her foot down and refused to work overtime.", "Sometimes you have to put your foot down."]
+  },
+  "put your foot in your mouth": {
+    "meaning": "to say something embarrassing or inappropriate by mistake",
+    "meaning_ja": "失言する、まずいことを言ってしまう",
+    "explanation": "Imagining literally putting your foot in your mouth—an awkward, embarrassing thing to do. Means saying something you regret.",
+    "formality": 2,
+    "examples": ["I put my foot in my mouth when I asked about her ex.", "He's always putting his foot in his mouth."]
+  },
+  "raining cats and dogs": {
+    "meaning": "raining very heavily",
+    "meaning_ja": "土砂降りである",
+    "explanation": "Origin debated—possibly from old thatched roofs where animals would fall through, or from old English 'catadupe' meaning waterfall.",
+    "formality": 2,
+    "examples": ["Take an umbrella—it's raining cats and dogs out there.", "We couldn't go out because it was raining cats and dogs."]
+  },
+  "ring a bell": {
+    "meaning": "to sound familiar; to vaguely recall something",
+    "meaning_ja": "聞き覚えがある、ピンとくる",
+    "explanation": "A bell ringing triggers recognition. If something rings a bell, it sparks a vague memory.",
+    "formality": 3,
+    "examples": ["Does the name John Smith ring a bell?", "That story rings a bell—I think I've heard it before."]
+  },
+  "rule of thumb": {
+    "meaning": "a practical guideline based on experience rather than exact measurement",
+    "meaning_ja": "経験則、大まかな目安",
+    "explanation": "Possibly from using the thumb as a rough measuring tool. Means a general principle that works in most cases.",
+    "formality": 3,
+    "examples": ["As a rule of thumb, save 20% of your income.", "A good rule of thumb is to arrive ten minutes early."]
+  },
+  "run out of steam": {
+    "meaning": "to lose energy or enthusiasm",
+    "meaning_ja": "息切れする、勢いがなくなる",
+    "explanation": "From steam engines—when they run out of steam, they stop moving. Means losing momentum or energy.",
+    "formality": 3,
+    "examples": ["The project ran out of steam after the initial excitement.", "I ran out of steam by the afternoon."]
+  },
+  "save face": {
+    "meaning": "to avoid humiliation or preserve one's reputation",
+    "meaning_ja": "面目を保つ、体面を守る",
+    "explanation": "Originated from Chinese culture. 'Face' represents dignity and respect. Saving it means preserving your reputation.",
+    "formality": 3,
+    "examples": ["He resigned quietly to save face.", "The compromise allowed both sides to save face."]
+  },
+  "scratch the surface": {
+    "meaning": "to deal with only a small part of a much larger subject or problem",
+    "meaning_ja": "表面をなぞるだけ、ほんの一部に触れるだけ",
+    "explanation": "Only scratching the outer surface, not going deeper. Means barely beginning to explore something.",
+    "formality": 3,
+    "examples": ["We've only scratched the surface of what's possible with AI.", "This report barely scratches the surface of the issue."]
+  },
+  "second nature": {
+    "meaning": "something so familiar that it feels instinctive",
+    "meaning_ja": "第二の天性、体に染みついていること",
+    "explanation": "So well-practiced that it feels as natural as an inborn trait. Means something done effortlessly from habit.",
+    "formality": 3,
+    "examples": ["After years of practice, playing the piano is second nature to her.", "Driving became second nature after a few months."]
+  },
+  "see the light": {
+    "meaning": "to suddenly understand or realize something",
+    "meaning_ja": "悟る、理解する、目が覚める",
+    "explanation": "Like a light turning on in a dark room, bringing clarity. Means having a moment of understanding.",
+    "formality": 3,
+    "examples": ["After reading the article, I finally saw the light.", "It took him years, but he finally saw the light about healthy eating."]
+  },
+  "shoot the breeze": {
+    "meaning": "to have a casual, relaxed conversation",
+    "meaning_ja": "おしゃべりする、雑談する",
+    "explanation": "Firing at nothing in particular—just chatting aimlessly. Means having a lighthearted conversation.",
+    "formality": 1,
+    "examples": ["We sat on the porch and shot the breeze for hours.", "I called just to shoot the breeze."]
+  },
+  "sit on the fence": {
+    "meaning": "to avoid making a decision or taking a side",
+    "meaning_ja": "日和見する、態度を決めかねる",
+    "explanation": "Same as 'on the fence'—sitting between two sides without committing to either.",
+    "formality": 3,
+    "examples": ["You can't sit on the fence forever—make a choice.", "Politicians often sit on the fence on controversial issues."]
+  },
+  "skeleton in the closet": {
+    "meaning": "a shameful secret from the past",
+    "meaning_ja": "人に知られたくない秘密、隠された恥",
+    "explanation": "A hidden skeleton represents a dark secret that would be shocking if discovered.",
+    "formality": 3,
+    "examples": ["Every family has a skeleton in the closet.", "The investigation uncovered several skeletons in his closet."]
+  },
+  "sleep on it": {
+    "meaning": "to wait until the next day before making a decision",
+    "meaning_ja": "一晩考える、結論を翌日に持ち越す",
+    "explanation": "The idea that a good night's sleep helps you think more clearly about a decision.",
+    "formality": 3,
+    "examples": ["That's a big decision—why don't you sleep on it?", "I slept on it and decided to accept the offer."]
+  },
+  "slip of the tongue": {
+    "meaning": "an accidental verbal mistake",
+    "meaning_ja": "言い間違い、失言",
+    "explanation": "Your tongue 'slipped' and said something you didn't intend. A minor spoken error.",
+    "formality": 3,
+    "examples": ["I called her by the wrong name—it was just a slip of the tongue.", "His comment about the merger was a slip of the tongue."]
+  },
+  "snake in the grass": {
+    "meaning": "a deceitful, treacherous person",
+    "meaning_ja": "裏切り者、腹黒い人",
+    "explanation": "A snake hidden in grass is a concealed danger. Means someone who pretends to be a friend but is secretly hostile.",
+    "formality": 3,
+    "examples": ["I trusted him, but he turned out to be a snake in the grass.", "Watch out for her—she's a real snake in the grass."]
+  },
+  "so far so good": {
+    "meaning": "things have gone well up to this point",
+    "meaning_ja": "今のところ順調",
+    "explanation": "A report that progress has been positive to date, though the outcome is still uncertain.",
+    "formality": 2,
+    "examples": ["The surgery went well—so far so good.", "How's the new job? So far so good."]
+  },
+  "stab someone in the back": {
+    "meaning": "to betray someone who trusts you",
+    "meaning_ja": "裏切る、背後から刺す",
+    "explanation": "Attacking someone from behind when they're not expecting it. Means a treacherous betrayal.",
+    "formality": 3,
+    "examples": ["He stabbed me in the back by telling the boss my secret.", "She felt stabbed in the back by her closest friend."]
+  },
+  "steal someone's thunder": {
+    "meaning": "to take credit for or attention from someone else's achievement",
+    "meaning_ja": "人の手柄を横取りする、お株を奪う",
+    "explanation": "From 18th-century theater—a playwright invented a thunder effect that was then copied by a rival production.",
+    "formality": 3,
+    "examples": ["She stole my thunder by announcing the results before me.", "Don't steal his thunder—let him share the good news himself."]
+  },
+  "straight from the horse's mouth": {
+    "meaning": "from the original or most reliable source",
+    "meaning_ja": "確かな筋から、本人から直接",
+    "explanation": "From horse racing—you can tell a horse's age by looking at its teeth (directly from the horse). Means information from the primary source.",
+    "formality": 3,
+    "examples": ["I heard it straight from the horse's mouth—the CEO herself.", "Get the information straight from the horse's mouth."]
+  },
+  "take a back seat": {
+    "meaning": "to take a less important role",
+    "meaning_ja": "控えめな立場をとる、脇役に回る",
+    "explanation": "The back seat of a car is not the driver's position. Means stepping back from a leading role.",
+    "formality": 3,
+    "examples": ["His career took a back seat when he became a father.", "Sometimes you need to take a back seat and let others lead."]
+  },
+  "take it with a grain of salt": {
+    "meaning": "to not take something too seriously; to be skeptical",
+    "meaning_ja": "話半分に聞く、鵜呑みにしない",
+    "explanation": "From Latin 'cum grano salis.' A grain of salt makes food more palatable—similarly, adding skepticism makes dubious information more digestible.",
+    "formality": 3,
+    "examples": ["Take online reviews with a grain of salt.", "I'd take his predictions with a grain of salt."]
+  },
+  "take the plunge": {
+    "meaning": "to commit to doing something bold or risky",
+    "meaning_ja": "思い切ってやる、決断する",
+    "explanation": "Like diving into cold water—once you plunge in, there's no going back. Means making a daring commitment.",
+    "formality": 3,
+    "examples": ["After years of planning, they took the plunge and opened a restaurant.", "Are you ready to take the plunge and move abroad?"]
+  },
+  "the ball is in your court": {
+    "meaning": "it's your turn to make a decision or take action",
+    "meaning_ja": "あなたの番です、決めるのはあなた",
+    "explanation": "From tennis—when the ball is in your court, it's your responsibility to hit it back.",
+    "formality": 3,
+    "examples": ["I've made my offer—the ball is in your court.", "We've done our part; the ball is in their court now."]
+  },
+  "the best of both worlds": {
+    "meaning": "a situation where you enjoy two different advantages simultaneously",
+    "meaning_ja": "両方のいいとこ取り",
+    "explanation": "Having advantages from two different options without the drawbacks of either.",
+    "formality": 3,
+    "examples": ["Working from home gives me the best of both worlds.", "This hybrid car offers the best of both worlds."]
+  },
+  "the whole nine yards": {
+    "meaning": "everything; the full extent of something",
+    "meaning_ja": "全部、すべて、何もかも",
+    "explanation": "Origin debated—possibly from fabric, ammunition belts, or cement trucks. Means the complete amount.",
+    "formality": 2,
+    "examples": ["They decorated the house—lights, ornaments, the whole nine yards.", "We got the full treatment: dinner, dessert, the whole nine yards."]
+  },
+  "throw in the towel": {
+    "meaning": "to give up; to admit defeat",
+    "meaning_ja": "降参する、ギブアップする",
+    "explanation": "From boxing—a trainer throws a towel into the ring to signal their fighter is withdrawing from the match.",
+    "formality": 3,
+    "examples": ["After months of trying, he threw in the towel.", "Don't throw in the towel yet—we still have a chance."]
+  },
+  "throw someone under the bus": {
+    "meaning": "to sacrifice someone else to save yourself",
+    "meaning_ja": "人を犠牲にして自分を守る、裏切る",
+    "explanation": "Pushing someone into danger (under a bus) to protect yourself. Means blaming or betraying someone for personal gain.",
+    "formality": 2,
+    "examples": ["He threw his colleague under the bus during the investigation.", "I can't believe she threw me under the bus like that."]
+  },
+  "turn a blind eye": {
+    "meaning": "to deliberately ignore something wrong or illegal",
+    "meaning_ja": "見て見ぬふりをする",
+    "explanation": "From Admiral Nelson, who literally put his telescope to his blind eye to avoid seeing a signal to retreat.",
+    "formality": 3,
+    "examples": ["The manager turned a blind eye to the safety violations.", "We can't turn a blind eye to this problem."]
+  },
+  "two-edged sword": {
+    "meaning": "something that has both positive and negative consequences",
+    "meaning_ja": "諸刃の剣",
+    "explanation": "A sword sharp on both edges can cut the enemy but also harm the wielder. Means something with advantages and disadvantages.",
+    "formality": 4,
+    "examples": ["Social media is a two-edged sword for businesses.", "Fame can be a two-edged sword."]
+  },
+  "under your belt": {
+    "meaning": "achieved or experienced",
+    "meaning_ja": "経験済み、達成済み",
+    "explanation": "Like food under your belt (eaten and digested). Means something accomplished that adds to your experience.",
+    "formality": 3,
+    "examples": ["She has ten years of experience under her belt.", "With a few certifications under your belt, you'll be more competitive."]
+  },
+  "up in the air": {
+    "meaning": "uncertain; not yet decided",
+    "meaning_ja": "未定の、まだ決まっていない",
+    "explanation": "Like something tossed up that hasn't landed yet. The outcome is still unknown.",
+    "formality": 3,
+    "examples": ["Our vacation plans are still up in the air.", "The project timeline is up in the air."]
+  },
+  "water under the bridge": {
+    "meaning": "past events that are no longer important",
+    "meaning_ja": "過ぎたこと、もう終わったこと",
+    "explanation": "Water that has flowed under a bridge is gone and can't be retrieved. Means past events that should be forgiven and forgotten.",
+    "formality": 3,
+    "examples": ["We had our differences, but that's all water under the bridge now.", "Let's forget about it—it's water under the bridge."]
+  },
+  "weather the storm": {
+    "meaning": "to survive a difficult period",
+    "meaning_ja": "嵐を乗り越える、困難を切り抜ける",
+    "explanation": "From sailing—surviving through a storm at sea. Means enduring and getting through a tough time.",
+    "formality": 3,
+    "examples": ["The company weathered the storm of the economic downturn.", "We'll weather this storm together."]
+  },
+  "wet blanket": {
+    "meaning": "a person who spoils other people's fun",
+    "meaning_ja": "場の雰囲気を壊す人、興ざめな人",
+    "explanation": "A wet blanket was used to smother fires. A person who dampens enthusiasm is called a wet blanket.",
+    "formality": 2,
+    "examples": ["Don't be a wet blanket—come dance with us!", "He's such a wet blanket at parties."]
+  },
+  "when pigs fly": {
+    "meaning": "something that will never happen",
+    "meaning_ja": "ありえないこと、絶対に起こらない",
+    "explanation": "Pigs cannot fly, so this phrase expresses that something is impossible.",
+    "formality": 2,
+    "examples": ["He'll clean his room when pigs fly.", "Sure, I'll lend you money—when pigs fly!"]
+  },
+  "whole new ball game": {
+    "meaning": "a completely different situation",
+    "meaning_ja": "まったく別の話、全く違う状況",
+    "explanation": "From baseball—a new game means starting fresh with new conditions. Means the situation has fundamentally changed.",
+    "formality": 2,
+    "examples": ["With the new regulations, it's a whole new ball game.", "When kids are involved, it's a whole new ball game."]
+  },
+  "wild goose chase": {
+    "meaning": "a hopeless search or pursuit of something unattainable",
+    "meaning_ja": "無駄な追跡、徒労",
+    "explanation": "From an old horse-racing game where riders followed a lead horse like geese. Now means a futile pursuit.",
+    "formality": 3,
+    "examples": ["Looking for that file turned into a wild goose chase.", "The police realized they'd been on a wild goose chase."]
+  },
+  "wrap your head around": {
+    "meaning": "to understand something complicated",
+    "meaning_ja": "理解する、頭で把握する",
+    "explanation": "As if physically wrapping your mind around a concept to grasp it. Means coming to terms with something complex.",
+    "formality": 2,
+    "examples": ["I can't wrap my head around quantum physics.", "It took me a while to wrap my head around the new system."]
+  },
+  "writing on the wall": {
+    "meaning": "clear signs that something bad is going to happen",
+    "meaning_ja": "不吉な前兆、破滅の兆し",
+    "explanation": "From the Bible (Daniel 5)—mysterious writing appeared on a wall predicting the fall of Babylon.",
+    "formality": 4,
+    "examples": ["The writing was on the wall for the company months ago.", "Can't you see the writing on the wall?"]
+  },
+  "you can say that again": {
+    "meaning": "I completely agree with you",
+    "meaning_ja": "まったくその通り、本当にそうだ",
+    "explanation": "Encouraging someone to repeat what they said because you agree so strongly with it.",
+    "formality": 1,
+    "examples": ["'This weather is terrible.' 'You can say that again!'", "'The food here is amazing.' 'You can say that again!'"]
+  },
+  "zero in on": {
+    "meaning": "to focus attention directly on something",
+    "meaning_ja": "焦点を合わせる、的を絞る",
+    "explanation": "From military targeting—zeroing in means adjusting aim to hit exactly on target.",
+    "formality": 3,
+    "examples": ["Let's zero in on the main problem.", "The detective zeroed in on the key suspect."]
+  },
+  "ace in the hole": {
+    "meaning": "a hidden advantage or resource kept in reserve",
+    "meaning_ja": "切り札、奥の手",
+    "explanation": "From poker—an ace dealt face down (in the hole) is a hidden winning card.",
+    "formality": 3,
+    "examples": ["Our ace in the hole is the patent we filed last year.", "She always has an ace in the hole during negotiations."]
+  },
+  "actions speak louder than words": {
+    "meaning": "what you do is more important than what you say",
+    "meaning_ja": "行動は言葉よりも雄弁である",
+    "explanation": "A proverb emphasizing that demonstrating through behavior is more meaningful than making promises.",
+    "formality": 3,
+    "examples": ["He says he'll change, but actions speak louder than words.", "Don't just promise—actions speak louder than words."]
+  },
+  "all in the same boat": {
+    "meaning": "everyone facing the same situation together",
+    "meaning_ja": "みんな同じ境遇にある",
+    "explanation": "Everyone on the same boat faces the same conditions—storms, calm seas, or sinking.",
+    "formality": 3,
+    "examples": ["The pay cut affects everyone—we're all in the same boat.", "Don't complain to me. We're all in the same boat."]
+  },
+  "a taste of your own medicine": {
+    "meaning": "receiving the same bad treatment you've given others",
+    "meaning_ja": "自業自得、因果応報",
+    "explanation": "Being forced to take the unpleasant medicine you've been giving to others. Means experiencing what you've inflicted on others.",
+    "formality": 3,
+    "examples": ["After years of bullying others, he finally got a taste of his own medicine.", "It's time she got a taste of her own medicine."]
+  },
+  "back on track": {
+    "meaning": "returning to the correct course after a deviation",
+    "meaning_ja": "軌道に戻る、正常に戻る",
+    "explanation": "Like a train returning to its tracks. Means resuming progress after an interruption.",
+    "formality": 3,
+    "examples": ["After the setback, we're finally back on track.", "Let's get this meeting back on track."]
+  },
+  "bad apple": {
+    "meaning": "one person who negatively affects the whole group",
+    "meaning_ja": "腐ったリンゴ、悪影響を及ぼす人",
+    "explanation": "One rotten apple can spoil the whole barrel. Means one problematic person corrupting others.",
+    "formality": 3,
+    "examples": ["There's always a bad apple in every team.", "One bad apple can ruin the whole department's morale."]
+  },
+  "beat a dead horse": {
+    "meaning": "to continue discussing or pursuing something that is already finished",
+    "meaning_ja": "もう終わったことをくどくど言う、無駄な努力をする",
+    "explanation": "Hitting a dead horse won't make it move. Means wasting effort on something that won't change.",
+    "formality": 3,
+    "examples": ["We've made the decision—stop beating a dead horse.", "I know I'm beating a dead horse, but I still think we should reconsider."]
+  },
+  "behind closed doors": {
+    "meaning": "in private; secretly",
+    "meaning_ja": "密室で、非公開で",
+    "explanation": "Activities happening behind doors that are closed to the public. Means done in secret or private.",
+    "formality": 3,
+    "examples": ["The negotiations took place behind closed doors.", "What happens behind closed doors stays there."]
+  },
+  "bells and whistles": {
+    "meaning": "extra features or accessories that are attractive but not essential",
+    "meaning_ja": "付加機能、おまけの装飾",
+    "explanation": "From trains or organs that had bells and whistles as extras. Means attractive but non-essential additions.",
+    "formality": 3,
+    "examples": ["The basic model doesn't have all the bells and whistles.", "I don't need all the bells and whistles—just something that works."]
+  },
+  "bent out of shape": {
+    "meaning": "upset or angry about something",
+    "meaning_ja": "怒っている、腹を立てている",
+    "explanation": "Something bent out of its proper shape is distorted and not functioning right. Means being emotionally disturbed.",
+    "formality": 2,
+    "examples": ["Don't get bent out of shape over a small mistake.", "He got all bent out of shape when I criticized his work."]
+  },
+  "birds of a feather flock together": {
+    "meaning": "people with similar interests or qualities tend to associate",
+    "meaning_ja": "類は友を呼ぶ",
+    "explanation": "Birds of the same species fly together. Means people with similar characteristics naturally group together.",
+    "formality": 3,
+    "examples": ["They're both tech enthusiasts—birds of a feather flock together.", "It's no surprise they became friends. Birds of a feather flock together."]
+  },
+  "blood is thicker than water": {
+    "meaning": "family relationships are stronger than other bonds",
+    "meaning_ja": "血は水よりも濃い",
+    "explanation": "Family ties (blood) are more binding than friendships or other connections (water).",
+    "formality": 3,
+    "examples": ["He'll always side with his brother—blood is thicker than water.", "In the end, blood is thicker than water."]
+  },
+  "blow someone away": {
+    "meaning": "to greatly impress someone",
+    "meaning_ja": "圧倒する、驚嘆させる",
+    "explanation": "So impressive it metaphorically blows someone off their feet. Means making a powerful positive impression.",
+    "formality": 2,
+    "examples": ["Her performance blew everyone away.", "The view from the top blew me away."]
+  },
+  "bolt from the blue": {
+    "meaning": "a complete surprise; something totally unexpected",
+    "meaning_ja": "青天の霹靂",
+    "explanation": "Lightning from a clear blue sky. A shocking event with no prior warning.",
+    "formality": 3,
+    "examples": ["His resignation was a bolt from the blue.", "The news came like a bolt from the blue."]
+  },
+  "bone to pick": {
+    "meaning": "a complaint or grievance to discuss with someone",
+    "meaning_ja": "文句がある、言いたいことがある",
+    "explanation": "Like a dog with a bone to gnaw on—you have an issue you want to work through with someone.",
+    "formality": 2,
+    "examples": ["I have a bone to pick with you about the schedule.", "She had a bone to pick with the landlord."]
+  },
+  "break even": {
+    "meaning": "to neither make nor lose money",
+    "meaning_ja": "損益分岐点に達する、トントンになる",
+    "explanation": "Revenue exactly equals costs—no profit, no loss. The point where gains and losses are balanced.",
+    "formality": 3,
+    "examples": ["The business hopes to break even by next year.", "We just about broke even on the event."]
+  },
+  "burn the candle at both ends": {
+    "meaning": "to overwork yourself by staying up late and getting up early",
+    "meaning_ja": "無理をして働きすぎる、体を酷使する",
+    "explanation": "A candle burning at both ends uses up twice as fast. Means exhausting yourself through overwork.",
+    "formality": 3,
+    "examples": ["She's been burning the candle at both ends studying for exams.", "You can't burn the candle at both ends forever."]
+  },
+  "bury the hatchet": {
+    "meaning": "to make peace; to end a conflict",
+    "meaning_ja": "和解する、争いをやめる",
+    "explanation": "From Native American tradition of literally burying a weapon to signify peace. Means resolving a dispute.",
+    "formality": 3,
+    "examples": ["After years of feuding, they finally buried the hatchet.", "Let's bury the hatchet and move on."]
+  },
+  "by and large": {
+    "meaning": "on the whole; generally speaking",
+    "meaning_ja": "概して、全体的に見て",
+    "explanation": "From sailing—'by' and 'large' referred to different wind directions. Together they mean 'in all conditions' or generally.",
+    "formality": 3,
+    "examples": ["By and large, the project was a success.", "The food was, by and large, very good."]
+  },
+  "call the shots": {
+    "meaning": "to be the one making decisions; to be in charge",
+    "meaning_ja": "指揮を執る、決定権を持つ",
+    "explanation": "From billiards or military—calling your shots means declaring what you intend to do. Means being the decision-maker.",
+    "formality": 3,
+    "examples": ["She calls the shots in this department.", "Who's calling the shots around here?"]
+  },
+  "catch someone off guard": {
+    "meaning": "to surprise someone when they are not prepared",
+    "meaning_ja": "不意を突く、虚を突く",
+    "explanation": "From fencing or military—catching someone when their guard (defense) is down. Means surprising someone.",
+    "formality": 3,
+    "examples": ["The question caught me off guard.", "The sudden price increase caught consumers off guard."]
+  },
+  "comparing apples to oranges": {
+    "meaning": "comparing two fundamentally different things",
+    "meaning_ja": "全く異なるものを比較する",
+    "explanation": "Apples and oranges are both fruits but quite different. Comparing them is not a fair comparison.",
+    "formality": 3,
+    "examples": ["Comparing those two teams is like comparing apples to oranges.", "You're comparing apples to oranges—the situations are completely different."]
+  },
+  "cool as a cucumber": {
+    "meaning": "very calm and composed, even in a stressful situation",
+    "meaning_ja": "冷静沈着な、泰然自若とした",
+    "explanation": "Cucumbers are cool to the touch inside. A person who is cool as a cucumber remains unflappable.",
+    "formality": 3,
+    "examples": ["Despite the pressure, she was cool as a cucumber.", "He walked into the interview cool as a cucumber."]
+  },
+  "curiosity killed the cat": {
+    "meaning": "being too inquisitive can lead to trouble",
+    "meaning_ja": "好奇心は身を滅ぼす",
+    "explanation": "A warning that being overly curious can have dangerous consequences, like a cat investigating something harmful.",
+    "formality": 3,
+    "examples": ["I'd stop asking questions if I were you—curiosity killed the cat.", "She couldn't resist looking—curiosity killed the cat."]
+  },
+  "dark horse": {
+    "meaning": "a competitor about whom little is known but who could do surprisingly well",
+    "meaning_ja": "ダークホース、予想外の強敵",
+    "explanation": "From horse racing—an unknown horse that unexpectedly wins. Means an unexpected contender.",
+    "formality": 3,
+    "examples": ["The new candidate is a dark horse in the election.", "Watch out for the dark horse in this competition."]
+  },
+  "dig your own grave": {
+    "meaning": "to do something that will cause your own failure",
+    "meaning_ja": "自分で自分の墓穴を掘る",
+    "explanation": "Preparing for your own downfall through your own actions. Means self-destructive behavior.",
+    "formality": 3,
+    "examples": ["By lying to the auditors, the company dug its own grave.", "He's digging his own grave with those reckless decisions."]
+  },
+  "don't count your chickens before they hatch": {
+    "meaning": "don't assume success before it's confirmed",
+    "meaning_ja": "捕らぬ狸の皮算用、早とちりするな",
+    "explanation": "Eggs might not all hatch into chickens. Means not relying on an uncertain outcome.",
+    "formality": 3,
+    "examples": ["The deal isn't signed yet—don't count your chickens before they hatch.", "I might get the job, but I won't count my chickens."]
+  },
+  "don't put all your eggs in one basket": {
+    "meaning": "don't risk everything on one plan or investment",
+    "meaning_ja": "一つに全てを賭けるな",
+    "explanation": "Diversify your risks. If the one basket drops, you lose everything.",
+    "formality": 3,
+    "examples": ["Invest in different sectors—don't put all your eggs in one basket.", "Don't put all your eggs in one basket when applying to colleges."]
+  },
+  "down to earth": {
+    "meaning": "practical, sensible, and unpretentious",
+    "meaning_ja": "地に足がついた、気取らない",
+    "explanation": "Grounded on earth rather than floating in the clouds. Means being realistic and humble.",
+    "formality": 3,
+    "examples": ["Despite her fame, she's very down to earth.", "I appreciate his down-to-earth approach."]
+  },
+  "dressed to the nines": {
+    "meaning": "wearing very formal or elegant clothing",
+    "meaning_ja": "めかし込んで、正装して",
+    "explanation": "Origin debated—possibly from the 99th Regiment or from the amount of fabric needed for a formal suit. Means very well dressed.",
+    "formality": 3,
+    "examples": ["Everyone was dressed to the nines for the gala.", "She was dressed to the nines for the awards ceremony."]
+  },
+  "drop in the bucket": {
+    "meaning": "a very small amount compared to what is needed",
+    "meaning_ja": "焼け石に水、微々たるもの",
+    "explanation": "A single drop in a large bucket is negligible. Means an insignificant contribution to a much larger need.",
+    "formality": 3,
+    "examples": ["The donation was just a drop in the bucket compared to the total cost.", "My savings are a drop in the bucket for a house down payment."]
+  },
+  "every cloud has a silver lining": {
+    "meaning": "there is something positive in every bad situation",
+    "meaning_ja": "どんな不幸にも良い面がある",
+    "explanation": "Even dark storm clouds have bright edges where sunlight shines through. Means finding hope in difficult situations.",
+    "formality": 3,
+    "examples": ["I lost my job, but every cloud has a silver lining—I found a better one.", "Remember, every cloud has a silver lining."]
+  },
+  "fair and square": {
+    "meaning": "honestly and according to the rules",
+    "meaning_ja": "正々堂々と、公正に",
+    "explanation": "'Square' once meant fair or honest. Together with 'fair,' it emphasizes complete honesty.",
+    "formality": 3,
+    "examples": ["We won the contract fair and square.", "He earned the promotion fair and square."]
+  },
+  "fall on deaf ears": {
+    "meaning": "to be ignored; for advice or warnings to go unheeded",
+    "meaning_ja": "無視される、聞き入れられない",
+    "explanation": "Words falling on ears that cannot or will not hear them. Means being disregarded.",
+    "formality": 3,
+    "examples": ["Our warnings fell on deaf ears.", "His pleas for help fell on deaf ears."]
+  },
+  "feather in your cap": {
+    "meaning": "an achievement to be proud of",
+    "meaning_ja": "自慢の種、誇れる功績",
+    "explanation": "From the custom of adding a feather to a cap for each enemy defeated. A mark of accomplishment.",
+    "formality": 4,
+    "examples": ["Landing that client was a real feather in her cap.", "The award is a feather in the university's cap."]
+  },
+  "few and far between": {
+    "meaning": "rare; not happening often",
+    "meaning_ja": "めったにない、数少ない",
+    "explanation": "Things that are few in number and spread far apart—meaning very scarce.",
+    "formality": 3,
+    "examples": ["Good restaurants in this area are few and far between.", "Opportunities like this are few and far between."]
+  },
+  "fight fire with fire": {
+    "meaning": "to use the same methods as an opponent",
+    "meaning_ja": "毒をもって毒を制す",
+    "explanation": "From actual firefighting—setting controlled fires to stop a wildfire. Means countering a strategy with the same strategy.",
+    "formality": 3,
+    "examples": ["If they're going to play dirty, we'll fight fire with fire.", "Sometimes you have to fight fire with fire."]
+  },
+  "fish out of water": {
+    "meaning": "a person in an unfamiliar and uncomfortable situation",
+    "meaning_ja": "場違いな人、居心地の悪い状況にある人",
+    "explanation": "A fish removed from water is helpless and out of its element. Means feeling out of place.",
+    "formality": 3,
+    "examples": ["I felt like a fish out of water at the formal dinner.", "He's a fish out of water in the corporate world."]
+  },
+  "food for thought": {
+    "meaning": "something worth thinking about carefully",
+    "meaning_ja": "考える材料、検討に値すること",
+    "explanation": "Ideas that 'feed' the mind, worth digesting and contemplating.",
+    "formality": 3,
+    "examples": ["The documentary gave me a lot of food for thought.", "That's some food for thought. Let me think about it."]
+  },
+  "get a grip": {
+    "meaning": "to gain control of your emotions; to calm down",
+    "meaning_ja": "しっかりする、落ち着く",
+    "explanation": "Literally gripping something firmly to maintain control. Means getting your emotions under control.",
+    "formality": 2,
+    "examples": ["You need to get a grip and stop panicking.", "Get a grip—it's not the end of the world."]
+  },
+  "get away with murder": {
+    "meaning": "to do something wrong without being punished",
+    "meaning_ja": "何をしても許される、罰を受けずに済む",
+    "explanation": "Even committing the worst crime and escaping punishment. Means avoiding consequences for bad behavior.",
+    "formality": 2,
+    "examples": ["That kid gets away with murder because his parents never discipline him.", "Some companies get away with murder on environmental regulations."]
+  },
+  "get down to business": {
+    "meaning": "to start working seriously; to focus on the important matter",
+    "meaning_ja": "本題に入る、仕事に取りかかる",
+    "explanation": "Moving from casual talk or preparation to the actual work that needs to be done.",
+    "formality": 3,
+    "examples": ["Enough small talk—let's get down to business.", "We need to get down to business if we want to finish today."]
+  },
+  "get the hang of": {
+    "meaning": "to learn how to do something; to become skilled at something",
+    "meaning_ja": "コツをつかむ、やり方がわかる",
+    "explanation": "Understanding how something 'hangs together' or works. Means becoming comfortable with a new skill.",
+    "formality": 2,
+    "examples": ["It took me a while, but I finally got the hang of it.", "You'll get the hang of the software after a few days."]
+  },
+  "give the benefit of the doubt": {
+    "meaning": "to trust someone's word when you're not sure if they're telling the truth",
+    "meaning_ja": "疑わしきは罰せず、善意に解釈する",
+    "explanation": "When evidence is uncertain, assuming the person is innocent or telling the truth.",
+    "formality": 3,
+    "examples": ["I'll give him the benefit of the doubt this time.", "Let's give her the benefit of the doubt—she might have a good reason."]
+  },
+  "go overboard": {
+    "meaning": "to do too much; to be excessive",
+    "meaning_ja": "やりすぎる、度を超す",
+    "explanation": "From falling overboard from a ship—going too far. Means being excessive in some action.",
+    "formality": 2,
+    "examples": ["Don't go overboard with the decorations.", "She went overboard buying gifts for everyone."]
+  },
+  "graveyard shift": {
+    "meaning": "a work shift during the late night hours",
+    "meaning_ja": "深夜勤務、夜勤",
+    "explanation": "Named because late-night hours are when graveyards are most eerily quiet. Typically midnight to early morning.",
+    "formality": 2,
+    "examples": ["He's been working the graveyard shift at the factory.", "Nobody wants to do the graveyard shift."]
+  },
+  "green with envy": {
+    "meaning": "extremely jealous",
+    "meaning_ja": "ひどくねたんでいる、嫉妬に狂っている",
+    "explanation": "Shakespeare associated green with jealousy in Othello. Green has been linked to envy ever since.",
+    "formality": 3,
+    "examples": ["She was green with envy when she saw my new car.", "His success made his rivals green with envy."]
+  },
+  "have a change of heart": {
+    "meaning": "to change your opinion or attitude about something",
+    "meaning_ja": "心変わりする、考えを変える",
+    "explanation": "The heart changes its stance—your feelings shift from one position to another.",
+    "formality": 3,
+    "examples": ["She was going to decline but had a change of heart.", "I hope the board has a change of heart about the funding."]
+  },
+  "have the upper hand": {
+    "meaning": "to have an advantage over someone",
+    "meaning_ja": "優位に立っている、有利な立場にある",
+    "explanation": "From various games and physical contests where having the higher hand position gives control.",
+    "formality": 3,
+    "examples": ["In negotiations, the buyer has the upper hand.", "Technology gave us the upper hand over the competition."]
+  },
+  "hit the books": {
+    "meaning": "to study hard",
+    "meaning_ja": "一生懸命勉強する",
+    "explanation": "To aggressively engage with your textbooks. Means studying with serious effort.",
+    "formality": 2,
+    "examples": ["I need to hit the books for the exam.", "She's been hitting the books all weekend."]
+  },
+  "hit the jackpot": {
+    "meaning": "to achieve great success or win a large prize",
+    "meaning_ja": "大当たりする、大成功する",
+    "explanation": "From gambling—hitting the jackpot means winning the biggest prize. Means achieving an exceptionally good outcome.",
+    "formality": 2,
+    "examples": ["She hit the jackpot with her first startup.", "We hit the jackpot finding this apartment."]
+  },
+  "hit the sack": {
+    "meaning": "to go to bed",
+    "meaning_ja": "寝る、床につく",
+    "explanation": "Old mattresses were large sacks filled with straw. 'Hitting' the sack meant going to bed.",
+    "formality": 1,
+    "examples": ["I'm exhausted—time to hit the sack.", "We should hit the sack early tonight."]
+  },
+  "in a pickle": {
+    "meaning": "in a difficult or awkward situation",
+    "meaning_ja": "困った状況にある、窮地に陥っている",
+    "explanation": "Shakespeare used this in The Tempest. Being preserved in vinegar like a pickle implies being stuck in an uncomfortable state.",
+    "formality": 2,
+    "examples": ["I'm in a real pickle—I double-booked myself.", "The team was in a pickle after losing their star player."]
+  },
+  "in someone's shoes": {
+    "meaning": "in someone else's situation or position",
+    "meaning_ja": "人の立場になって",
+    "explanation": "Imagining wearing another person's shoes to understand their experience. Means empathizing with someone.",
+    "formality": 3,
+    "examples": ["If I were in your shoes, I'd take the job.", "Try to put yourself in her shoes."]
+  },
+  "in the dark": {
+    "meaning": "uninformed; not knowing about something",
+    "meaning_ja": "知らされていない、情報がない",
+    "explanation": "Being in the dark means you can't see what's happening. Means being left without information.",
+    "formality": 3,
+    "examples": ["The employees were kept in the dark about the merger.", "I'm completely in the dark about what happened."]
+  },
+  "in the doghouse": {
+    "meaning": "in trouble with someone, especially a partner",
+    "meaning_ja": "嫌われている、機嫌を損ねている",
+    "explanation": "Being banished to the doghouse (outside) as punishment. Means being in someone's bad graces.",
+    "formality": 2,
+    "examples": ["He's in the doghouse for forgetting their anniversary.", "I'm in the doghouse with my boss after that mistake."]
+  },
+  "in the driver's seat": {
+    "meaning": "in control of a situation",
+    "meaning_ja": "主導権を握っている",
+    "explanation": "The driver controls where the vehicle goes. Being in the driver's seat means being in charge.",
+    "formality": 3,
+    "examples": ["After the acquisition, the new CEO is in the driver's seat.", "You're in the driver's seat—it's your decision."]
+  },
+  "in the heat of the moment": {
+    "meaning": "while feeling strong emotions; without thinking rationally",
+    "meaning_ja": "カッとなって、衝動的に",
+    "explanation": "The 'heat' of intense emotion overrides rational thought. Means acting impulsively during an emotional peak.",
+    "formality": 3,
+    "examples": ["He said things he didn't mean in the heat of the moment.", "Decisions made in the heat of the moment are often regretted."]
+  },
+  "jack of all trades": {
+    "meaning": "a person who is competent at many different things",
+    "meaning_ja": "何でも屋、多芸な人",
+    "explanation": "Originally 'jack of all trades, master of none.' Means someone with wide but not deep skills.",
+    "formality": 3,
+    "examples": ["He's a jack of all trades—he can fix anything.", "In a small company, you need to be a jack of all trades."]
+  },
+  "keep your eyes peeled": {
+    "meaning": "to watch very carefully",
+    "meaning_ja": "目を皿にして見る、注意して見張る",
+    "explanation": "Eyelids peeled back wide open for maximum alertness. Means being highly observant.",
+    "formality": 2,
+    "examples": ["Keep your eyes peeled for the turnoff.", "Keep your eyes peeled for any sales."]
+  },
+  "last but not least": {
+    "meaning": "the final item is equally important as what came before",
+    "meaning_ja": "最後になりましたが大事なこととして",
+    "explanation": "A phrase used when introducing the final point to emphasize it's not less important just because it's last.",
+    "formality": 3,
+    "examples": ["And last but not least, I'd like to thank our sponsors.", "Last but not least, don't forget to save your work."]
+  },
+  "let your hair down": {
+    "meaning": "to relax and enjoy yourself without worrying",
+    "meaning_ja": "くつろぐ、リラックスして楽しむ",
+    "explanation": "From women unpinning their hair at the end of a formal occasion. Means dropping formalities and relaxing.",
+    "formality": 2,
+    "examples": ["It's Friday night—let your hair down!", "The party was a chance for everyone to let their hair down."]
+  },
+  "like pulling teeth": {
+    "meaning": "extremely difficult and tedious",
+    "meaning_ja": "非常に困難で退屈な、骨の折れる",
+    "explanation": "Extracting teeth is painful and difficult. Used for tasks that require excessive effort.",
+    "formality": 2,
+    "examples": ["Getting information from him is like pulling teeth.", "The negotiations were like pulling teeth."]
+  },
+  "look on the bright side": {
+    "meaning": "to focus on the positive aspects of a situation",
+    "meaning_ja": "良い面を見る、前向きに考える",
+    "explanation": "Every situation has a bright (positive) side. Encourages optimism despite difficulties.",
+    "formality": 3,
+    "examples": ["Look on the bright side—at least you learned something.", "I always try to look on the bright side."]
+  },
+  "move the goalposts": {
+    "meaning": "to change the rules or criteria unfairly",
+    "meaning_ja": "途中でルールを変える、ゴールポストを動かす",
+    "explanation": "In football, moving the goalposts makes it harder to score. Means changing expectations after someone has already started working.",
+    "formality": 3,
+    "examples": ["They keep moving the goalposts on our team's targets.", "It's unfair to move the goalposts after we've agreed on the terms."]
+  },
+  "nip it in the bud": {
+    "meaning": "to stop something at an early stage before it becomes a bigger problem",
+    "meaning_ja": "芽のうちに摘む、早期に対処する",
+    "explanation": "From gardening—removing a bud prevents unwanted growth. Means dealing with problems early.",
+    "formality": 3,
+    "examples": ["We need to nip this problem in the bud.", "If you see bad habits forming, nip them in the bud."]
+  },
+  "no pain no gain": {
+    "meaning": "achievement requires effort and sacrifice",
+    "meaning_ja": "苦労なくして成果なし",
+    "explanation": "You must endure difficulty or discomfort to achieve results. Common in fitness but applies broadly.",
+    "formality": 2,
+    "examples": ["The workout is tough, but no pain no gain.", "Studying is hard, but no pain no gain."]
+  },
+  "not in a million years": {
+    "meaning": "absolutely never; impossible",
+    "meaning_ja": "絶対にありえない",
+    "explanation": "Emphatic way of saying something will never happen—not even if you wait a million years.",
+    "formality": 2,
+    "examples": ["Would I ever skydive? Not in a million years.", "Not in a million years did I think I'd win."]
+  },
+  "off the beaten path": {
+    "meaning": "in a place or way that is not commonly known or visited",
+    "meaning_ja": "人里離れた、あまり知られていない",
+    "explanation": "Away from the well-worn path that most people travel. Means unusual or undiscovered.",
+    "formality": 3,
+    "examples": ["We found a restaurant off the beaten path.", "I prefer vacations off the beaten path."]
+  },
+  "on a roll": {
+    "meaning": "experiencing a series of successes",
+    "meaning_ja": "好調で、波に乗っている",
+    "explanation": "Like a ball rolling with momentum—each success leads to the next. Means being on a winning streak.",
+    "formality": 2,
+    "examples": ["She's scored three goals—she's on a roll!", "The company has been on a roll this quarter."]
+  },
+  "on edge": {
+    "meaning": "nervous; anxious; tense",
+    "meaning_ja": "神経がぴりぴりしている、落ち着かない",
+    "explanation": "Like balancing on the edge of something—uncomfortable and precarious. Means feeling anxious.",
+    "formality": 3,
+    "examples": ["Everyone's been on edge since the layoffs.", "I've been on edge all day waiting for the results."]
+  },
+  "on the back burner": {
+    "meaning": "given low priority; put aside for later",
+    "meaning_ja": "後回しにされている、優先度が低い",
+    "explanation": "On a stove, pots on the back burner simmer slowly while front burners get more attention. Means deprioritized.",
+    "formality": 3,
+    "examples": ["The project has been put on the back burner.", "I had to put my hobbies on the back burner while I focus on work."]
+  },
+  "on the ball": {
+    "meaning": "alert, competent, and quick to understand",
+    "meaning_ja": "気が利く、しっかりしている",
+    "explanation": "From sports—keeping your eye on the ball means being attentive. Means being sharp and capable.",
+    "formality": 2,
+    "examples": ["She's really on the ball—nothing gets past her.", "You need to be on the ball in this job."]
+  },
+  "on the bright side": {
+    "meaning": "focusing on the positive aspect of a situation",
+    "meaning_ja": "良い面を見れば",
+    "explanation": "Looking at the bright, positive side rather than the dark, negative one.",
+    "formality": 3,
+    "examples": ["On the bright side, we learned a lot from the experience.", "The weather was bad, but on the bright side, we had fun indoors."]
+  },
+  "on the dot": {
+    "meaning": "exactly at the specified time",
+    "meaning_ja": "時間ぴったりに",
+    "explanation": "When the clock hand is exactly on the dot of the hour. Means precisely on time.",
+    "formality": 3,
+    "examples": ["The meeting starts at 9 on the dot.", "She arrived at 3 o'clock on the dot."]
+  },
+  "on the rocks": {
+    "meaning": "in a state of difficulty or failure (especially relationships)",
+    "meaning_ja": "うまくいっていない、破綻しかけている",
+    "explanation": "A ship on the rocks is in serious trouble and may sink. Also means a drink served over ice.",
+    "formality": 2,
+    "examples": ["Their marriage has been on the rocks lately.", "The business is on the rocks."]
+  },
+  "out of the woods": {
+    "meaning": "past the danger or difficulty",
+    "meaning_ja": "危機を脱した、困難を切り抜けた",
+    "explanation": "The woods represent danger (getting lost, wild animals). Being out of them means being safe.",
+    "formality": 3,
+    "examples": ["The patient isn't out of the woods yet.", "We're not out of the woods, but things are improving."]
+  },
+  "paint the town red": {
+    "meaning": "to go out and have a wildly enjoyable time",
+    "meaning_ja": "派手に遊ぶ、飲み歩く",
+    "explanation": "Origin debated—possibly from a rowdy Marquess who literally painted buildings red. Means going out for a wild night.",
+    "formality": 2,
+    "examples": ["It's my birthday—let's paint the town red!", "They painted the town red after the big win."]
+  },
+  "play devil's advocate": {
+    "meaning": "to argue the opposing side for the sake of discussion",
+    "meaning_ja": "あえて反対意見を述べる",
+    "explanation": "Deliberately taking the contrary position to test the strength of an argument or idea.",
+    "formality": 3,
+    "examples": ["Let me play devil's advocate—what if the plan fails?", "I'm just playing devil's advocate to make sure we've considered everything."]
+  },
+  "play hardball": {
+    "meaning": "to act aggressively or ruthlessly in negotiations",
+    "meaning_ja": "強硬な態度をとる、容赦なくやる",
+    "explanation": "Hardball is more aggressive than softball. Means using tough, uncompromising tactics.",
+    "formality": 3,
+    "examples": ["The union decided to play hardball in negotiations.", "If they won't cooperate, we'll have to play hardball."]
+  },
+  "play hooky": {
+    "meaning": "to skip school or work without permission",
+    "meaning_ja": "さぼる、ずる休みする",
+    "explanation": "American slang for truancy. Means being absent without a legitimate excuse.",
+    "formality": 1,
+    "examples": ["Let's play hooky and go to the beach.", "He used to play hooky from school all the time."]
+  },
+  "point of no return": {
+    "meaning": "the stage at which it's impossible to go back",
+    "meaning_ja": "引き返せない地点、後戻りできない段階",
+    "explanation": "From aviation—the point where a plane doesn't have enough fuel to return to its origin. Must continue forward.",
+    "formality": 3,
+    "examples": ["We've passed the point of no return on this project.", "Once you sign the contract, it's the point of no return."]
+  },
+  "put two and two together": {
+    "meaning": "to figure something out from available evidence",
+    "meaning_ja": "状況から推測する、察する",
+    "explanation": "Like adding 2+2 to get 4—drawing an obvious conclusion from the facts available.",
+    "formality": 3,
+    "examples": ["When I saw them together, I put two and two together.", "It wasn't hard to put two and two together."]
+  },
+  "read someone like a book": {
+    "meaning": "to easily understand someone's thoughts or feelings",
+    "meaning_ja": "人の考えを簡単に見抜く",
+    "explanation": "Someone whose emotions are as easy to read as the pages of a book. Means being transparent.",
+    "formality": 3,
+    "examples": ["She can read me like a book—I can never surprise her.", "Don't try to lie to him. He reads people like a book."]
+  },
+  "rock the boat": {
+    "meaning": "to disturb a stable situation; to cause trouble",
+    "meaning_ja": "波風を立てる、事を荒立てる",
+    "explanation": "Rocking a boat puts everyone in it at risk. Means disrupting a peaceful situation.",
+    "formality": 3,
+    "examples": ["He didn't want to rock the boat by asking for changes.", "Sometimes you need to rock the boat to make progress."]
+  },
+  "run the show": {
+    "meaning": "to be in charge; to manage everything",
+    "meaning_ja": "仕切る、取り仕切る",
+    "explanation": "Like a director running a show or production. Means having complete control over operations.",
+    "formality": 2,
+    "examples": ["Since the manager left, she's been running the show.", "Let me know who runs the show around here."]
+  },
+  "saved by the bell": {
+    "meaning": "rescued from a difficult situation at the last moment",
+    "meaning_ja": "ベルに救われる、ぎりぎりで助かる",
+    "explanation": "From boxing—the bell ending a round can save a struggling fighter. Means being rescued just in time.",
+    "formality": 2,
+    "examples": ["The teacher was about to call on me, but I was saved by the bell.", "The meeting ended just in time—saved by the bell."]
+  },
+  "sell like hotcakes": {
+    "meaning": "to sell very quickly and in large quantities",
+    "meaning_ja": "飛ぶように売れる",
+    "explanation": "Hotcakes (pancakes) at fairs would sell extremely fast because they were warm and delicious.",
+    "formality": 2,
+    "examples": ["The new phone is selling like hotcakes.", "Tickets for the concert sold like hotcakes."]
+  },
+  "shape up or ship out": {
+    "meaning": "improve your behavior or leave",
+    "meaning_ja": "態度を改めないと出ていけ",
+    "explanation": "From military/naval origin—either improve your performance or be sent away. An ultimatum.",
+    "formality": 2,
+    "examples": ["The boss told him to shape up or ship out.", "Shape up or ship out—we can't tolerate this anymore."]
+  },
+  "show your true colors": {
+    "meaning": "to reveal one's real character or intentions",
+    "meaning_ja": "本性を現す、正体を見せる",
+    "explanation": "From sailing—ships would fly false flags and then show their true colors before attacking. Means revealing who you really are.",
+    "formality": 3,
+    "examples": ["Under pressure, people show their true colors.", "He finally showed his true colors during the crisis."]
+  },
+  "small talk": {
+    "meaning": "light, casual conversation about unimportant topics",
+    "meaning_ja": "世間話、雑談",
+    "explanation": "Talk that is 'small' in significance—about weather, news, or other light topics rather than serious matters.",
+    "formality": 3,
+    "examples": ["We made small talk while waiting for the meeting to start.", "I'm not very good at small talk."]
+  },
+  "smooth sailing": {
+    "meaning": "easy progress without problems",
+    "meaning_ja": "順風満帆、順調に進む",
+    "explanation": "Sailing on calm waters with favorable winds. Means everything is going well and easily.",
+    "formality": 3,
+    "examples": ["After the initial problems, it's been smooth sailing.", "Once you pass the exam, it should be smooth sailing."]
+  },
+  "stab in the dark": {
+    "meaning": "a wild guess; an attempt without much information",
+    "meaning_ja": "当てずっぽう、やみくもな推測",
+    "explanation": "Stabbing in darkness means you can't see your target. Means guessing without enough information.",
+    "formality": 3,
+    "examples": ["I'll take a stab in the dark and say it's from the 1990s.", "It was a stab in the dark, but my guess turned out to be right."]
+  },
+  "stand your ground": {
+    "meaning": "to refuse to change your position or give in",
+    "meaning_ja": "一歩も引かない、自分の立場を守る",
+    "explanation": "From military—holding your position despite attack. Means maintaining your stance firmly.",
+    "formality": 3,
+    "examples": ["She stood her ground during the negotiation.", "Sometimes you have to stand your ground on principle."]
+  },
+  "start from scratch": {
+    "meaning": "to begin again from the very beginning",
+    "meaning_ja": "一からやり直す",
+    "explanation": "Same origin as 'from scratch'—the scratch line was the starting point in races.",
+    "formality": 3,
+    "examples": ["The code was so buggy we had to start from scratch.", "After the fire, they had to start from scratch."]
+  },
+  "take a toll": {
+    "meaning": "to cause damage or suffering gradually",
+    "meaning_ja": "犠牲を強いる、悪影響を与える",
+    "explanation": "A toll is a fee for crossing a bridge. Figuratively, things take a toll on your health, energy, or resources.",
+    "formality": 3,
+    "examples": ["The stress is taking a toll on his health.", "Years of neglect took a toll on the building."]
+  },
+  "take the bull by the horns": {
+    "meaning": "to deal with a difficult situation directly and bravely",
+    "meaning_ja": "困難に正面から立ち向かう",
+    "explanation": "Grabbing a bull by its horns is dangerous but direct. Means confronting challenges head-on.",
+    "formality": 3,
+    "examples": ["She took the bull by the horns and confronted her boss.", "It's time to take the bull by the horns and solve this problem."]
+  },
+  "the cream of the crop": {
+    "meaning": "the very best of a group",
+    "meaning_ja": "最高のもの、精鋭",
+    "explanation": "Cream rises to the top of milk—it's the richest part. The crop's cream is its finest produce.",
+    "formality": 3,
+    "examples": ["These students are the cream of the crop.", "Only the cream of the crop make it into the program."]
+  },
+  "the early bird catches the worm": {
+    "meaning": "those who act first get the advantage",
+    "meaning_ja": "早起きは三文の得",
+    "explanation": "A bird that wakes up early has the best chance of finding worms. Means being early or proactive gives you an advantage.",
+    "formality": 3,
+    "examples": ["I always arrive early—the early bird catches the worm.", "If you want the best deals, remember: the early bird catches the worm."]
+  },
+  "the grass is always greener on the other side": {
+    "meaning": "other people's situations always seem better than your own",
+    "meaning_ja": "隣の芝生は青い",
+    "explanation": "Your neighbor's lawn looks better from a distance. Means people tend to envy others' situations.",
+    "formality": 3,
+    "examples": ["He wants her job, but the grass is always greener on the other side.", "Before you quit, remember the grass is always greener on the other side."]
+  },
+  "the plot thickens": {
+    "meaning": "a situation becomes more complicated or interesting",
+    "meaning_ja": "話が複雑になってきた、事態が面白くなってきた",
+    "explanation": "From novels and plays—when the plot thickens, new twists make the story more complex.",
+    "formality": 3,
+    "examples": ["New evidence has surfaced—the plot thickens.", "She denied it, but now witnesses say otherwise. The plot thickens."]
+  },
+  "through thick and thin": {
+    "meaning": "through good times and bad; no matter what happens",
+    "meaning_ja": "良い時も悪い時も、どんな時でも",
+    "explanation": "Whether the path is thick (dense forest) or thin (clear), you continue regardless. Means unwavering loyalty.",
+    "formality": 3,
+    "examples": ["We've been friends through thick and thin.", "She supported him through thick and thin."]
+  },
+  "to each their own": {
+    "meaning": "everyone has their own preferences and that's acceptable",
+    "meaning_ja": "人それぞれ、好みは人によって違う",
+    "explanation": "Acknowledging that different people like different things, and that's perfectly fine.",
+    "formality": 3,
+    "examples": ["I don't like horror movies, but to each their own.", "To each their own—I prefer tea over coffee."]
+  },
+  "tongue-tied": {
+    "meaning": "unable to speak because of nervousness or shyness",
+    "meaning_ja": "うまく話せない、緊張で言葉が出ない",
+    "explanation": "As if your tongue were literally tied and couldn't move freely to form words.",
+    "formality": 3,
+    "examples": ["I was tongue-tied when she spoke to me.", "He gets tongue-tied in front of large audiences."]
+  },
+  "too many cooks spoil the broth": {
+    "meaning": "too many people involved in something can ruin it",
+    "meaning_ja": "船頭多くして船山に登る",
+    "explanation": "If too many cooks add ingredients to one soup, the result is bad. Means too many people managing one task causes problems.",
+    "formality": 3,
+    "examples": ["Let's limit the committee—too many cooks spoil the broth.", "The project failed because too many cooks spoiled the broth."]
+  },
+  "twist someone's arm": {
+    "meaning": "to persuade someone to do something they're reluctant to do",
+    "meaning_ja": "無理やり説得する、腕をねじる",
+    "explanation": "Literally twisting an arm would be painful coercion. Figuratively means strong persuasion.",
+    "formality": 2,
+    "examples": ["I didn't want to go, but they twisted my arm.", "You don't have to twist my arm—I'd love to come!"]
+  },
+  "under the table": {
+    "meaning": "done secretly, especially involving illegal payments",
+    "meaning_ja": "裏で、不正に、こっそり",
+    "explanation": "Passing something under a table so others can't see. Means secret or illicit dealings.",
+    "formality": 2,
+    "examples": ["They paid him under the table to avoid taxes.", "Some workers are paid under the table."]
+  },
+  "up for grabs": {
+    "meaning": "available for anyone to take or compete for",
+    "meaning_ja": "誰でも手に入れられる、争奪戦の状態",
+    "explanation": "Something thrown up in the air for anyone to grab. Means available to whoever gets there first.",
+    "formality": 2,
+    "examples": ["The championship title is still up for grabs.", "There are free tickets up for grabs."]
+  },
+  "walking on eggshells": {
+    "meaning": "being extremely careful not to upset someone",
+    "meaning_ja": "腫れ物に触るように接する",
+    "explanation": "Eggshells are fragile—walking on them requires extreme care. Means being overly cautious around a sensitive person.",
+    "formality": 3,
+    "examples": ["Everyone's walking on eggshells around the boss today.", "I feel like I'm walking on eggshells in this relationship."]
+  },
+  "watch your step": {
+    "meaning": "be careful about your behavior or actions",
+    "meaning_ja": "気をつけろ、言動に注意しろ",
+    "explanation": "Literally watching where you step to avoid tripping. Figuratively means being careful about what you do or say.",
+    "formality": 3,
+    "examples": ["Watch your step—the boss is in a bad mood.", "You'd better watch your step around the new regulations."]
+  },
+  "way over your head": {
+    "meaning": "far too complex for you to understand",
+    "meaning_ja": "全く理解できないほど難しい",
+    "explanation": "Intensified version of 'over your head'—far beyond your ability to comprehend.",
+    "formality": 2,
+    "examples": ["Advanced calculus is way over my head.", "The legal jargon was way over my head."]
+  },
+  "wipe the slate clean": {
+    "meaning": "to start fresh by forgetting past mistakes",
+    "meaning_ja": "白紙に戻す、過去を清算する",
+    "explanation": "In the past, chalk slates were wiped clean to start writing anew. Means removing all previous records of wrongdoing.",
+    "formality": 3,
+    "examples": ["Let's wipe the slate clean and start over.", "The new year is a chance to wipe the slate clean."]
+  },
+  "wouldn't hurt a fly": {
+    "meaning": "describes someone who is very gentle and kind",
+    "meaning_ja": "蚊も殺せないほど優しい",
+    "explanation": "Someone so gentle they wouldn't harm even a tiny fly. Means being extremely kind-natured.",
+    "formality": 3,
+    "examples": ["He looks tough, but he wouldn't hurt a fly.", "She's the sweetest person—she wouldn't hurt a fly."]
+  },
+  "X marks the spot": {
+    "meaning": "this is the exact location",
+    "meaning_ja": "ここが目的の場所だ",
+    "explanation": "From treasure maps where an X was drawn to indicate where treasure was buried.",
+    "formality": 2,
+    "examples": ["Dig here—X marks the spot.", "According to the map, X marks the spot right here."]
+  },
+  "year in year out": {
+    "meaning": "every year without change; continuously year after year",
+    "meaning_ja": "毎年毎年、年がら年中",
+    "explanation": "Like 'day in day out' but on a yearly scale. Emphasizes monotonous repetition over years.",
+    "formality": 3,
+    "examples": ["Year in year out, the festival draws thousands of visitors.", "She does the same thing year in year out."]
+  },
+  "your guess is as good as mine": {
+    "meaning": "I don't know the answer either",
+    "meaning_ja": "私にもわからない、見当がつかない",
+    "explanation": "Neither person knows the answer—both would be equally guessing.",
+    "formality": 2,
+    "examples": ["When will this be fixed? Your guess is as good as mine.", "I have no idea what happened—your guess is as good as mine."]
+  },
+  "at a crossroads": {
+    "meaning": "at a point where an important decision must be made",
+    "meaning_ja": "岐路に立っている、重大な決断の時",
+    "explanation": "A crossroads is where paths diverge—you must choose which direction to go. Means facing a critical decision.",
+    "formality": 3,
+    "examples": ["She's at a crossroads in her career.", "The country is at a crossroads."]
+  },
+  "behind the scenes": {
+    "meaning": "out of public view; in secret",
+    "meaning_ja": "舞台裏で、裏方で",
+    "explanation": "From theater—what happens backstage is not seen by the audience. Means things happening privately.",
+    "formality": 3,
+    "examples": ["A lot of work goes on behind the scenes.", "Behind the scenes, they were negotiating a deal."]
+  },
+  "blow your own trumpet": {
+    "meaning": "to boast about your own achievements",
+    "meaning_ja": "自画自賛する、自慢する",
+    "explanation": "Playing a fanfare for yourself rather than having someone else announce your achievements.",
+    "formality": 3,
+    "examples": ["I don't like to blow my own trumpet, but I did win the award.", "She's always blowing her own trumpet."]
+  },
+  "bread and butter": {
+    "meaning": "one's main source of income or livelihood",
+    "meaning_ja": "主な収入源、生活の糧",
+    "explanation": "Bread and butter are basic sustenance. Your 'bread and butter' is what provides your basic living.",
+    "formality": 3,
+    "examples": ["Teaching is my bread and butter.", "Small businesses are the bread and butter of the economy."]
+  },
+  "bridge the gap": {
+    "meaning": "to reduce the difference between two things",
+    "meaning_ja": "隔たりを埋める、差を縮める",
+    "explanation": "Building a bridge over a gap connects two separated sides. Means reducing differences or disparities.",
+    "formality": 3,
+    "examples": ["We need to bridge the gap between theory and practice.", "Technology can help bridge the gap in education."]
+  },
+  "bring home the bacon": {
+    "meaning": "to earn money for the family",
+    "meaning_ja": "一家の稼ぎ手となる、生活費を稼ぐ",
+    "explanation": "Possibly from the Dunmow Flitch tradition or county fairs where catching a greased pig won you bacon.",
+    "formality": 2,
+    "examples": ["She works two jobs to bring home the bacon.", "Someone's got to bring home the bacon."]
+  },
+  "buckle down": {
+    "meaning": "to start working hard with determination",
+    "meaning_ja": "本腰を入れる、気を引き締めてやる",
+    "explanation": "Like buckling armor or a belt tight before effort. Means getting serious about work.",
+    "formality": 3,
+    "examples": ["It's time to buckle down and study.", "We need to buckle down if we're going to meet the deadline."]
+  },
+  "by all means": {
+    "meaning": "of course; certainly; please do",
+    "meaning_ja": "もちろん、どうぞ、ぜひ",
+    "explanation": "Using all possible means—complete and enthusiastic permission or agreement.",
+    "formality": 3,
+    "examples": ["By all means, take the day off.", "'May I use your phone?' 'By all means.'"]
+  },
+  "call it quits": {
+    "meaning": "to stop doing something; to end a relationship or activity",
+    "meaning_ja": "やめにする、手を引く",
+    "explanation": "Declaring that you're done—quitting an activity or ending a partnership.",
+    "formality": 2,
+    "examples": ["After 20 years in business, they decided to call it quits.", "The couple finally called it quits."]
+  },
+  "come hell or high water": {
+    "meaning": "no matter what obstacles arise; regardless of difficulty",
+    "meaning_ja": "何があっても、どんな困難があっても",
+    "explanation": "Even if hell breaks loose or floods come, the determination remains. Means absolute resolve.",
+    "formality": 2,
+    "examples": ["Come hell or high water, I'll be there.", "We'll finish this project, come hell or high water."]
+  },
+  "come to terms with": {
+    "meaning": "to accept something difficult or unpleasant",
+    "meaning_ja": "折り合いをつける、受け入れる",
+    "explanation": "Reaching an agreement or peace with a difficult reality. Means accepting what cannot be changed.",
+    "formality": 3,
+    "examples": ["She's still coming to terms with the diagnosis.", "It took time to come to terms with the loss."]
+  },
+  "cut someone some slack": {
+    "meaning": "to not judge someone too harshly; to be lenient",
+    "meaning_ja": "大目に見る、多少の余裕を与える",
+    "explanation": "From sailing—giving slack (looseness) in a rope. Means being less strict or demanding with someone.",
+    "formality": 2,
+    "examples": ["Cut him some slack—he's new at this.", "Could you cut me some slack? I've had a rough day."]
+  },
+  "cut the mustard": {
+    "meaning": "to meet expectations; to be good enough",
+    "meaning_ja": "基準に達する、十分な能力がある",
+    "explanation": "Origin debated. Means being able to perform adequately. Usually used in the negative.",
+    "formality": 2,
+    "examples": ["The new software just doesn't cut the mustard.", "If you can't cut the mustard, we'll find someone who can."]
+  },
+  "dig deep": {
+    "meaning": "to find extra effort or resources from within yourself",
+    "meaning_ja": "力を振り絞る、全力を出す",
+    "explanation": "Digging deep into yourself for reserves of strength, courage, or money.",
+    "formality": 3,
+    "examples": ["The team had to dig deep to win in overtime.", "We all need to dig deep to get through this."]
+  },
+  "donkey's years": {
+    "meaning": "a very long time",
+    "meaning_ja": "非常に長い間",
+    "explanation": "Possibly from donkey's ears (which are long) punning with years. Means an extremely long period.",
+    "formality": 2,
+    "examples": ["I haven't seen him in donkey's years.", "She's been working there for donkey's years."]
+  },
+  "drop a bombshell": {
+    "meaning": "to announce shocking or surprising news",
+    "meaning_ja": "爆弾発言をする、衝撃的な知らせを伝える",
+    "explanation": "A bombshell explosion causes shock and destruction. Means delivering news that shocks everyone.",
+    "formality": 3,
+    "examples": ["She dropped a bombshell when she announced her resignation.", "The CEO dropped a bombshell at the meeting."]
+  },
+  "eye-opener": {
+    "meaning": "an experience that reveals something surprising or enlightening",
+    "meaning_ja": "目を見開かせるもの、驚くべき発見",
+    "explanation": "Something that opens your eyes—makes you see things you hadn't noticed before.",
+    "formality": 3,
+    "examples": ["Traveling abroad was a real eye-opener.", "The documentary was an eye-opener about food waste."]
+  },
+  "fall short": {
+    "meaning": "to fail to reach a goal or standard",
+    "meaning_ja": "及ばない、不十分である",
+    "explanation": "Like an arrow that falls short of the target. Means not quite reaching what was expected.",
+    "formality": 3,
+    "examples": ["Sales fell short of expectations.", "The team's effort fell short this time."]
+  },
+  "get out of hand": {
+    "meaning": "to become difficult to control",
+    "meaning_ja": "手に負えなくなる",
+    "explanation": "A horse getting out of the rider's hand—no longer under control.",
+    "formality": 3,
+    "examples": ["The situation quickly got out of hand.", "Spending has gotten out of hand."]
+  },
+  "get wind of": {
+    "meaning": "to learn about something secret or private",
+    "meaning_ja": "嗅ぎつける、情報を得る",
+    "explanation": "Like an animal detecting a scent on the wind. Means receiving information about something not publicly known.",
+    "formality": 3,
+    "examples": ["If the press gets wind of this, we're in trouble.", "She got wind of the surprise party."]
+  },
+  "give and take": {
+    "meaning": "mutual compromise; willingness to make concessions",
+    "meaning_ja": "譲り合い、妥協",
+    "explanation": "Both sides give something and take something. Means reaching agreement through mutual concession.",
+    "formality": 3,
+    "examples": ["Any good relationship requires give and take.", "Negotiation is all about give and take."]
+  },
+  "go belly up": {
+    "meaning": "to fail completely, especially a business",
+    "meaning_ja": "倒産する、破綻する",
+    "explanation": "Like a dead fish floating belly up. Means going bankrupt or completely failing.",
+    "formality": 2,
+    "examples": ["The startup went belly up after two years.", "Several restaurants went belly up during the pandemic."]
+  },
+  "go out on a limb": {
+    "meaning": "to take a risk; to put yourself in a vulnerable position",
+    "meaning_ja": "リスクを冒す、危険を承知で行動する",
+    "explanation": "Climbing out on a tree limb is dangerous—it might break. Means taking a risky position.",
+    "formality": 3,
+    "examples": ["I'll go out on a limb and predict she'll win.", "He went out on a limb to support the unpopular proposal."]
+  },
+  "go south": {
+    "meaning": "to decline or get worse",
+    "meaning_ja": "悪化する、うまくいかなくなる",
+    "explanation": "On charts and maps, south is downward. When something goes south, it's heading down/declining.",
+    "formality": 2,
+    "examples": ["The project went south after the lead developer quit.", "Stock prices went south during the crisis."]
+  },
+  "gut feeling": {
+    "meaning": "an instinctive feeling without logical reasoning",
+    "meaning_ja": "直感、虫の知らせ",
+    "explanation": "A feeling that comes from your gut (stomach) rather than your head. An intuitive sense about something.",
+    "formality": 2,
+    "examples": ["I have a gut feeling something is wrong.", "Trust your gut feeling on this one."]
+  },
+  "hands down": {
+    "meaning": "without a doubt; clearly and easily",
+    "meaning_ja": "断然、間違いなく",
+    "explanation": "From horse racing—winning with hands down (relaxed reins) means winning so easily there's no contest.",
+    "formality": 2,
+    "examples": ["She's hands down the best singer in the group.", "That was hands down the best meal I've ever had."]
+  },
+  "hard pill to swallow": {
+    "meaning": "something difficult to accept",
+    "meaning_ja": "受け入れがたいこと、苦い薬",
+    "explanation": "Bitter medicine is hard to swallow. Means an unpleasant truth or reality that must be accepted.",
+    "formality": 3,
+    "examples": ["The rejection was a hard pill to swallow.", "It's a hard pill to swallow, but we need to cut costs."]
+  },
+  "have a blast": {
+    "meaning": "to have a very enjoyable time",
+    "meaning_ja": "すごく楽しむ",
+    "explanation": "A 'blast' means an explosion of fun and excitement. Means having an extremely good time.",
+    "formality": 1,
+    "examples": ["We had a blast at the concert!", "The kids are going to have a blast at the amusement park."]
+  },
+  "head start": {
+    "meaning": "an advantage gained by starting before others",
+    "meaning_ja": "有利なスタート、先行",
+    "explanation": "Starting ahead of competitors in a race. Means having an early advantage.",
+    "formality": 3,
+    "examples": ["Her experience gave her a head start in the new job.", "Getting up early gives you a head start on the day."]
+  },
+  "in a league of your own": {
+    "meaning": "far superior to others",
+    "meaning_ja": "他とは別格、比較にならないほど優れている",
+    "explanation": "So good that you can't be compared to others—you're in a different league entirely.",
+    "formality": 3,
+    "examples": ["When it comes to cooking, she's in a league of her own.", "That restaurant is in a league of its own."]
+  },
+  "in full swing": {
+    "meaning": "at the highest level of activity",
+    "meaning_ja": "本格的に行われている、最盛期で",
+    "explanation": "Like a pendulum at the peak of its swing—maximum motion and energy. Means fully active and operational.",
+    "formality": 3,
+    "examples": ["By noon, the party was in full swing.", "Construction is in full swing on the new building."]
+  },
+  "in the long run": {
+    "meaning": "over a long period of time; eventually",
+    "meaning_ja": "長い目で見れば、結局は",
+    "explanation": "Thinking about the extended future rather than immediate results.",
+    "formality": 3,
+    "examples": ["In the long run, education pays off.", "This investment will be profitable in the long run."]
+  },
+  "jump through hoops": {
+    "meaning": "to go through many difficult steps to achieve something",
+    "meaning_ja": "面倒な手続きをこなす、苦労して要件を満たす",
+    "explanation": "Like a circus animal jumping through hoops to please the trainer. Means completing excessive requirements.",
+    "formality": 3,
+    "examples": ["We had to jump through hoops to get the permit.", "They make you jump through hoops just to get a refund."]
+  },
+  "keep a low profile": {
+    "meaning": "to avoid attracting attention",
+    "meaning_ja": "目立たないようにする、控えめにしている",
+    "explanation": "Keeping your profile (outline) low makes you less visible. Means staying out of the spotlight.",
+    "formality": 3,
+    "examples": ["After the scandal, he kept a low profile.", "It's best to keep a low profile until things settle down."]
+  },
+  "keep your fingers crossed": {
+    "meaning": "to hope for good luck or a positive outcome",
+    "meaning_ja": "幸運を祈る、うまくいくことを願う",
+    "explanation": "Crossing fingers is a gesture believed to bring good luck.",
+    "formality": 2,
+    "examples": ["Keep your fingers crossed for the test results.", "I'm keeping my fingers crossed that it doesn't rain."]
+  },
+  "kick the can down the road": {
+    "meaning": "to postpone dealing with a problem",
+    "meaning_ja": "問題を先送りにする",
+    "explanation": "Like a child kicking a can further along the road instead of picking it up. Means delaying action on an issue.",
+    "formality": 3,
+    "examples": ["Politicians keep kicking the can down the road on healthcare.", "We can't keep kicking the can down the road."]
+  },
+  "learn the ropes": {
+    "meaning": "to learn the basics of a job or activity",
+    "meaning_ja": "仕事の基本を覚える、要領を学ぶ",
+    "explanation": "From sailing—new sailors had to learn which ropes controlled which sails. Means learning the fundamentals.",
+    "formality": 3,
+    "examples": ["It takes a few weeks to learn the ropes.", "She's still learning the ropes at her new company."]
+  },
+  "level the playing field": {
+    "meaning": "to make conditions fair and equal for everyone",
+    "meaning_ja": "条件を平等にする、公平な場を作る",
+    "explanation": "An uneven playing field gives one side an advantage. Leveling it means making competition fair.",
+    "formality": 3,
+    "examples": ["The new regulations level the playing field for small businesses.", "Education can help level the playing field."]
+  },
+  "live and learn": {
+    "meaning": "you learn from your mistakes and experiences",
+    "meaning_ja": "失敗から学ぶ、経験から知恵を得る",
+    "explanation": "Life itself is a learning process. Accepting that mistakes are part of growing.",
+    "formality": 2,
+    "examples": ["I won't make that mistake again—live and learn.", "It was embarrassing, but live and learn."]
+  },
+  "make waves": {
+    "meaning": "to cause trouble or controversy",
+    "meaning_ja": "波紋を起こす、物議を醸す",
+    "explanation": "Like disturbing calm water by creating waves. Means causing disruption or controversy.",
+    "formality": 3,
+    "examples": ["The new policy is making waves in the industry.", "She's not afraid to make waves when she sees injustice."]
+  },
+  "move mountains": {
+    "meaning": "to achieve something that seems impossible through great effort",
+    "meaning_ja": "不可能を可能にする、山を動かす",
+    "explanation": "Moving a mountain would require extraordinary effort. Means accomplishing seemingly impossible feats.",
+    "formality": 3,
+    "examples": ["With enough determination, you can move mountains.", "She would move mountains for her children."]
+  },
+  "off the hook": {
+    "meaning": "free from blame or obligation",
+    "meaning_ja": "責任を免れて、罰を逃れて",
+    "explanation": "Like a fish getting off the hook—escaping capture. Means being freed from a difficult situation or punishment.",
+    "formality": 2,
+    "examples": ["The charges were dropped, so he's off the hook.", "Don't let them off the hook so easily."]
+  },
+  "on the go": {
+    "meaning": "very busy and active",
+    "meaning_ja": "忙しく動き回って、移動中で",
+    "explanation": "Constantly going somewhere or doing something. Means being in constant motion or activity.",
+    "formality": 2,
+    "examples": ["I've been on the go all day.", "She's always on the go—I don't know how she does it."]
+  },
+  "on the verge of": {
+    "meaning": "very close to a particular state or event",
+    "meaning_ja": "〜の瀬戸際に、まさに〜しようとしている",
+    "explanation": "Standing on the very edge (verge) of something. Means being about to experience or do something.",
+    "formality": 3,
+    "examples": ["The company is on the verge of bankruptcy.", "She was on the verge of tears."]
+  },
+  "open a can of worms": {
+    "meaning": "to create a set of complicated problems",
+    "meaning_ja": "面倒な問題を引き起こす",
+    "explanation": "Once the can is open, the worms escape and are hard to contain. Means starting something problematic.",
+    "formality": 3,
+    "examples": ["Investigating this could open a can of worms.", "That question opened a whole can of worms."]
+  },
+  "par for the course": {
+    "meaning": "what is normal or expected",
+    "meaning_ja": "いつものこと、予想通りのこと",
+    "explanation": "From golf—par is the expected number of strokes. Means something is typical and unsurprising.",
+    "formality": 3,
+    "examples": ["Delays are par for the course in construction.", "His late arrival was par for the course."]
+  },
+  "pick up the slack": {
+    "meaning": "to do extra work that someone else is not doing",
+    "meaning_ja": "人の分まで仕事をする、穴を埋める",
+    "explanation": "From pulling a slack rope tight. Means compensating for another person's lack of effort.",
+    "formality": 3,
+    "examples": ["When he's absent, the rest of us pick up the slack.", "Someone needs to pick up the slack while she's on leave."]
+  },
+  "play your cards right": {
+    "meaning": "to act wisely and make good decisions",
+    "meaning_ja": "うまく立ち回る、カードをうまく使う",
+    "explanation": "From card games—playing strategically leads to winning. Means making smart choices.",
+    "formality": 3,
+    "examples": ["If you play your cards right, you could get the promotion.", "Play your cards right and this could be a great opportunity."]
+  },
+  "raise eyebrows": {
+    "meaning": "to cause surprise or mild disapproval",
+    "meaning_ja": "驚かせる、眉をひそめさせる",
+    "explanation": "People raise their eyebrows when surprised or skeptical. Means causing a reaction of surprise.",
+    "formality": 3,
+    "examples": ["Her unconventional dress raised a few eyebrows.", "The CEO's salary raised eyebrows."]
+  },
+  "right off the bat": {
+    "meaning": "immediately; from the very beginning",
+    "meaning_ja": "最初から、即座に",
+    "explanation": "From baseball—right when the bat hits the ball. Means at the very start, without delay.",
+    "formality": 2,
+    "examples": ["Right off the bat, I could tell something was wrong.", "He impressed everyone right off the bat."]
+  },
+  "roll up your sleeves": {
+    "meaning": "to prepare to work hard",
+    "meaning_ja": "腕まくりをする、本腰を入れる",
+    "explanation": "Literally rolling up sleeves to prevent them from getting dirty during manual work. Means getting ready for hard work.",
+    "formality": 3,
+    "examples": ["It's time to roll up our sleeves and get to work.", "She rolled up her sleeves and started fixing the code."]
+  },
+  "run of the mill": {
+    "meaning": "ordinary; not special or outstanding",
+    "meaning_ja": "ありふれた、普通の",
+    "explanation": "From manufacturing—products that come off the mill without special treatment. Means average and unremarkable.",
+    "formality": 3,
+    "examples": ["It was a run-of-the-mill performance, nothing special.", "This isn't a run-of-the-mill restaurant—it's exceptional."]
+  },
+  "safe and sound": {
+    "meaning": "unharmed and in good condition",
+    "meaning_ja": "無事に、安全に",
+    "explanation": "Both safe (free from danger) and sound (in good condition). A reassuring expression about someone's wellbeing.",
+    "formality": 3,
+    "examples": ["The children arrived home safe and sound.", "All the passengers were safe and sound after the emergency landing."]
+  },
+  "set in stone": {
+    "meaning": "fixed and unchangeable",
+    "meaning_ja": "確定した、変更不可能な",
+    "explanation": "Words carved in stone cannot be easily altered. Means something is final and permanent.",
+    "formality": 3,
+    "examples": ["The schedule isn't set in stone—we can adjust it.", "Once the contract is signed, it's set in stone."]
+  },
+  "sink or swim": {
+    "meaning": "to either fail or succeed by your own efforts",
+    "meaning_ja": "自力でなんとかするしかない",
+    "explanation": "Thrown into water, you either learn to swim or you sink. Means being left to succeed or fail on your own.",
+    "formality": 3,
+    "examples": ["In this job, it's sink or swim from day one.", "They threw me into the project—sink or swim."]
+  },
+  "sitting duck": {
+    "meaning": "an easy target; someone vulnerable to attack",
+    "meaning_ja": "格好の餌食、無防備な状態",
+    "explanation": "A duck sitting still on water is an easy target for hunters. Means being vulnerable and defenseless.",
+    "formality": 3,
+    "examples": ["Without security, the data is a sitting duck for hackers.", "Our competitor is a sitting duck right now."]
+  },
+  "the tip of the iceberg": {
+    "meaning": "only a small, visible part of a much larger issue",
+    "meaning_ja": "氷山の一角",
+    "explanation": "Most of an iceberg is hidden underwater. What you see is only a fraction of the whole problem.",
+    "formality": 3,
+    "examples": ["These reported cases are just the tip of the iceberg.", "What we've found so far is only the tip of the iceberg."]
+  },
+  "third wheel": {
+    "meaning": "an unwanted extra person, especially with a couple",
+    "meaning_ja": "邪魔者、お荷物",
+    "explanation": "A third wheel on a bicycle is unnecessary and unwanted. Means being an awkward extra person.",
+    "formality": 2,
+    "examples": ["I felt like a third wheel on their date.", "I don't want to be a third wheel—you two go ahead."]
+  },
+  "tight-lipped": {
+    "meaning": "unwilling to reveal information; secretive",
+    "meaning_ja": "口が堅い、秘密を守る",
+    "explanation": "Lips pressed tightly together, refusing to speak. Means keeping silent about something.",
+    "formality": 3,
+    "examples": ["The company was tight-lipped about the investigation.", "He remained tight-lipped about his plans."]
+  },
+  "up and running": {
+    "meaning": "operational and functioning properly",
+    "meaning_ja": "稼働中の、動いている",
+    "explanation": "A machine or system that has been started and is working as intended.",
+    "formality": 3,
+    "examples": ["The new server is up and running.", "We'll have the system up and running by Monday."]
+  },
+  "walk the walk": {
+    "meaning": "to actually do what you say you will do",
+    "meaning_ja": "言行一致する、有言実行する",
+    "explanation": "From 'talk the talk and walk the walk.' Talking is promising; walking is delivering on those promises.",
+    "formality": 3,
+    "examples": ["It's easy to talk the talk, but can you walk the walk?", "The company doesn't just talk about sustainability—they walk the walk."]
+  },
+  "with flying colors": {
+    "meaning": "with great success",
+    "meaning_ja": "見事に、大成功で",
+    "explanation": "From naval tradition—ships returning from battle with flags (colors) still flying high meant victory.",
+    "formality": 3,
+    "examples": ["She passed the exam with flying colors.", "The product launch went off with flying colors."]
+  },
+  "work against the clock": {
+    "meaning": "to work under severe time pressure",
+    "meaning_ja": "時間との戦いで働く",
+    "explanation": "Racing against time itself. Means working urgently because a deadline is approaching.",
+    "formality": 3,
+    "examples": ["The team is working against the clock to fix the bug.", "We're working against the clock to meet the deadline."]
+  },
+  "back to basics": {
+    "meaning": "returning to fundamental principles",
+    "meaning_ja": "基本に立ち返る、原点回帰",
+    "explanation": "When things get too complicated, going back to the simple fundamentals can help. Means refocusing on core principles.",
+    "formality": 3,
+    "examples": ["The team needs to go back to basics.", "Sometimes the best strategy is back to basics."]
+  },
+  "turn the tables": {
+    "meaning": "to reverse a situation to gain an advantage",
+    "meaning_ja": "形勢を逆転する、立場を入れ替える",
+    "explanation": "From board games where turning the table around puts your opponent in your position. Means reversing who has the advantage.",
+    "formality": 3,
+    "examples": ["The underdog turned the tables in the second half.", "She turned the tables on her critics by succeeding."]
+  },
+  "cut to the quick": {
+    "meaning": "to deeply hurt someone's feelings",
+    "meaning_ja": "深く傷つける",
+    "explanation": "The 'quick' is the sensitive flesh under fingernails. Cutting to it means causing deep emotional pain.",
+    "formality": 4,
+    "examples": ["His harsh words cut her to the quick.", "The betrayal cut him to the quick."]
+  },
+  "a penny saved is a penny earned": {
+    "meaning": "saving money is just as valuable as earning it",
+    "meaning_ja": "節約は稼ぐのと同じ価値がある",
+    "explanation": "Attributed to Benjamin Franklin. Emphasizes the importance of frugality.",
+    "formality": 3,
+    "examples": ["I always look for discounts—a penny saved is a penny earned.", "Why pay full price? A penny saved is a penny earned."]
+  },
+  "two cents": {
+    "meaning": "one's opinion or viewpoint (usually unsolicited)",
+    "meaning_ja": "意見、私見",
+    "explanation": "Offering your 'two cents' means sharing your opinion, implying it may not be worth much.",
+    "formality": 2,
+    "examples": ["If I can put in my two cents, I think we should wait.", "Nobody asked for his two cents, but he gave it anyway."]
+  },
+  "in a rut": {
+    "meaning": "stuck in a boring, unchanging pattern",
+    "meaning_ja": "マンネリに陥っている",
+    "explanation": "A rut is a groove worn in the ground by wheels. Being in one means following the same track without variation.",
+    "formality": 3,
+    "examples": ["I feel like I'm in a rut at work.", "If you're in a rut, try something new."]
+  },
+  "the whole shebang": {
+    "meaning": "everything; the entire thing",
+    "meaning_ja": "全部、何もかも",
+    "explanation": "Origin debated—possibly from 'shebeen' (an unlicensed bar). Means the complete package.",
+    "formality": 2,
+    "examples": ["We redecorated the house—new paint, furniture, the whole shebang.", "They catered the event with appetizers, main course, dessert—the whole shebang."]
+  },
+  "take one for the team": {
+    "meaning": "to sacrifice your own interests for the group's benefit",
+    "meaning_ja": "チームのために犠牲を払う",
+    "explanation": "From sports—enduring something painful (like getting hit by a pitch) for the team's advantage.",
+    "formality": 2,
+    "examples": ["Someone has to work Saturday—I'll take one for the team.", "She took one for the team by handling the difficult client."]
+  }
+}

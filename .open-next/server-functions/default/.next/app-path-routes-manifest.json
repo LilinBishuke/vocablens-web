@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/subtitles/route": "/api/subtitles",
+  "/api/translate/route": "/api/translate",
+  "/cards/page": "/cards",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/review/page": "/review",
+  "/video/[id]/page": "/video/[id]"
+}
