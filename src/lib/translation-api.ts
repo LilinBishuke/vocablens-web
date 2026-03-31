@@ -1,5 +1,6 @@
 /**
  * Translation API client using server-side proxy to MyMemory.
+ * Supports both single and batch translation with localStorage caching.
  */
 
 const CACHE_KEY_PREFIX = 'trans_cache_';
@@ -11,7 +12,6 @@ export async function translateText(
 ): Promise<string | null> {
   if (!text?.trim()) return null;
   text = text.trim();
-
   if (targetLang === 'en') return null;
 
   const cached = getFromCache(text, targetLang);
@@ -32,10 +32,65 @@ export async function translateText(
       return data.translation;
     }
     return null;
-  } catch (err) {
-    console.error('Translation failed:', err);
+  } catch {
     return null;
   }
+}
+
+/**
+ * Batch translate multiple texts in one API call.
+ * Checks cache first, only sends uncached texts to the API.
+ */
+export async function translateBatch(
+  texts: string[],
+  targetLang: string = 'ja'
+): Promise<(string | null)[]> {
+  if (targetLang === 'en') return texts.map(() => null);
+
+  const results: (string | null)[] = new Array(texts.length).fill(null);
+  const uncachedIndices: number[] = [];
+  const uncachedTexts: string[] = [];
+
+  // Check cache first
+  for (let i = 0; i < texts.length; i++) {
+    const text = texts[i]?.trim();
+    if (!text) continue;
+
+    const cached = getFromCache(text, targetLang);
+    if (cached) {
+      results[i] = cached;
+    } else {
+      uncachedIndices.push(i);
+      uncachedTexts.push(text);
+    }
+  }
+
+  // Batch translate uncached texts
+  if (uncachedTexts.length > 0) {
+    try {
+      const response = await fetch('/api/translate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ texts: uncachedTexts, from: 'en', to: targetLang }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        const translations: (string | null)[] = data.translations || [];
+        for (let j = 0; j < uncachedIndices.length; j++) {
+          const translation = translations[j];
+          if (translation) {
+            results[uncachedIndices[j]] = translation;
+            saveToCache(uncachedTexts[j], targetLang, translation);
+          }
+        }
+      }
+    } catch {
+      // silently fail
+    }
+  }
+
+  return results;
 }
 
 function hashCode(str: string): string {

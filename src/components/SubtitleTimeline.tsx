@@ -6,7 +6,7 @@ import { processText } from '@/lib/text-processor';
 import { classifyWord, type ClassificationSystem } from '@/lib/classifier';
 import { detectSlang, type SlangMatch } from '@/lib/slang-detector';
 import { detectIdioms, type IdiomMatch } from '@/lib/idiom-detector';
-import { translateText } from '@/lib/translation-api';
+import { translateBatch } from '@/lib/translation-api';
 import { formatTime } from '@/lib/youtube-utils';
 import { useSettingsStore } from '@/lib/store';
 
@@ -41,6 +41,8 @@ export default function SubtitleTimeline({
   copyAllRef,
 }: SubtitleTimelineProps) {
   const [annotated, setAnnotated] = useState<AnnotatedSegment[]>([]);
+  const [translations, setTranslations] = useState<(string | null)[]>([]);
+  const [translating, setTranslating] = useState(false);
   const activeRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const {
@@ -53,51 +55,58 @@ export default function SubtitleTimeline({
     nativeLanguage,
   } = useSettingsStore();
 
-  // Annotate subtitles with vocab/slang/idiom data
+  // Fetch translations once when subtitles change (independent of toggle)
+  useEffect(() => {
+    let cancelled = false;
+    if (subtitles.length === 0) return;
+
+    setTranslating(true);
+    const texts = subtitles.map(seg => seg.text);
+    translateBatch(texts, nativeLanguage).then(results => {
+      if (!cancelled) {
+        setTranslations(results);
+        setTranslating(false);
+      }
+    });
+
+    return () => { cancelled = true; };
+  }, [subtitles, nativeLanguage]);
+
+  // Annotate subtitles (vocab/slang/idiom — no translation here)
   useEffect(() => {
     let cancelled = false;
 
     async function annotate() {
-      const results: AnnotatedSegment[] = [];
+      const results: AnnotatedSegment[] = await Promise.all(
+        subtitles.map(async (seg) => {
+          const entry: AnnotatedSegment = { ...seg };
+          const promises: Promise<void>[] = [];
 
-      for (const seg of subtitles) {
-        if (cancelled) return;
-
-        const entry: AnnotatedSegment = { ...seg };
-
-        // Parallel analysis
-        const promises: Promise<void>[] = [];
-
-        if (showTranslation) {
-          promises.push(
-            translateText(seg.text, nativeLanguage).then(t => { entry.translation = t || undefined; })
-          );
-        }
-
-        if (showSlang) {
-          promises.push(
-            detectSlang(seg.text).then(matches => { entry.slangMatches = matches; })
-          );
-        }
-
-        if (showIdiom) {
-          promises.push(
-            detectIdioms(seg.text).then(matches => { entry.idiomMatches = matches; })
-          );
-        }
-
-        if (showVocab) {
-          const wordCounts = processText(seg.text);
-          const levels = new Map<string, string | null>();
-          for (const [word] of wordCounts) {
-            levels.set(word, classifyWord(word, classificationSystem as ClassificationSystem));
+          if (showSlang) {
+            promises.push(
+              detectSlang(seg.text).then(matches => { entry.slangMatches = matches; })
+            );
           }
-          entry.wordLevels = levels;
-        }
 
-        await Promise.all(promises);
-        results.push(entry);
-      }
+          if (showIdiom) {
+            promises.push(
+              detectIdioms(seg.text).then(matches => { entry.idiomMatches = matches; })
+            );
+          }
+
+          if (showVocab) {
+            const wordCounts = processText(seg.text);
+            const levels = new Map<string, string | null>();
+            for (const [word] of wordCounts) {
+              levels.set(word, classifyWord(word, classificationSystem as ClassificationSystem));
+            }
+            entry.wordLevels = levels;
+          }
+
+          await Promise.all(promises);
+          return entry;
+        })
+      );
 
       if (!cancelled) {
         setAnnotated(results);
@@ -106,7 +115,7 @@ export default function SubtitleTimeline({
 
     annotate();
     return () => { cancelled = true; };
-  }, [subtitles, showTranslation, showVocab, showSlang, showIdiom, classificationSystem, minLevel, nativeLanguage]);
+  }, [subtitles, showVocab, showSlang, showIdiom, classificationSystem, minLevel]);
 
   const { autoFollow } = useSettingsStore();
 
@@ -235,9 +244,14 @@ export default function SubtitleTimeline({
                 <p className="text-sm text-gray-800 dark:text-gray-200 leading-relaxed">
                   {showVocab || showSlang || showIdiom ? renderAnnotatedText(seg) : seg.text}
                 </p>
-                {showTranslation && seg.translation && (
+                {showTranslation && translations[i] && (
                   <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
-                    {seg.translation}
+                    {translations[i]}
+                  </p>
+                )}
+                {showTranslation && !translations[i] && translating && i < 3 && (
+                  <p className="text-xs text-gray-500/50 dark:text-gray-500/50 mt-0.5 animate-pulse">
+                    翻訳中...
                   </p>
                 )}
               </div>
@@ -261,6 +275,12 @@ export default function SubtitleTimeline({
           <div className="flex items-center justify-center py-8">
             <div className="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
             <span className="ml-2 text-sm text-gray-500">Analyzing subtitles...</span>
+          </div>
+        )}
+        {showTranslation && translating && annotated.length > 0 && (
+          <div className="flex items-center justify-center py-3">
+            <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+            <span className="ml-2 text-xs text-gray-500">翻訳を読み込み中...</span>
           </div>
         )}
       </div>

@@ -6,6 +6,12 @@ interface SubtitleSegment {
   text: string;
 }
 
+type CaptionResult =
+  | { type: 'success'; url: string }
+  | { type: 'not_found' }
+  | { type: 'rate_limited'; status: number }
+  | { type: 'error'; status: number; message: string };
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const videoId = searchParams.get('videoId');
@@ -15,39 +21,62 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'videoId is required' }, { status: 400 });
   }
 
-  // Get the real client IP to forward to YouTube
   const clientIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
     || request.headers.get('x-real-ip')
     || '';
 
   try {
-    const url = await getCaptionUrl(videoId, lang, clientIp);
-    if (!url) {
+    const result = await getCaptionUrl(videoId, lang, clientIp);
+
+    if (result.type === 'not_found') {
       return NextResponse.json(
         { error: 'No captions available for this video' },
         { status: 404 }
       );
     }
 
-    // Fetch the caption XML
-    const captionResp = await fetch(url);
+    if (result.type === 'rate_limited') {
+      return NextResponse.json(
+        { error: 'YouTube API rate limited. Please try again in a few seconds.', retryable: true },
+        { status: 429, headers: { 'Retry-After': '5' } }
+      );
+    }
+
+    if (result.type === 'error') {
+      return NextResponse.json(
+        { error: `YouTube API error: ${result.message}`, retryable: true },
+        { status: 503, headers: { 'Retry-After': '3' } }
+      );
+    }
+
+    // Success — fetch the caption XML
+    const captionResp = await fetch(result.url);
     if (!captionResp.ok) {
-      return NextResponse.json({ error: 'Failed to fetch caption track' }, { status: 502 });
+      return NextResponse.json(
+        { error: 'Failed to fetch caption track', retryable: true },
+        { status: 502 }
+      );
     }
 
     const xml = await captionResp.text();
-    return NextResponse.json(parseSubtitleXml(xml));
+    const subtitles = parseSubtitleXml(xml);
+
+    return new NextResponse(JSON.stringify(subtitles), {
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+      },
+    });
   } catch (err) {
     console.error('Subtitle fetch error:', err);
     return NextResponse.json(
-      { error: 'Internal server error while fetching subtitles' },
+      { error: 'Internal server error', retryable: true },
       { status: 500 }
     );
   }
 }
 
-async function getCaptionUrl(videoId: string, lang: string, clientIp: string): Promise<string | null> {
-  // ANDROID client with forwarded client IP
+async function getCaptionUrl(videoId: string, lang: string, clientIp: string): Promise<CaptionResult> {
   const clients = [
     {
       clientName: 'ANDROID',
@@ -71,13 +100,16 @@ async function getCaptionUrl(videoId: string, lang: string, clientIp: string): P
     },
   ];
 
+  let lastHttpStatus = 0;
+  let hadResponse = false;    // At least one client got a valid response
+  let hadRateLimit = false;   // At least one client got 429/403
+
   for (const { clientName, clientVersion, ua } of clients) {
     try {
       const headers: Record<string, string> = {
         'Content-Type': 'application/json',
         'User-Agent': ua,
       };
-      // Forward client IP to avoid cloud IP blocking
       if (clientIp) {
         headers['X-Forwarded-For'] = clientIp;
       }
@@ -88,19 +120,34 @@ async function getCaptionUrl(videoId: string, lang: string, clientIp: string): P
         body: JSON.stringify({
           videoId,
           context: {
-            client: {
-              clientName,
-              clientVersion,
-              hl: lang,
-            },
+            client: { clientName, clientVersion, hl: lang },
           },
         }),
       });
 
-      if (!resp.ok) continue;
+      lastHttpStatus = resp.status;
+
+      if (resp.status === 429) {
+        hadRateLimit = true;
+        console.log(`[subtitles] ${clientName}: 429 rate limited`);
+        continue;
+      }
+
+      if (resp.status === 403) {
+        hadRateLimit = true;
+        console.log(`[subtitles] ${clientName}: 403 forbidden`);
+        continue;
+      }
+
+      if (!resp.ok) {
+        console.log(`[subtitles] ${clientName}: HTTP ${resp.status}`);
+        continue;
+      }
 
       const data = await resp.json();
       const tracks = data?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+
+      hadResponse = true;
 
       if (tracks?.length > 0) {
         let track = tracks.find((t: { languageCode: string }) => t.languageCode === lang);
@@ -111,14 +158,28 @@ async function getCaptionUrl(videoId: string, lang: string, clientIp: string): P
         if (!track) continue;
 
         const url = track.baseUrl;
-        return url + (url.includes('?') ? '&' : '?') + 'fmt=srv3';
+        console.log(`[subtitles] ${clientName}: found ${tracks.length} tracks for ${videoId}`);
+        return { type: 'success', url: url + (url.includes('?') ? '&' : '?') + 'fmt=srv3' };
+      } else {
+        console.log(`[subtitles] ${clientName}: response OK but 0 caption tracks`);
       }
-    } catch {
+    } catch (err) {
+      console.log(`[subtitles] ${clientName}: exception - ${err}`);
       continue;
     }
   }
 
-  return null;
+  // All clients failed — determine why
+  if (hadRateLimit) {
+    return { type: 'rate_limited', status: lastHttpStatus };
+  }
+
+  if (!hadResponse) {
+    return { type: 'error', status: lastHttpStatus, message: `All clients failed (last HTTP ${lastHttpStatus})` };
+  }
+
+  // Got valid responses but no caption tracks → video truly has no captions
+  return { type: 'not_found' };
 }
 
 function parseSubtitleXml(xml: string): SubtitleSegment[] {

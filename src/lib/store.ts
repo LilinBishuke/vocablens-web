@@ -6,6 +6,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { createCardState, processReview, isDue, type SM2State } from './spaced-repetition';
 import type { DictionaryEntry } from './dictionary-api';
+import { syncCardToExtension, syncRemoveToExtension } from './extension-sync';
 
 // ─── Flashcard Types ────────────────────────────────────
 
@@ -41,20 +42,21 @@ export const useFlashcardStore = create<FlashcardStore>()(
         const { cards } = get();
         if (cards[word]) return false;
 
-        set({
-          cards: {
-            ...cards,
-            [word]: {
-              word,
-              definition,
-              translation,
-              context,
-              sm2: createCardState(),
-              learned: false,
-              createdAt: Date.now(),
-            },
-          },
-        });
+        const newCard = {
+          word,
+          definition,
+          translation,
+          context,
+          sm2: createCardState(),
+          learned: false,
+          createdAt: Date.now(),
+        };
+
+        set({ cards: { ...cards, [word]: newCard } });
+
+        // Sync to extension (fire and forget)
+        syncCardToExtension({ word, definition, createdAt: newCard.createdAt }).catch(() => {});
+
         return true;
       },
 
@@ -64,6 +66,9 @@ export const useFlashcardStore = create<FlashcardStore>()(
         const newCards = { ...cards };
         delete newCards[word];
         set({ cards: newCards });
+
+        // Sync removal to extension
+        syncRemoveToExtension(word).catch(() => {});
       },
 
       hasCard: (word) => {
