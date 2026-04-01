@@ -37,15 +37,21 @@ export async function translateText(
   }
 }
 
+export interface TranslateBatchResult {
+  translations: (string | null)[];
+  quotaExceeded: boolean;
+}
+
 /**
  * Batch translate multiple texts in one API call.
  * Checks cache first, only sends uncached texts to the API.
+ * Returns translations and whether MyMemory quota was exhausted.
  */
 export async function translateBatch(
   texts: string[],
   targetLang: string = 'ja'
-): Promise<(string | null)[]> {
-  if (targetLang === 'en') return texts.map(() => null);
+): Promise<TranslateBatchResult> {
+  if (targetLang === 'en') return { translations: texts.map(() => null), quotaExceeded: false };
 
   const results: (string | null)[] = new Array(texts.length).fill(null);
   const uncachedIndices: number[] = [];
@@ -65,32 +71,36 @@ export async function translateBatch(
     }
   }
 
-  // Batch translate uncached texts
-  if (uncachedTexts.length > 0) {
-    try {
-      const response = await fetch('/api/translate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ texts: uncachedTexts, from: 'en', to: targetLang }),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        const translations: (string | null)[] = data.translations || [];
-        for (let j = 0; j < uncachedIndices.length; j++) {
-          const translation = translations[j];
-          if (translation) {
-            results[uncachedIndices[j]] = translation;
-            saveToCache(uncachedTexts[j], targetLang, translation);
-          }
-        }
-      }
-    } catch {
-      // silently fail
-    }
+  // All cached — no need to call API
+  if (uncachedTexts.length === 0) {
+    return { translations: results, quotaExceeded: false };
   }
 
-  return results;
+  // Batch translate uncached texts
+  try {
+    const response = await fetch('/api/translate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ texts: uncachedTexts, from: 'en', to: targetLang }),
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      const translations: (string | null)[] = data.translations || [];
+      for (let j = 0; j < uncachedIndices.length; j++) {
+        const translation = translations[j];
+        if (translation) {
+          results[uncachedIndices[j]] = translation;
+          saveToCache(uncachedTexts[j], targetLang, translation);
+        }
+      }
+      return { translations: results, quotaExceeded: !!data.quotaExceeded };
+    }
+  } catch {
+    // silently fail
+  }
+
+  return { translations: results, quotaExceeded: false };
 }
 
 function hashCode(str: string): string {

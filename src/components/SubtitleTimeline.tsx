@@ -40,9 +40,16 @@ export default function SubtitleTimeline({
   onWordClick,
   copyAllRef,
 }: SubtitleTimelineProps) {
+  const TRANSLATE_BATCH = 50;
+  const TRANSLATE_AHEAD = 30; // start next batch when within this many segments of the end
+
   const [annotated, setAnnotated] = useState<AnnotatedSegment[]>([]);
   const [translations, setTranslations] = useState<(string | null)[]>([]);
   const [translating, setTranslating] = useState(false);
+  const [quotaExhausted, setQuotaExhausted] = useState(false);
+  const [translatingRange, setTranslatingRange] = useState<[number, number] | null>(null);
+  const translatedUpToRef = useRef(0);
+  const isFetchingRef = useRef(false);
   const activeRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const {
@@ -55,22 +62,74 @@ export default function SubtitleTimeline({
     nativeLanguage,
   } = useSettingsStore();
 
-  // Fetch translations once when subtitles change (independent of toggle)
+  // Fetch a batch of translations starting at fromIndex
+  const fetchTranslationBatch = useCallback(async (fromIndex: number, cancelled: { value: boolean }) => {
+    if (isFetchingRef.current) return;
+    if (fromIndex >= subtitles.length) return;
+
+    isFetchingRef.current = true;
+    const toIndex = Math.min(fromIndex + TRANSLATE_BATCH, subtitles.length);
+    setTranslating(true);
+    setTranslatingRange([fromIndex, toIndex]);
+
+    const batch = subtitles.slice(fromIndex, toIndex).map(s => s.text);
+
+    const { translations: batchResults, quotaExceeded } = await translateBatch(batch, nativeLanguage);
+
+    if (!cancelled.value) {
+      setTranslations(prev => {
+        const next = [...prev];
+        for (let i = 0; i < batchResults.length; i++) {
+          next[fromIndex + i] = batchResults[i];
+        }
+        return next;
+      });
+      translatedUpToRef.current = toIndex;
+
+      if (quotaExceeded) {
+        setQuotaExhausted(true);
+      }
+    }
+
+    isFetchingRef.current = false;
+    if (!cancelled.value) {
+      setTranslating(false);
+      setTranslatingRange(null);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [subtitles, nativeLanguage]);
+
+  // Reset and load first batch when subtitles change
   useEffect(() => {
-    let cancelled = false;
+    const cancelled = { value: false };
     if (subtitles.length === 0) return;
 
-    setTranslating(true);
-    const texts = subtitles.map(seg => seg.text);
-    translateBatch(texts, nativeLanguage).then(results => {
-      if (!cancelled) {
-        setTranslations(results);
-        setTranslating(false);
-      }
-    });
+    translatedUpToRef.current = 0;
+    isFetchingRef.current = false;
+    setTranslations(new Array(subtitles.length).fill(null));
+    setQuotaExhausted(false);
+    fetchTranslationBatch(0, cancelled);
 
-    return () => { cancelled = true; };
-  }, [subtitles, nativeLanguage]);
+    return () => { cancelled.value = true; };
+  }, [subtitles, nativeLanguage]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Load more translations as playback advances
+  useEffect(() => {
+    if (quotaExhausted) return;
+    if (isFetchingRef.current) return;
+
+    const currentIndex = subtitles.findIndex(
+      seg => currentTime >= seg.start && currentTime < seg.start + seg.duration
+    );
+    if (currentIndex < 0) return;
+
+    const needsMore = currentIndex + TRANSLATE_AHEAD >= translatedUpToRef.current;
+    if (needsMore && translatedUpToRef.current < subtitles.length) {
+      const cancelled = { value: false };
+      fetchTranslationBatch(translatedUpToRef.current, cancelled);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentTime]);
 
   // Annotate subtitles (vocab/slang/idiom — no translation here)
   useEffect(() => {
@@ -249,10 +308,11 @@ export default function SubtitleTimeline({
                     {translations[i]}
                   </p>
                 )}
-                {showTranslation && !translations[i] && translating && i < 3 && (
-                  <p className="text-xs text-gray-500/50 dark:text-gray-500/50 mt-0.5 animate-pulse">
-                    翻訳中...
-                  </p>
+                {showTranslation && !translations[i] && translating && translatingRange && i < translatingRange[1] && (
+                  <div
+                    className="mt-1.5 h-2.5 rounded-full bg-gray-200 dark:bg-gray-700 animate-pulse"
+                    style={{ width: `${35 + (i % 7) * 7}%` }}
+                  />
                 )}
               </div>
               {/* Line copy button */}
@@ -281,6 +341,12 @@ export default function SubtitleTimeline({
           <div className="flex items-center justify-center py-3">
             <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
             <span className="ml-2 text-xs text-gray-500">翻訳を読み込み中...</span>
+          </div>
+        )}
+        {showTranslation && quotaExhausted && (
+          <div className="flex items-center justify-center py-3 gap-1.5 text-amber-500">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 2L1.5 13h13L8 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/><path d="M8 6v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/><circle cx="8" cy="11.5" r="0.75" fill="currentColor"/></svg>
+            <span className="text-xs">翻訳の無料枠を使い切りました。明日また利用できます。</span>
           </div>
         )}
       </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams } from 'next/navigation';
 import YouTubePlayer from '@/components/YouTubePlayer';
 import SubtitleTimeline from '@/components/SubtitleTimeline';
@@ -33,7 +33,7 @@ export default function VideoPage() {
   const addRecentVideo = useRecentVideosStore(s => s.addVideo);
 
   // Load video info on mount
-  useState(() => {
+  useEffect(() => {
     if (!videoId) return;
     getVideoInfo(videoId).then(info => {
       setVideoInfo(info);
@@ -46,7 +46,8 @@ export default function VideoPage() {
         });
       }
     });
-  });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [videoId]);
 
   // Manual subtitle loading
   const loadSubtitles = useCallback(async () => {
